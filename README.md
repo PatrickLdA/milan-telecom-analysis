@@ -1,26 +1,23 @@
 # milan-telecom-analysis
-These code is a technical analisys of [A multi-source dataset of urban life in the city of Milan and the Province of Trentino](https://www.nature.com/articles/sdata201555) paper.
+These code are a technical analisys of [A multi-source dataset of urban life in the city of Milan and the Province of Trentino](https://www.nature.com/articles/sdata201555) paper.
 
 ### Codes
 The routines in these repository where:
 
- - *libs/get_milano.py*: a library build to get the requested data from the dataset.
- - *libs/functions.py*: NMAE function implementation to evaluate the models.
- - *legacy: old code.
- - *database_adapt.py*: code to get the original database and pass to a format of all data from every cell in one respective csv file.
- - *model_building.py*: construction of model for cells.
- - *transport_modelling*: modelling of transport hubs locations and respective cell that covers it.
+*libs/*
+ - get_milano.py: a library build to get the requested data from the dataset.
+ - functions.py: NMAE (Normalized Mean Absolute Error) and MARE (Mean absolute Relative error) implementations.
 
-### legacy/results
-On *compiled_results* folder there are the preliminar results. The *.png* images are the plot of data on *.csv* files.
-- *1.png*, *2.png*, *3.png*, *4.png*, *5.png* where the results of the neural networks with 1 neighborhood data, 1 and 2 neighborhood, 1, 2 and 3 neighborhood and so on.
-- "*Mean MSE.png*" where the compiled results of the MSE over the epochs for each strategy.
-- *Boxplot.png* where an overview for every strategy.
+*transport_modelling*: contains the code to map the transport hubs in Milan. The sources used was [ATM website](https://www.atm.it/en/ViaggiaConNoi/Pages/SchemaReteMetro.aspx), [Wikipedia list of Milan Metro stations](https://en.wikipedia.org/wiki/List_of_Milan_Metro_stations) and [Google Maps Platform](https://developers.google.com/maps?hl=pt-br).
+- transport_locations.py: takes a list of metro, tram and bus stations and, from the Google Maps API, saves the coordinates of the stations.
+- transport_locations_mapping.py: take the coordinates of every station and find the equivalent region on Milano Grid.
 
-On *model_results* folder there is the models generated from the executions.
+*database_adapt.py*: this code is used to take the original dataframe, that is in a format "one file per day" to a format "one region per day".
 
-On *bkp_1.0* there are the same files as listed above, but with a MSE evaluation over the epochs.
+*model_building.py*: constructs the purposed model framework for a selected number of regions.
 
-On *nonlinear_results* folder there are the preliminar results using feature selection. The files in it follows the same structure as compiled_results folder.
+*compile_results.py*: compile the results from constructed models.
 
-On *misc* there are some test plots.
+*model_building_ARIMA.py*: constructs ARIMA models for a selected number of regions.
+
+*model_building_HW.py*: constructs Holt-Winters models for a selected number of regions.
