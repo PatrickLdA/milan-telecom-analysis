@@ -5,7 +5,9 @@ import json
 import numpy as np
 
 # %%
-# Metro list
+# Metro list - obtained using ATM maps and Wikipedia list of metro stations
+# ATM - https://www.atm.it/en/ViaggiaConNoi/Pages/SchemaReteMetro.aspx
+# Wikipedia - https://en.wikipedia.org/wiki/List_of_Milan_Metro_stations
 metro = ["Abbiategrasso (Milan Metro)"
             , "Affori Centro (Milan Metro)"
             , "Affori FN (Milan Metro)"
@@ -113,7 +115,7 @@ metro = ["Abbiategrasso (Milan Metro)"
             , "Wagner (Milan Metro)"
             , "Zara (Milan Metro)"]
 
-# Bus list
+# Bus list - Obtained from Google Maps
 bus = ['Terravision bus stop, Milan', 'Piazza Iv Novembre Stazione Centrale, Milan'
         , 'Via M.te Pietà prima di Via Croce Rossa, Milan', 'Via F.Sforza 48 prima di C.so di P.ta Romana, Milan'
         , 'Via Boccaccio prima di Via A.Saffi, Milan', 'Via Donizetti 48 prima di C.so Monforte, Milan'
@@ -125,7 +127,7 @@ bus = ['Terravision bus stop, Milan', 'Piazza Iv Novembre Stazione Centrale, Mil
         , 'Via E.De Marchi Altezza P.za Greco, Milan', 'V.le Romagna 69 dopo P.le Piola, Milan'
         , 'Loreto M1 m2, Milan']
 
-# Tram list
+# Tram list - Obtained from Google Maps
 tram = ['Via Martiri Oscuri Fronte 21, Milan', 'Via S.Margherita prima di P.za della Scala, Milan', 'P.za Fontana, Milan'
         , 'V.le Piave 27 prima di Via Morelli, Milan', 'Via del Turchino 13 prima di Via Maspero, Milan'
         , 'V.le Lunigiana dopo Via M.Gioia, Milan', 'Via V.Monti prima di P.za Giovanni Xxiii., Milan'
@@ -146,7 +148,7 @@ locations_final = np.NaN
 for location in metro:
     geocode_result = gmaps.geocode(location)
 
-    locations = pd.DataFrame([s["geometry"]['location'] for s in geocode_result])
+    locations = pd.DataFrame([s["geometry"]['location'] for s in geocode_result]) # Get lat long position
 
     locations['loc'] = location
     locations['type'] = 'metro'
@@ -161,7 +163,7 @@ for location in metro:
 for location in bus:
     geocode_result = gmaps.geocode(location)
 
-    locations = pd.DataFrame([s["geometry"]['location'] for s in geocode_result])
+    locations = pd.DataFrame([s["geometry"]['location'] for s in geocode_result]) # Get lat long position
 
     locations['loc'] = location
     locations['type'] = 'bus'
@@ -176,7 +178,7 @@ for location in bus:
 for location in tram:
     geocode_result = gmaps.geocode(location)
 
-    locations = pd.DataFrame([s["geometry"]['location'] for s in geocode_result])
+    locations = pd.DataFrame([s["geometry"]['location'] for s in geocode_result]) # Get lat long position
 
     locations['loc'] = location
     locations['type'] = 'tram'
