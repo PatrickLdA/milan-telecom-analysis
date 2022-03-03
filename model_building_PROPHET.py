@@ -10,7 +10,7 @@ import pandas as pd
 import math
 
 sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
-from functions import NMAE_metric
+from libs.functions import NMAE_metric
 
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif
 from sklearn.metrics import mean_squared_error
@@ -31,8 +31,8 @@ def mean_absolute_percentage_error(y_true, y_pred):
 
 # %%
 # STANDARD VARIABLES
-comms_path = r'C:\\Users\\patri\\Documents\\Dataset\\telecom-sms,call,internet - per_cell\\'
-transport_path = r'transport_modelling\\public_transport_locations.csv'
+comms_path = r'/Volumes/SAMSUNG/Backup C/Documentos/Dataset Milano/telecom-sms,call,internet - per_cell'
+transport_path = r'transport_modelling public_transport_locations.csv'
 
 # %%
 # BUILDING OF SQUARE_ID MATRIX
@@ -42,27 +42,40 @@ square_id = np.flipud(square_id)
 # %%
 # Evaluate an PROPHET model
 def evaluate_prophet_model(X):
-    X['date'] = pd.to_datetime(X['date'])
+
+    dt = X.index.map(lambda a: pd.datetime.fromtimestamp(a/1000))
+
+    df_final = pd.DataFrame({'y':X, 'ds':dt})
+
+    df_final = df_final.reset_index(drop=True)
 
     # prepare training dataset
-    train_size = int(len(X) * 0.66)
-    train, test = X[0:train_size], X[train_size:]
+    train_size = int(len(df_final) * 0.66)
+    train, test = df_final[0:train_size], df_final[train_size:]
 
 
-    model = PROPHET()
+    model = Prophet(daily_seasonality=True, weekly_seasonality=True)
     model.fit(train)
 
     # make predictions
-    predictions = model.predict(test['date'])
+    predictions = model.make_future_dataframe(periods=len(test), freq='10T')
+    forecast = model.predict(predictions)
+
+    # Plot lines
+    plt.figure(figsize=(25,20))
+    plt.plot(test['ds'], test['y'], label = "Y")
+    plt.plot(forecast['ds'][-len(test):], forecast['yhat'][-len(test):], label = "Yhat")
+    plt.legend()
+    plt.show()
 
     # calculate out of sample error
-    error = mean_absolute_percentage_error(test, predictions)
+    error = mean_absolute_percentage_error(df_final['y'], forecast['yhat'][-len(test):])
 
     return error
 
 # %%
 # CHOOSING IDS TO WORK WITH
-desired_numbers = 3
+desired_numbers = 15
 
 matrix_logs = [square_id]
 aux_matrix = []
@@ -97,11 +110,11 @@ for values in ids_to_use:
 plt.figure(figsize=[20,20])
 plt.imshow(matrix_print)
 plt.colorbar()
-plt.savefig(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\check_selected_ids.jpg')
+#plt.savefig(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\check_selected_ids.jpg')
 
 # %%
 # MAIN
-data_frame_results = np.NaN 
+error_list = [] 
 
 for cell_id in ids_to_use:
     print(f'\nGET CELL {cell_id} DATA \n')
@@ -109,12 +122,19 @@ for cell_id in ids_to_use:
     y = pd.read_csv(os.path.join(comms_path, f'{cell_id}.csv'), index_col=0)[f'internet_traffic_{cell_id}']
     y.name = 'y'
 
-    y = np.array(y).reshape(-1,1)
+    #y = np.array(y).reshape(-1,1)
 
     warnings.filterwarnings("ignore")
-    evaluate_prophet_model(y)
+    
+    err = evaluate_prophet_model(y)
+
+    error_list.append(err)
     
     print(f'\nEND OF CELL {cell_id}\n')
     print('*'*10)
     print('\n\n')
+
+# %%
+print(error_list)
+print(np.array(error_list).mean())
 # %%
