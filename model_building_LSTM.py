@@ -71,7 +71,9 @@ def evaluate_lstm_model(X):
     train_size = int(len(df_final) * 0.66)
     n_steps=144
 
-    X, y = split_sequence(np.array(df_final['y']), n_steps)
+    #X, y = split_sequence(np.array(df_final['y']), n_steps)
+    X = np.array(df_final['y'][:-1]).reshape(-1, 1)
+    y = np.array(df_final['y'].shift(-1)[:-1])
 
     X_train, X_test = X[:train_size], X[train_size:]
     y_train, y_test = y[:train_size], y[train_size:]
@@ -81,30 +83,30 @@ def evaluate_lstm_model(X):
 
     scaled_train = scaler.fit_transform(X_train)
 
-    scaled_train = scaled_train.reshape((scaled_train.shape[0], scaled_train.shape[1], 1))
+    #scaled_train = scaled_train.reshape((scaled_train.shape[0], scaled_train.shape[1], 1))
 
     # Model construction
-    Input_y = Input(shape=(n_steps, 1), name='Input_y')
-    LSTM1 = LSTM(72, activation='relu', return_sequences=True, name='LSTM1')(Input_y)
-    Dropout1 = Dropout(0.2, name='Dropout1')(LSTM1)
-    LSTM2 = LSTM(72, activation='relu', return_sequences=True, name='LSTM2')(Dropout1)
-    Dropout2 = Dropout(0.2, name='Dropout2')(LSTM2)
-    output = Dense(1, name='Output')(Dropout2)
+    model = Sequential()
+
+    model.add(Input(shape=(n_steps, 1), name='Input_y'))
+    model.add(CuDNNLSTM(128, return_sequences=True, name='LSTM1'))
+    model.add(Dropout(0.1, name='Dropout1'))
+    model.add(CuDNNLSTM(128, return_sequences=True, name='LSTM2'))
+    model.add(Dropout(0.1, name='Dropout2'))
+    model.add(Dense(1, name='Output'))
 
     # Model compiling 
     opt = optimizers.Adamax(learning_rate=0.001)
 
-    model = Model(inputs=Input_y, outputs=output)
-
     model.compile(loss='mean_squared_error', optimizer=opt)
 
     # Training
-    epochs = 50
+    epochs = 100
 
     model.fit(scaled_train
             , y_train
             , epochs=epochs
-            , batch_size=72
+            , batch_size=100
             , verbose=2
             )
 
@@ -185,6 +187,7 @@ for cell_id in ids_to_use:
     error_list.append(err)
     
     print(f'\nEND OF CELL {cell_id}\n')
+    print('Error: ', str(err))
     print('*'*10)
     print('\n\n')
 
