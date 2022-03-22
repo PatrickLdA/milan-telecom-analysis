@@ -14,7 +14,7 @@ from sklearn.preprocessing import PowerTransformer, StandardScaler
 from tensorflow.keras import optimizers
 # from keras import optimizers
 from keras.models import Sequential, Model
-from keras.layers import Dense, LSTM, Dropout, Input, LeakyReLU, Concatenate
+from keras.layers import Dense, LSTM, Dropout, Input, LeakyReLU, Concatenate, CuDNNLSTM
 
 sys.path.append(r'/home/patrick/Documentos/Github/milan-telecom-analysis/libs')
 from functions import NMAE_metric, MARE
