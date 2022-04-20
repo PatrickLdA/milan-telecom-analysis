@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd 
 import math
 
-sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
+sys.path.append('libs')
 from functions import NMAE_metric, MARE
 
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif
@@ -22,7 +22,8 @@ import tensorflow as tf
 from keras.models import Sequential, Model
 from keras.layers import Dense, LSTM, Dropout, Input, LeakyReLU, Concatenate
 from keras.metrics import MeanSquaredError, MeanAbsolutePercentageError
-from keras.utils import plot_model
+# from keras.utils import plot_model
+from keras.utils.vis_utils import plot_model
 from keras import optimizers
 
 import time 
@@ -34,8 +35,8 @@ import pickle
 tf.config.threading.set_inter_op_parallelism_threads(4)
 
 
-comms_path = r'C:\\Users\\patri\\Documents\\Dataset\\telecom-sms,call,internet - per_cell\\'
-transport_path = r'transport_modelling\\public_transport_locations.csv'
+comms_path = '/home/patrick/Documentos/Dataset Milano/telecom-sms,call,internet - per_cell'
+transport_path = 'transport_modelling/public_transport_locations.csv'
 
 # %%
 # BUILDING OF SQUARE_ID MATRIX
@@ -123,7 +124,7 @@ def transport_hubs_select(y, n_features, cell_id, used_ids):
     cols=[]
     y_locs = np.where(square_id==int(cell_id))
     
-    for transport in  traffic.drop(['y'], axis=1).columns:
+    for transport in traffic.drop(['y'], axis=1).columns:
         id_traffic = np.where(square_id==int(transport[17:]))
     
         distance = math.sqrt((y_locs[0]-id_traffic[0])**2 + (y_locs[1]-id_traffic[1])**2)
@@ -132,6 +133,7 @@ def transport_hubs_select(y, n_features, cell_id, used_ids):
             cols.append(transport)
     
     df_output = traffic[cols]
+    df_output.drop([f'internet_traffic_{cell_id}'], axis=1, errors='ignore')
 
     print('Used cols:')
     print(cols)
@@ -182,7 +184,7 @@ for values in ids_to_use:
 plt.figure(figsize=[20,20])
 plt.imshow(matrix_print)
 plt.colorbar()
-plt.savefig(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\check_selected_ids.jpg')
+plt.savefig('check_selected_ids.jpg')
 
 # %%
 # MAIN PROCESS
@@ -224,7 +226,7 @@ for transport_hubs in [True]: # [True, False]: # Transport hubs processing
                 if transport_hubs:
                     transport_ids_used = transport_hubs_select(y, n_features=20, cell_id=cell_id, used_ids=x.columns)
 
-                    df_final = pd.concat([x, y.shift(periods=-1), transport_ids_used], axis=1)
+                    df_final = pd.concat([x, y, transport_ids_used], axis=1)
 
                 else:
                     df_final = pd.concat([x, y], axis=1)
@@ -327,7 +329,7 @@ for transport_hubs in [True]: # [True, False]: # Transport hubs processing
             network = Model(inputs=[Input_y, Input_other], outputs=Output,)
             ######################################################################################
 
-            opt = optimizers.Adamax(learning_rate=0.001)
+            opt = tf.keras.optimizers.Adamax(learning_rate=0.001)
             network.compile(loss='mean_squared_error', optimizer=opt, metrics=[NMAE_metric, MARE])
 
             # plot_model(network, to_file='network.png', show_shapes=True,)
@@ -358,10 +360,10 @@ for transport_hubs in [True]: # [True, False]: # Transport hubs processing
 
             ###
             if(transport_hubs):
-                network.save(filepath=f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\model_results\\{neighorrs}_neighbors_id_{cell_id}_feature_selec.h5')
+                network.save(filepath='results/model_results/{neighorrs}_neighbors_id_{cell_id}_feature_selec.h5')
 
             else:
-                network.save(filepath=f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\model_results\\{neighorrs}_neighbors_id_{cell_id}.h5')
+                network.save(filepath='results/model_results/{neighorrs}_neighbors_id_{cell_id}.h5')
 
 
             y_predict = network.predict({'Input_y':X_test_y, 'Input_other':X_test_other})
@@ -378,22 +380,23 @@ for transport_hubs in [True]: # [True, False]: # Transport hubs processing
 
             
             if transport_hubs:
-                plt.savefig(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\model_plots\\{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.png')
+                plt.savefig('results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.png')
 
             else:
-                plt.savefig(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\model_plots\\{cell_id}_id_{neighorrs}_neigh_predict.png')
+                plt.savefig(f'results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict.png')
 
         
         if transport_hubs:
-            data_frame_results.to_csv(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compiled_results\\{neighorrs}_neighbors_feature_selec.csv')
-            mare.to_csv(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compiled_results\\{neighorrs}_neighbors_feature_selec_MARE.csv')
+            data_frame_results.to_csv('results/compiled_results/{neighorrs}_neighbors_feature_selec.csv')
+            mare.to_csv('results/compiled_results/{neighorrs}_neighbors_feature_selec_MARE.csv')
 
-            with open(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compile_time\\{neighorrs}_time_feature_selec.pickle', 'wb') as timecomp:
+            with open('results/compile_time/{neighorrs}_time_feature_selec.pickle', 'wb') as timecomp:
                 pickle.dump(tot, timecomp)
         
         else:
-            data_frame_results.to_csv(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compiled_results\\{neighorrs}_neighbors.csv')
-            mare.to_csv(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compiled_results\\{neighorrs}_neighbors_MARE.csv')
+            data_frame_results.to_csv('results/compiled_results/{neighorrs}_neighbors.csv')
+            mare.to_csv('results/compiled_results/{neighorrs}_neighbors_MARE.csv')
 
-            with open(f'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compile_time\\{neighorrs}_time.pickle', 'wb') as timecomp:
+            with open('results/compile_time/{neighorrs}_time.pickle', 'wb') as timecomp:
                 pickle.dump(tot, timecomp)
+# %%
