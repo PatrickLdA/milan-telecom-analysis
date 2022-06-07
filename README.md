@@ -1,7 +1,9 @@
 # milan-telecom-analysis
 These code are a technical analisys of [A multi-source dataset of urban life in the city of Milan and the Province of Trentino](https://www.nature.com/articles/sdata201555) paper.
 
-### Codes
+Before execute any of the files, please install the environment listed in ```requirements.txt```
+
+## Codes
 The routines in these repository where:
 
 *libs/*
@@ -12,12 +14,12 @@ The routines in these repository where:
 - transport_locations.py: takes a list of metro, tram and bus stations and, from the Google Maps API, saves the coordinates of the stations.
 - transport_locations_mapping.py: take the coordinates of every station and find the equivalent region on Milano Grid.
 
-*database_adapt.py*: this code is used to take the original dataframe, that is in a format "one file per day" to a format "one region per day".
+```database_adapt.py```: this code is used to take the original dataframe, that is in a format "one file per day" to a format "one region per day".
 
-*model_building.py*: constructs the purposed model framework for a selected number of regions.
+```model_building.py```: constructs the purposed model framework for a selected number of regions.
 
-*compile_results.py*: compile the results from constructed models.
+```compile_results.py```: compile the results from constructed models.
 
-*model_building_ARIMA.py*: constructs ARIMA models for a selected number of regions.
+```model_building_ARIMA.py```: constructs ARIMA models for a selected number of regions.
 
-*model_building_HW.py*: constructs Holt-Winters models for a selected number of regions.
+```model_building_HW.py```: constructs Holt-Winters models for a selected number of regions.
