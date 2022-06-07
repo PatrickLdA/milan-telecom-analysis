@@ -15,7 +15,7 @@ from libs.functions import NMAE_metric
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif
 from sklearn.metrics import mean_squared_error
 
-from fbprophet import Prophet
+from prophet import Prophet
 import warnings
 
 from tqdm import tqdm 
@@ -31,7 +31,7 @@ def mean_absolute_percentage_error(y_true, y_pred):
 
 # %%
 # STANDARD VARIABLES
-comms_path = r'/Volumes/SAMSUNG/Backup C/Documentos/Dataset Milano/telecom-sms,call,internet - per_cell'
+comms_path = r'/Volumes/SAMSUNG/Backup C/Documentos/Dataset/telecom-sms,call,internet - per_cell'
 transport_path = r'transport_modelling public_transport_locations.csv'
 
 # %%
@@ -98,6 +98,8 @@ while (len(matrix_logs) < desired_numbers):
 
 for matrix in matrix_logs:
     ids_to_use.append(matrix[matrix.shape[0]//2][matrix.shape[1]//2])
+
+ids_to_use = [5738, 5160, 5161, 5060, 5061, 4861, 4761, 4360, 4259, 4359, 4350, 4351, 4352, 4353, 4452, 4453, 4454, 4455, 4456, 4556, 4456, 4356, 4355, 4354, 4250, 4251, 4252, 4253, 4254, 4255, 4256, 4156, 4155, 4154, 4153, 4151]
 
 # %%
 # Check selected ids
