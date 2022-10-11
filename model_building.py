@@ -9,8 +9,7 @@ import numpy as np
 import pandas as pd 
 import math
 
-sys.path.append('libs')
-from functions import NMAE_metric, MARE
+from libs.functions import NMAE_metric, MARE
 
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif
 
@@ -35,7 +34,7 @@ import pickle
 tf.config.threading.set_inter_op_parallelism_threads(4)
 
 
-comms_path = '/home/patrick/Documentos/Dataset Milano/telecom-sms,call,internet - per_cell'
+comms_path = 'Dataset/telecom-sms,call,internet - per_cell'
 transport_path = 'transport_modelling/public_transport_locations.csv'
 
 # %%
@@ -170,7 +169,10 @@ while (len(matrix_logs) < desired_numbers):
 for matrix in matrix_logs:
     ids_to_use.append(matrix[matrix.shape[0]//2][matrix.shape[1]//2])
 
-ids_to_use = [5738, 5160, 5161, 5060, 5061, 4861, 4761, 4360, 4259, 4359, 4350, 4351, 4352, 4353, 4452, 4453, 4454, 4455, 4456, 4556, 4456, 4356, 4355, 4354, 4250, 4251, 4252, 4253, 4254, 4255, 4256, 4156, 4155, 4154, 4153, 4151]
+# IDs of event and core tests
+#ids_to_use = [5738, 5160, 5161, 5060, 5061, 4861, 4761, 4360, 4259, 4359, 4350, 4351, 4352, 4353, 4452, 4453, 4454, 4455, 4456,
+#              4556, 4456, 4356, 4355, 4354, 4250, 4251, 4252, 4253, 4254, 4255, 4256, 4156, 4155, 4154, 4153, 4151]
+ids_to_use = [607, 8169, 5738]
 
 
 # %%
@@ -197,7 +199,7 @@ The models will be constructed with the following variations:
 
 data_frame_results = np.NaN 
 
-for transport_hubs in [True]: # [True, False]: # Transport hubs processing
+for transport_hubs in [True, False]: # Transport hubs processing
     for neighorrs in range(5,6): # Number of neighborhoods considered
         tot = []
 
@@ -369,6 +371,15 @@ for transport_hubs in [True]: # [True, False]: # Transport hubs processing
             y_predict = network.predict({'Input_y':X_test_y, 'Input_other':X_test_other})
             y_predict = [y_predict[i][0][0] for i in range(0, len(y_predict))]
 
+            # CSV saves
+            y_yhat_dict = {'y':y_test, 'y_hat':y_predict}
+            df_real_and_predicts = pd.DataFrame(y_yhat_dict)
+
+            if transport_hubs:
+                df_real_and_predicts.to_csv(f'results/model_csvs/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.csv')
+            else:
+                df_real_and_predicts.to_csv(f'results/model_csvs/{cell_id}_id_{neighorrs}_neigh_predict.csv')
+
             # PLOTTING TEST
             x_plot = np.arange(0, len(y_predict), 1)
 
@@ -380,23 +391,23 @@ for transport_hubs in [True]: # [True, False]: # Transport hubs processing
 
             
             if transport_hubs:
-                plt.savefig('results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.png')
+                plt.savefig(f'results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.png')
 
             else:
                 plt.savefig(f'results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict.png')
 
         
         if transport_hubs:
-            data_frame_results.to_csv('results/compiled_results/{neighorrs}_neighbors_feature_selec.csv')
-            mare.to_csv('results/compiled_results/{neighorrs}_neighbors_feature_selec_MARE.csv')
+            data_frame_results.to_csv(f'results/compiled_results/{neighorrs}_neighbors_feature_selec.csv')
+            mare.to_csv(f'results/compiled_results/{neighorrs}_neighbors_feature_selec_MARE.csv')
 
-            with open('results/compile_time/{neighorrs}_time_feature_selec.pickle', 'wb') as timecomp:
+            with open(f'results/compile_time/{neighorrs}_time_feature_selec.pickle', 'wb') as timecomp:
                 pickle.dump(tot, timecomp)
         
         else:
-            data_frame_results.to_csv('results/compiled_results/{neighorrs}_neighbors.csv')
-            mare.to_csv('results/compiled_results/{neighorrs}_neighbors_MARE.csv')
+            data_frame_results.to_csv(f'results/compiled_results/{neighorrs}_neighbors.csv')
+            mare.to_csv(f'results/compiled_results/{neighorrs}_neighbors_MARE.csv')
 
-            with open('results/compile_time/{neighorrs}_time.pickle', 'wb') as timecomp:
+            with open(f'results/compile_time/{neighorrs}_time.pickle', 'wb') as timecomp:
                 pickle.dump(tot, timecomp)
 # %%

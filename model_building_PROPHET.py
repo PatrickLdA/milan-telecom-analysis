@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd 
 import math
 
-sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
+#sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
 from libs.functions import NMAE_metric
 
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif

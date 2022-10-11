@@ -8,8 +8,8 @@ import sys
 import numpy as np 
 import pandas as pd 
 
-sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
-from functions import NMAE_metric
+#sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
+from libs.functions import NMAE_metric
 
 from sklearn.preprocessing import PowerTransformer
 from sklearn.metrics import mean_squared_error
@@ -26,7 +26,7 @@ import keras
 # STANDARD VARIABLES
 tf.config.threading.set_inter_op_parallelism_threads(0)
 
-comms_path = r'C:\\Users\\patri\\Documents\\Dataset\\telecom-sms,call,internet - per_cell\\'
+comms_path = r'Dataset/telecom-sms,call,internet - per_cell'
 
 # %%
 # BUILDING OF SQUARE_ID MATRIX
