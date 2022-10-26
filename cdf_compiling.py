@@ -33,8 +33,8 @@ for tables_csvs, ids in zip(csvs, id_numbers):
                             element='step',
                             fill=True,
                             bins=50,
-                            log_scale=True,
-                            cumulative=False,
+                            log_scale=False,
+                            cumulative=True,
                             alpha=0.7)
 
     plt.setp(hplt.get_legend().get_texts(), fontsize='22') # for legend text
@@ -43,8 +43,8 @@ for tables_csvs, ids in zip(csvs, id_numbers):
     hplt.set_ylabel('CDR', fontsize=30)
     hplt.set_xlabel('Value', fontsize=30)
 
-    hplt.axes.set_title(f'Histogram of tower {ids} value and predictions', fontsize=50)
+    hplt.axes.set_title(f'CDF of tower {ids} value and predictions', fontsize=50)
 
-    plt.savefig(os.path.join('results', 'model_csvs', f'{ids}_results_english'))
+    plt.savefig(os.path.join('results', 'model_csvs', f'{ids}_results_english_cumulative_nonlog.png'))
     plt.show()
 # %%
