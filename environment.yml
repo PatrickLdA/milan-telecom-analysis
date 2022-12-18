@@ -156,7 +156,7 @@ dependencies:
     - markdown==3.4.1
     - markupsafe==2.1.1
     - matplotlib==3.4.1
-    - numpy==1.21
+    - numpy==1.19.5
     - pandas==1.2.2
     - pillow==9.2.0
     - prophet==1.1.1

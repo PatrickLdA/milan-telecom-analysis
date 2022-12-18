@@ -308,6 +308,7 @@ for transport_hubs in [True, False]: # Transport hubs processing
             Encoding_other_2 = Dense(int(n_features_other/2), activation='relu', name='Encoding_other_2')(Encoding_other_1)
 
             LSTM_other_1 = LSTM(144, activation='relu', return_sequences=True, input_shape=(1, n_features_other), name='LSTM_other_1')(Encoding_other_1)
+            # LSTM_other_1 = LSTM(144, activation='relu', return_sequences=True, input_shape=(1, n_features_other), name='LSTM_other_1')(Encoding_other_2) # Test with two consecutive encondings
 
             Dropout_other_1 = Dropout(0.2, name='Dropout_other_1')(LSTM_other_1)
 
@@ -334,7 +335,7 @@ for transport_hubs in [True, False]: # Transport hubs processing
             opt = tf.keras.optimizers.Adamax(learning_rate=0.001)
             network.compile(loss='mean_squared_error', optimizer=opt, metrics=[NMAE_metric, MARE])
 
-            # plot_model(network, to_file='network.png', show_shapes=True,)
+            plot_model(network, to_file='network.png', show_shapes=True,)
 
             epochs = 50
 
