@@ -7,8 +7,8 @@ import numpy as np
 import pickle
 
 # %%
-path = r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compiled_results'
-path_time = r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\compile_time'
+path = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/compiled_results'
+path_time = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/compile_time'
 
 # %%
 # GENERATING ONE VIEW FOR EACH  MODEL
@@ -25,8 +25,8 @@ for filename in os.listdir(path):
         plt.yscale('log')
         plt.title(f'Evolution for {filename[0]} neighbors', fontsize=20)
 
-        plt.savefig(os.path.join(path,f'{filename[:-4]}.png'))
-        #plt.show()
+        #plt.savefig(os.path.join(path,f'{filename[:-4]}.png'))
+        plt.show()
 
 # %%
 first = True
@@ -66,8 +66,8 @@ plt.xlabel('Vizinhanças', fontsize=15)
 plt.xticks(size=10)
 plt.title(f'NMAE para n vizinhanças', fontsize=20)
 
-plt.savefig(os.path.join(path,'Boxplot NMAE.png'))
-#plt.show()
+#plt.savefig(os.path.join(path,'Boxplot NMAE.png'))
+plt.show()
 
 # %%
 first = True

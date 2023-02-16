@@ -14,7 +14,7 @@ id_numbers = ['607', '8169', '5738']
 
 
 # %%
-csvs_dir = os.path.join('model_csvs')
+csvs_dir = os.path.join('results', 'model_csvs')
 
 for file_name in glob.glob(csvs_dir + '/*.csv'):
     for i in range(len(id_numbers)):
@@ -36,6 +36,7 @@ for tables_csvs, ids in zip(csvs, id_numbers):
     #                         log_scale=False,
     #                         cumulative=True,
     #                         alpha=0.7)
+    tables_csvs.rename(columns={"y_hat": "$\hat{y}$"}, inplace=True)
 
     hplt = sns.ecdfplot(data=tables_csvs.melt(),
                         x='value',
@@ -51,6 +52,8 @@ for tables_csvs, ids in zip(csvs, id_numbers):
 
     hplt.axes.set_title(f'CDF of tower {ids} value and predictions', fontsize=50)
 
-    plt.savefig(os.path.join('model_csvs', f'{ids}_results_english.png'))
+    #plt.legend(['y', '$\hat{y}$'], title='Variable')
+
+    plt.savefig(os.path.join('results', 'model_csvs', f'{ids}_results_english.png'))
     plt.show()
 # %%

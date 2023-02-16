@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd 
 import math
 
-sys.path.append(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\libs')
+sys.path.append(r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/libs')
 from functions import NMAE_metric
 
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif
@@ -32,8 +32,8 @@ def mean_absolute_percentage_error(y_true, y_pred):
 
 # %%
 # STANDARD VARIABLES
-comms_path = r'C:\\Users\\patri\\Documents\\Dataset\\telecom-sms,call,internet - per_cell\\'
-transport_path = r'transport_modelling\\public_transport_locations.csv'
+comms_path = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/Dataset/telecom-sms,call,internet - per_cell'
+transport_path = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/transport_modelling/public_transport_locations.csv'
 
 # %%
 # BUILDING OF SQUARE_ID MATRIX
@@ -79,7 +79,7 @@ def evaluate_models(dataset, p_values, d_values, q_values):
 
 # %%
 # CHOOSING IDS TO WORK WITH
-desired_numbers = 3
+desired_numbers = 64
 
 matrix_logs = [square_id]
 aux_matrix = []
@@ -114,7 +114,7 @@ for values in ids_to_use:
 plt.figure(figsize=[20,20])
 plt.imshow(matrix_print)
 plt.colorbar()
-plt.savefig(r'C:\\Users\\patri\\Documents\\Github\\milan-telecom-analysis\\results\\check_selected_ids.jpg')
+plt.savefig(r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/check_selected_ids.jpg')
 
 # %%
 # MAIN
@@ -129,9 +129,9 @@ for cell_id in ids_to_use:
     y = np.array(y).reshape(-1,1)
 
     # MODEL CONSTRUCTION ###################################################################
-    p_values = [1,2,4,6,8,10]
-    d_values=[0,1,2]
-    q_values=[0,1,2]
+    p_values = [144] #[144, 1008]
+    d_values=[1]
+    q_values=[0, 1]
 
     warnings.filterwarnings("ignore")
     evaluate_models(y, p_values, d_values, q_values)
