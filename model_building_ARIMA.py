@@ -1,4 +1,9 @@
 # %%
+libs_path = r'pasta-servidor/libs'
+comms_path = r'pasta-servidor/selected_cells'
+log_path = r'log_arima.txt'
+
+# %%
 import matplotlib.pyplot as plt
 #%matplotlib inline
 
@@ -9,7 +14,7 @@ import numpy as np
 import pandas as pd 
 import math
 
-sys.path.append(r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/libs')
+sys.path.append(libs_path)
 from functions import NMAE_metric
 
 from sklearn.feature_selection import SelectKBest, f_regression, mutual_info_classif
@@ -22,6 +27,14 @@ import warnings
 from tqdm import tqdm 
 
 # %%
+def log_print(text):
+  with open(log_path, 'a+') as f:
+    f.write(text)
+    f.write('\n')
+    print(text)
+    print('\n')
+
+# %%
 def mean_absolute_percentage_error(y_true, y_pred): 
 
     ## Note: does not handle mix 1d representation
@@ -29,16 +42,6 @@ def mean_absolute_percentage_error(y_true, y_pred):
     #    y_true, y_pred = _check_1d_array(y_true, y_pred)
 
     return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
-
-# %%
-# STANDARD VARIABLES
-comms_path = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/Dataset/telecom-sms,call,internet - per_cell'
-transport_path = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/transport_modelling/public_transport_locations.csv'
-
-# %%
-# BUILDING OF SQUARE_ID MATRIX
-square_id=np.arange(1 , 10001, 1).reshape(100,100) 
-square_id = np.flipud(square_id)
 
 # %%
 # Evaluate an ARIMA model for a given order (p,d,q)
@@ -72,10 +75,15 @@ def evaluate_models(dataset, p_values, d_values, q_values):
 					mse = evaluate_arima_model(dataset, order)
 					if mse < best_score:
 						best_score, best_cfg = mse, order
-					print('ARIMA%s MAPE=%.3f' % (order,mse))
+					log_print('ARIMA%s MAPE=%.3f' % (order,mse))
 				except:
 					continue
-	print('Best ARIMA%s MSE=%.3f' % (best_cfg, best_score))
+	log_print('Best ARIMA%s MSE=%.3f' % (best_cfg, best_score))
+
+# %%
+# BUILDING OF SQUARE_ID MATRIX
+square_id=np.arange(1 , 10001, 1).reshape(100,100) 
+square_id = np.flipud(square_id)
 
 # %%
 # CHOOSING IDS TO WORK WITH
@@ -114,14 +122,14 @@ for values in ids_to_use:
 plt.figure(figsize=[20,20])
 plt.imshow(matrix_print)
 plt.colorbar()
-plt.savefig(r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/check_selected_ids.jpg')
+plt.savefig(r'milan-telecom-analysischeck_selected_ids.jpg')
 
 # %%
 # MAIN
 data_frame_results = np.NaN 
 
 for cell_id in ids_to_use:
-    print(f'\nGET CELL {cell_id} DATA \n')
+    log_print(f'\nGET CELL {cell_id} DATA \n')
 
     y = pd.read_csv(os.path.join(comms_path, f'{cell_id}.csv'), index_col=0)[f'internet_traffic_{cell_id}']
     y.name = 'y'
@@ -129,14 +137,14 @@ for cell_id in ids_to_use:
     y = np.array(y).reshape(-1,1)
 
     # MODEL CONSTRUCTION ###################################################################
-    p_values = [144] #[144, 1008]
+    p_values = [36] #[144, 1008]
     d_values=[1]
     q_values=[0, 1]
 
     warnings.filterwarnings("ignore")
     evaluate_models(y, p_values, d_values, q_values)
     
-    print(f'\nEND OF CELL {cell_id}\n')
-    print('*'*10)
-    print('\n\n')
+    log_print(f'\nEND OF CELL {cell_id}\n')
+    log_print('*'*10)
+    log_print('\n\n')
 # %%
