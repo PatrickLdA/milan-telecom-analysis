@@ -172,8 +172,10 @@ for matrix in matrix_logs:
 # IDs of event and core tests
 #ids_to_use = [5738, 5160, 5161, 5060, 5061, 4861, 4761, 4360, 4259, 4359, 4350, 4351, 4352, 4353, 4452, 4453, 4454, 4455, 4456,
 #              4556, 4456, 4356, 4355, 4354, 4250, 4251, 4252, 4253, 4254, 4255, 4256, 4156, 4155, 4154, 4153, 4151]
-ids_to_use = [607, 8169, 5738]
+#ids_to_use = [607, 8169, 5738]
 
+# Continue execution
+ids_to_use=ids_to_use[22:]
 
 # %%
 # Check selected ids
@@ -363,10 +365,10 @@ for transport_hubs in [True, False]: # Transport hubs processing
 
             ###
             if(transport_hubs):
-                network.save(filepath='results/model_results/{neighorrs}_neighbors_id_{cell_id}_feature_selec.h5')
+                network.save(filepath=f'results/hourly/model_results/{neighorrs}_neighbors_id_{cell_id}_feature_selec.h5')
 
             else:
-                network.save(filepath='results/model_results/{neighorrs}_neighbors_id_{cell_id}.h5')
+                network.save(filepath=f'results/hourly/model_results/{neighorrs}_neighbors_id_{cell_id}.h5')
 
 
             y_predict = network.predict({'Input_y':X_test_y, 'Input_other':X_test_other})
@@ -377,9 +379,9 @@ for transport_hubs in [True, False]: # Transport hubs processing
             df_real_and_predicts = pd.DataFrame(y_yhat_dict)
 
             if transport_hubs:
-                df_real_and_predicts.to_csv(f'results/model_csvs/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.csv')
+                df_real_and_predicts.to_csv(f'results/hourly/model_csvs/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.csv')
             else:
-                df_real_and_predicts.to_csv(f'results/model_csvs/{cell_id}_id_{neighorrs}_neigh_predict.csv')
+                df_real_and_predicts.to_csv(f'results/hourly/model_csvs/{cell_id}_id_{neighorrs}_neigh_predict.csv')
 
             # PLOTTING TEST
             x_plot = np.arange(0, len(y_predict), 1)
@@ -392,23 +394,23 @@ for transport_hubs in [True, False]: # Transport hubs processing
 
             
             if transport_hubs:
-                plt.savefig(f'results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.png')
+                plt.savefig(f'results/hourly/model_plots/{cell_id}_id_{neighorrs}_neigh_predict_feature_selec.png')
 
             else:
-                plt.savefig(f'results/model_plots/{cell_id}_id_{neighorrs}_neigh_predict.png')
+                plt.savefig(f'results/hourly/model_plots/{cell_id}_id_{neighorrs}_neigh_predict.png')
 
         
         if transport_hubs:
-            data_frame_results.to_csv(f'results/compiled_results/{neighorrs}_neighbors_feature_selec.csv')
-            mare.to_csv(f'results/compiled_results/{neighorrs}_neighbors_feature_selec_MARE.csv')
+            data_frame_results.to_csv(f'results/hourly/compiled_results/{neighorrs}_neighbors_feature_selec.csv')
+            mare.to_csv(f'results/hourly/compiled_results/{neighorrs}_neighbors_feature_selec_MARE.csv')
 
-            with open(f'results/compile_time/{neighorrs}_time_feature_selec.pickle', 'wb') as timecomp:
+            with open(f'results/hourly/compile_time/{neighorrs}_time_feature_selec.pickle', 'wb') as timecomp:
                 pickle.dump(tot, timecomp)
         
         else:
-            data_frame_results.to_csv(f'results/compiled_results/{neighorrs}_neighbors.csv')
-            mare.to_csv(f'results/compiled_results/{neighorrs}_neighbors_MARE.csv')
+            data_frame_results.to_csv(f'results/hourly/compiled_results/{neighorrs}_neighbors.csv')
+            mare.to_csv(f'results/hourly/compiled_results/{neighorrs}_neighbors_MARE.csv')
 
-            with open(f'results/compile_time/{neighorrs}_time.pickle', 'wb') as timecomp:
+            with open(f'results/hourly/compile_time/{neighorrs}_time.pickle', 'wb') as timecomp:
                 pickle.dump(tot, timecomp)
 # %%
