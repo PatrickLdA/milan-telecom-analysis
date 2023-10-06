@@ -7,8 +7,8 @@ import numpy as np
 import pickle
 
 # %%
-path = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/compiled_results'
-path_time = r'/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/compile_time'
+path = '/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/hourly/compiled_results'
+path_time = '/home/patrick/Documents/milan-telecom-analysis-2022-10-11/results/hourly/compile_time'
 
 # %%
 # GENERATING ONE VIEW FOR EACH  MODEL
@@ -87,6 +87,7 @@ for filename in os.listdir(path):
 
             compiled_results[filename[:11]] = aux
 
+# %%
 plt.figure(figsize=[10,7])
 compiled_results.plot(figsize=[10,7]
                         , kind='box'

@@ -175,7 +175,7 @@ for matrix in matrix_logs:
 #ids_to_use = [607, 8169, 5738]
 
 # Continue execution
-ids_to_use=ids_to_use[44:]
+#ids_to_use=ids_to_use[44:]
 
 # %%
 # Check selected ids
@@ -201,7 +201,7 @@ The models will be constructed with the following variations:
 
 data_frame_results = np.NaN 
 
-for transport_hubs in [True]: # Transport hubs processing
+for transport_hubs in [False]: # Transport hubs processing
     for neighorrs in range(5,6): # Number of neighborhoods considered
         tot = []
 
