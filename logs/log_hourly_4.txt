@@ -1,0 +1,3552 @@
+
+GET CELL 8713 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7625']
+Epoch 1/50
+12/12 - 1s - loss: 48386.2891 - NMAE_metric: 0.9388 - MARE: 0.9388
+Epoch 2/50
+12/12 - 1s - loss: 32147.6680 - NMAE_metric: 0.6583 - MARE: 0.6583
+Epoch 3/50
+12/12 - 1s - loss: 25876.2090 - NMAE_metric: 0.5745 - MARE: 0.5745
+Epoch 4/50
+12/12 - 0s - loss: 15810.6475 - NMAE_metric: 0.4461 - MARE: 0.4461
+Epoch 5/50
+12/12 - 1s - loss: 7329.0513 - NMAE_metric: 0.3078 - MARE: 0.3078
+Epoch 6/50
+12/12 - 1s - loss: 4211.2749 - NMAE_metric: 0.2346 - MARE: 0.2346
+Epoch 7/50
+12/12 - 0s - loss: 3445.0352 - NMAE_metric: 0.2133 - MARE: 0.2133
+Epoch 8/50
+12/12 - 1s - loss: 2886.5342 - NMAE_metric: 0.1919 - MARE: 0.1919
+Epoch 9/50
+12/12 - 0s - loss: 2644.2554 - NMAE_metric: 0.1855 - MARE: 0.1855
+Epoch 10/50
+12/12 - 0s - loss: 2478.2905 - NMAE_metric: 0.1813 - MARE: 0.1813
+Epoch 11/50
+12/12 - 1s - loss: 2213.8320 - NMAE_metric: 0.1723 - MARE: 0.1723
+Epoch 12/50
+12/12 - 1s - loss: 2155.9766 - NMAE_metric: 0.1694 - MARE: 0.1694
+Epoch 13/50
+12/12 - 0s - loss: 2064.1948 - NMAE_metric: 0.1668 - MARE: 0.1668
+Epoch 14/50
+12/12 - 1s - loss: 1996.8015 - NMAE_metric: 0.1610 - MARE: 0.1610
+Epoch 15/50
+12/12 - 0s - loss: 2064.4380 - NMAE_metric: 0.1656 - MARE: 0.1656
+Epoch 16/50
+12/12 - 0s - loss: 1949.7080 - NMAE_metric: 0.1619 - MARE: 0.1619
+Epoch 17/50
+12/12 - 1s - loss: 1824.5530 - NMAE_metric: 0.1548 - MARE: 0.1548
+Epoch 18/50
+12/12 - 1s - loss: 1712.0909 - NMAE_metric: 0.1529 - MARE: 0.1529
+Epoch 19/50
+12/12 - 0s - loss: 1775.5562 - NMAE_metric: 0.1538 - MARE: 0.1538
+Epoch 20/50
+12/12 - 1s - loss: 1675.2074 - NMAE_metric: 0.1496 - MARE: 0.1496
+Epoch 21/50
+12/12 - 0s - loss: 1662.1289 - NMAE_metric: 0.1493 - MARE: 0.1493
+Epoch 22/50
+12/12 - 0s - loss: 1700.4883 - NMAE_metric: 0.1511 - MARE: 0.1511
+Epoch 23/50
+12/12 - 1s - loss: 1612.4266 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 24/50
+12/12 - 1s - loss: 1704.8813 - NMAE_metric: 0.1516 - MARE: 0.1516
+Epoch 25/50
+12/12 - 1s - loss: 1582.4792 - NMAE_metric: 0.1459 - MARE: 0.1459
+Epoch 26/50
+12/12 - 0s - loss: 1572.3008 - NMAE_metric: 0.1451 - MARE: 0.1451
+Epoch 27/50
+12/12 - 1s - loss: 1494.5643 - NMAE_metric: 0.1411 - MARE: 0.1411
+Epoch 28/50
+12/12 - 1s - loss: 1490.3188 - NMAE_metric: 0.1388 - MARE: 0.1388
+Epoch 29/50
+12/12 - 1s - loss: 1507.2511 - NMAE_metric: 0.1405 - MARE: 0.1405
+Epoch 30/50
+12/12 - 0s - loss: 1451.5996 - NMAE_metric: 0.1394 - MARE: 0.1394
+Epoch 31/50
+12/12 - 1s - loss: 1496.7585 - NMAE_metric: 0.1407 - MARE: 0.1407
+Epoch 32/50
+12/12 - 1s - loss: 1431.3776 - NMAE_metric: 0.1380 - MARE: 0.1380
+Epoch 33/50
+12/12 - 0s - loss: 1417.0945 - NMAE_metric: 0.1378 - MARE: 0.1378
+Epoch 34/50
+12/12 - 1s - loss: 1426.1990 - NMAE_metric: 0.1369 - MARE: 0.1369
+Epoch 35/50
+12/12 - 1s - loss: 1390.2051 - NMAE_metric: 0.1372 - MARE: 0.1372
+Epoch 36/50
+12/12 - 1s - loss: 1286.7999 - NMAE_metric: 0.1307 - MARE: 0.1307
+Epoch 37/50
+12/12 - 1s - loss: 1286.0391 - NMAE_metric: 0.1311 - MARE: 0.1311
+Epoch 38/50
+12/12 - 0s - loss: 1301.7155 - NMAE_metric: 0.1316 - MARE: 0.1316
+Epoch 39/50
+12/12 - 1s - loss: 1263.2729 - NMAE_metric: 0.1286 - MARE: 0.1286
+Epoch 40/50
+12/12 - 0s - loss: 1255.8156 - NMAE_metric: 0.1287 - MARE: 0.1287
+Epoch 41/50
+12/12 - 0s - loss: 1249.7628 - NMAE_metric: 0.1299 - MARE: 0.1299
+Epoch 42/50
+12/12 - 1s - loss: 1262.7865 - NMAE_metric: 0.1292 - MARE: 0.1292
+Epoch 43/50
+12/12 - 1s - loss: 1234.4274 - NMAE_metric: 0.1288 - MARE: 0.1288
+Epoch 44/50
+12/12 - 0s - loss: 1251.6957 - NMAE_metric: 0.1288 - MARE: 0.1288
+Epoch 45/50
+12/12 - 1s - loss: 1173.2500 - NMAE_metric: 0.1246 - MARE: 0.1246
+Epoch 46/50
+12/12 - 1s - loss: 1186.7257 - NMAE_metric: 0.1249 - MARE: 0.1249
+Epoch 47/50
+12/12 - 0s - loss: 1231.6373 - NMAE_metric: 0.1275 - MARE: 0.1275
+Epoch 48/50
+12/12 - 1s - loss: 1146.0000 - NMAE_metric: 0.1244 - MARE: 0.1244
+Epoch 49/50
+12/12 - 0s - loss: 1139.5370 - NMAE_metric: 0.1234 - MARE: 0.1234
+Epoch 50/50
+12/12 - 1s - loss: 1146.3754 - NMAE_metric: 0.1222 - MARE: 0.1222
+
+END OF CELL 8713, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 6213 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7028', 'internet_traffic_7125', 'internet_traffic_7625', 'internet_traffic_6830', 'internet_traffic_4825']
+Epoch 1/50
+12/12 - 1s - loss: 7886.1523 - NMAE_metric: 0.9599 - MARE: 0.9599
+Epoch 2/50
+12/12 - 1s - loss: 3493.7847 - NMAE_metric: 0.6316 - MARE: 0.6316
+Epoch 3/50
+12/12 - 0s - loss: 2036.5924 - NMAE_metric: 0.4855 - MARE: 0.4855
+Epoch 4/50
+12/12 - 1s - loss: 1297.6864 - NMAE_metric: 0.3978 - MARE: 0.3978
+Epoch 5/50
+12/12 - 1s - loss: 1108.7323 - NMAE_metric: 0.3097 - MARE: 0.3097
+Epoch 6/50
+12/12 - 1s - loss: 878.1818 - NMAE_metric: 0.2633 - MARE: 0.2633
+Epoch 7/50
+12/12 - 2s - loss: 954.1946 - NMAE_metric: 0.2561 - MARE: 0.2561
+Epoch 8/50
+12/12 - 2s - loss: 928.6629 - NMAE_metric: 0.2568 - MARE: 0.2568
+Epoch 9/50
+12/12 - 1s - loss: 778.8519 - NMAE_metric: 0.2373 - MARE: 0.2373
+Epoch 10/50
+12/12 - 1s - loss: 761.2903 - NMAE_metric: 0.2366 - MARE: 0.2366
+Epoch 11/50
+12/12 - 1s - loss: 658.8636 - NMAE_metric: 0.2212 - MARE: 0.2212
+Epoch 12/50
+12/12 - 0s - loss: 802.6015 - NMAE_metric: 0.2302 - MARE: 0.2302
+Epoch 13/50
+12/12 - 1s - loss: 746.8737 - NMAE_metric: 0.2319 - MARE: 0.2319
+Epoch 14/50
+12/12 - 0s - loss: 746.6771 - NMAE_metric: 0.2265 - MARE: 0.2265
+Epoch 15/50
+12/12 - 1s - loss: 721.7145 - NMAE_metric: 0.2208 - MARE: 0.2208
+Epoch 16/50
+12/12 - 1s - loss: 606.6586 - NMAE_metric: 0.2112 - MARE: 0.2112
+Epoch 17/50
+12/12 - 1s - loss: 609.5656 - NMAE_metric: 0.2012 - MARE: 0.2012
+Epoch 18/50
+12/12 - 1s - loss: 540.2205 - NMAE_metric: 0.2015 - MARE: 0.2015
+Epoch 19/50
+12/12 - 0s - loss: 610.7530 - NMAE_metric: 0.2031 - MARE: 0.2031
+Epoch 20/50
+12/12 - 1s - loss: 679.9724 - NMAE_metric: 0.2037 - MARE: 0.2037
+Epoch 21/50
+12/12 - 1s - loss: 590.1097 - NMAE_metric: 0.2087 - MARE: 0.2087
+Epoch 22/50
+12/12 - 1s - loss: 615.2067 - NMAE_metric: 0.1998 - MARE: 0.1998
+Epoch 23/50
+12/12 - 1s - loss: 551.3867 - NMAE_metric: 0.1929 - MARE: 0.1929
+Epoch 24/50
+12/12 - 1s - loss: 507.9118 - NMAE_metric: 0.1896 - MARE: 0.1896
+Epoch 25/50
+12/12 - 1s - loss: 532.6976 - NMAE_metric: 0.1924 - MARE: 0.1924
+Epoch 26/50
+12/12 - 1s - loss: 436.1115 - NMAE_metric: 0.1778 - MARE: 0.1778
+Epoch 27/50
+12/12 - 1s - loss: 521.0318 - NMAE_metric: 0.1865 - MARE: 0.1865
+Epoch 28/50
+12/12 - 0s - loss: 459.6219 - NMAE_metric: 0.1834 - MARE: 0.1834
+Epoch 29/50
+12/12 - 1s - loss: 450.7933 - NMAE_metric: 0.1767 - MARE: 0.1767
+Epoch 30/50
+12/12 - 1s - loss: 442.0927 - NMAE_metric: 0.1782 - MARE: 0.1782
+Epoch 31/50
+12/12 - 1s - loss: 475.9481 - NMAE_metric: 0.1807 - MARE: 0.1807
+Epoch 32/50
+12/12 - 1s - loss: 561.8306 - NMAE_metric: 0.1867 - MARE: 0.1867
+Epoch 33/50
+12/12 - 1s - loss: 484.2290 - NMAE_metric: 0.1839 - MARE: 0.1839
+Epoch 34/50
+12/12 - 1s - loss: 405.3248 - NMAE_metric: 0.1667 - MARE: 0.1667
+Epoch 35/50
+12/12 - 1s - loss: 520.5548 - NMAE_metric: 0.1778 - MARE: 0.1778
+Epoch 36/50
+12/12 - 1s - loss: 450.4276 - NMAE_metric: 0.1732 - MARE: 0.1732
+Epoch 37/50
+12/12 - 1s - loss: 418.3334 - NMAE_metric: 0.1693 - MARE: 0.1693
+Epoch 38/50
+12/12 - 1s - loss: 482.7117 - NMAE_metric: 0.1705 - MARE: 0.1705
+Epoch 39/50
+12/12 - 1s - loss: 535.5676 - NMAE_metric: 0.1761 - MARE: 0.1761
+Epoch 40/50
+12/12 - 1s - loss: 496.4221 - NMAE_metric: 0.1737 - MARE: 0.1737
+Epoch 41/50
+12/12 - 1s - loss: 395.9025 - NMAE_metric: 0.1687 - MARE: 0.1687
+Epoch 42/50
+12/12 - 1s - loss: 505.6670 - NMAE_metric: 0.1730 - MARE: 0.1730
+Epoch 43/50
+12/12 - 1s - loss: 435.1405 - NMAE_metric: 0.1689 - MARE: 0.1689
+Epoch 44/50
+12/12 - 1s - loss: 334.0816 - NMAE_metric: 0.1555 - MARE: 0.1555
+Epoch 45/50
+12/12 - 1s - loss: 368.9859 - NMAE_metric: 0.1579 - MARE: 0.1579
+Epoch 46/50
+12/12 - 1s - loss: 440.9519 - NMAE_metric: 0.1654 - MARE: 0.1654
+Epoch 47/50
+12/12 - 1s - loss: 361.9099 - NMAE_metric: 0.1603 - MARE: 0.1603
+Epoch 48/50
+12/12 - 1s - loss: 385.4698 - NMAE_metric: 0.1561 - MARE: 0.1561
+Epoch 49/50
+12/12 - 1s - loss: 373.6354 - NMAE_metric: 0.1534 - MARE: 0.1534
+Epoch 50/50
+12/12 - 1s - loss: 327.2005 - NMAE_metric: 0.1493 - MARE: 0.1493
+
+END OF CELL 6213, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 8738 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7853', 'internet_traffic_8151', 'internet_traffic_7028', 'internet_traffic_7625']
+Epoch 1/50
+12/12 - 1s - loss: 318635.5000 - NMAE_metric: 0.9880 - MARE: 0.9880
+Epoch 2/50
+12/12 - 0s - loss: 221349.3125 - NMAE_metric: 0.7381 - MARE: 0.7381
+Epoch 3/50
+12/12 - 1s - loss: 146359.9219 - NMAE_metric: 0.5526 - MARE: 0.5526
+Epoch 4/50
+12/12 - 1s - loss: 102000.2500 - NMAE_metric: 0.4377 - MARE: 0.4377
+Epoch 5/50
+12/12 - 1s - loss: 63494.8828 - NMAE_metric: 0.3467 - MARE: 0.3467
+Epoch 6/50
+12/12 - 1s - loss: 36158.3164 - NMAE_metric: 0.2571 - MARE: 0.2571
+Epoch 7/50
+12/12 - 0s - loss: 25398.0781 - NMAE_metric: 0.2230 - MARE: 0.2230
+Epoch 8/50
+12/12 - 1s - loss: 19677.2363 - NMAE_metric: 0.1996 - MARE: 0.1996
+Epoch 9/50
+12/12 - 0s - loss: 17930.6621 - NMAE_metric: 0.1868 - MARE: 0.1868
+Epoch 10/50
+12/12 - 1s - loss: 17892.9902 - NMAE_metric: 0.1896 - MARE: 0.1896
+Epoch 11/50
+12/12 - 1s - loss: 16848.6211 - NMAE_metric: 0.1857 - MARE: 0.1857
+Epoch 12/50
+12/12 - 1s - loss: 16283.5088 - NMAE_metric: 0.1801 - MARE: 0.1801
+Epoch 13/50
+12/12 - 0s - loss: 15579.7627 - NMAE_metric: 0.1771 - MARE: 0.1771
+Epoch 14/50
+12/12 - 0s - loss: 14494.9814 - NMAE_metric: 0.1681 - MARE: 0.1681
+Epoch 15/50
+12/12 - 1s - loss: 14737.8828 - NMAE_metric: 0.1741 - MARE: 0.1741
+Epoch 16/50
+12/12 - 0s - loss: 14000.3320 - NMAE_metric: 0.1670 - MARE: 0.1670
+Epoch 17/50
+12/12 - 1s - loss: 13780.7002 - NMAE_metric: 0.1666 - MARE: 0.1666
+Epoch 18/50
+12/12 - 1s - loss: 13600.3730 - NMAE_metric: 0.1649 - MARE: 0.1649
+Epoch 19/50
+12/12 - 1s - loss: 13331.6729 - NMAE_metric: 0.1656 - MARE: 0.1656
+Epoch 20/50
+12/12 - 1s - loss: 13398.6016 - NMAE_metric: 0.1650 - MARE: 0.1650
+Epoch 21/50
+12/12 - 1s - loss: 12768.2822 - NMAE_metric: 0.1607 - MARE: 0.1607
+Epoch 22/50
+12/12 - 1s - loss: 12624.7607 - NMAE_metric: 0.1604 - MARE: 0.1604
+Epoch 23/50
+12/12 - 1s - loss: 12468.4756 - NMAE_metric: 0.1587 - MARE: 0.1587
+Epoch 24/50
+12/12 - 1s - loss: 11615.8164 - NMAE_metric: 0.1543 - MARE: 0.1543
+Epoch 25/50
+12/12 - 1s - loss: 11384.7363 - NMAE_metric: 0.1537 - MARE: 0.1537
+Epoch 26/50
+12/12 - 1s - loss: 11813.4668 - NMAE_metric: 0.1529 - MARE: 0.1529
+Epoch 27/50
+12/12 - 1s - loss: 11355.5508 - NMAE_metric: 0.1535 - MARE: 0.1535
+Epoch 28/50
+12/12 - 1s - loss: 11112.6045 - NMAE_metric: 0.1522 - MARE: 0.1522
+Epoch 29/50
+12/12 - 1s - loss: 11015.9893 - NMAE_metric: 0.1502 - MARE: 0.1502
+Epoch 30/50
+12/12 - 1s - loss: 11079.9004 - NMAE_metric: 0.1490 - MARE: 0.1490
+Epoch 31/50
+12/12 - 1s - loss: 11106.0557 - NMAE_metric: 0.1482 - MARE: 0.1482
+Epoch 32/50
+12/12 - 1s - loss: 10916.1455 - NMAE_metric: 0.1470 - MARE: 0.1470
+Epoch 33/50
+12/12 - 1s - loss: 10808.8057 - NMAE_metric: 0.1466 - MARE: 0.1466
+Epoch 34/50
+12/12 - 1s - loss: 10777.6113 - NMAE_metric: 0.1476 - MARE: 0.1476
+Epoch 35/50
+12/12 - 1s - loss: 11057.2686 - NMAE_metric: 0.1472 - MARE: 0.1472
+Epoch 36/50
+12/12 - 1s - loss: 10862.8535 - NMAE_metric: 0.1492 - MARE: 0.1492
+Epoch 37/50
+12/12 - 1s - loss: 10527.5723 - NMAE_metric: 0.1438 - MARE: 0.1438
+Epoch 38/50
+12/12 - 1s - loss: 10923.1680 - NMAE_metric: 0.1480 - MARE: 0.1480
+Epoch 39/50
+12/12 - 1s - loss: 10702.9971 - NMAE_metric: 0.1479 - MARE: 0.1479
+Epoch 40/50
+12/12 - 1s - loss: 10249.1777 - NMAE_metric: 0.1425 - MARE: 0.1425
+Epoch 41/50
+12/12 - 1s - loss: 9839.6943 - NMAE_metric: 0.1410 - MARE: 0.1410
+Epoch 42/50
+12/12 - 1s - loss: 10008.6885 - NMAE_metric: 0.1424 - MARE: 0.1424
+Epoch 43/50
+12/12 - 1s - loss: 10026.1885 - NMAE_metric: 0.1409 - MARE: 0.1409
+Epoch 44/50
+12/12 - 1s - loss: 9898.7666 - NMAE_metric: 0.1404 - MARE: 0.1404
+Epoch 45/50
+12/12 - 1s - loss: 10370.4453 - NMAE_metric: 0.1446 - MARE: 0.1446
+Epoch 46/50
+12/12 - 1s - loss: 9469.0713 - NMAE_metric: 0.1371 - MARE: 0.1371
+Epoch 47/50
+12/12 - 1s - loss: 9144.4404 - NMAE_metric: 0.1328 - MARE: 0.1328
+Epoch 48/50
+12/12 - 1s - loss: 9101.1904 - NMAE_metric: 0.1362 - MARE: 0.1362
+Epoch 49/50
+12/12 - 1s - loss: 8835.0420 - NMAE_metric: 0.1325 - MARE: 0.1325
+Epoch 50/50
+12/12 - 1s - loss: 8672.5029 - NMAE_metric: 0.1285 - MARE: 0.1285
+
+END OF CELL 8738, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 6238 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_5547', 'internet_traffic_4942', 'internet_traffic_4634', 'internet_traffic_5348', 'internet_traffic_5255', 'internet_traffic_5252', 'internet_traffic_5246', 'internet_traffic_7056', 'internet_traffic_5851', 'internet_traffic_5144', 'internet_traffic_6052', 'internet_traffic_4737', 'internet_traffic_5845', 'internet_traffic_7028', 'internet_traffic_6057', 'internet_traffic_5250', 'internet_traffic_7125', 'internet_traffic_5947', 'internet_traffic_4840', 'internet_traffic_7625', 'internet_traffic_6830', 'internet_traffic_5639', 'internet_traffic_5636', 'internet_traffic_5642', 'internet_traffic_5749', 'internet_traffic_5248', 'internet_traffic_5254', 'internet_traffic_4825', 'internet_traffic_5543', 'internet_traffic_5355', 'internet_traffic_5551', 'internet_traffic_6746', 'internet_traffic_6149', 'internet_traffic_5852', 'internet_traffic_5650']
+Epoch 1/50
+12/12 - 1s - loss: 43886.4883 - NMAE_metric: 0.9375 - MARE: 0.9375
+Epoch 2/50
+12/12 - 1s - loss: 25307.9844 - NMAE_metric: 0.6338 - MARE: 0.6338
+Epoch 3/50
+12/12 - 1s - loss: 15358.3701 - NMAE_metric: 0.4941 - MARE: 0.4941
+Epoch 4/50
+12/12 - 1s - loss: 7404.9629 - NMAE_metric: 0.3507 - MARE: 0.3507
+Epoch 5/50
+12/12 - 1s - loss: 5472.8882 - NMAE_metric: 0.2917 - MARE: 0.2917
+Epoch 6/50
+12/12 - 1s - loss: 3865.1724 - NMAE_metric: 0.2484 - MARE: 0.2484
+Epoch 7/50
+12/12 - 1s - loss: 2762.5576 - NMAE_metric: 0.2125 - MARE: 0.2125
+Epoch 8/50
+12/12 - 1s - loss: 2182.8105 - NMAE_metric: 0.1951 - MARE: 0.1951
+Epoch 9/50
+12/12 - 1s - loss: 1846.4426 - NMAE_metric: 0.1780 - MARE: 0.1780
+Epoch 10/50
+12/12 - 1s - loss: 1548.0697 - NMAE_metric: 0.1655 - MARE: 0.1655
+Epoch 11/50
+12/12 - 1s - loss: 1532.2183 - NMAE_metric: 0.1624 - MARE: 0.1624
+Epoch 12/50
+12/12 - 1s - loss: 1320.7758 - NMAE_metric: 0.1523 - MARE: 0.1523
+Epoch 13/50
+12/12 - 1s - loss: 1202.9185 - NMAE_metric: 0.1483 - MARE: 0.1483
+Epoch 14/50
+12/12 - 1s - loss: 1169.0011 - NMAE_metric: 0.1441 - MARE: 0.1441
+Epoch 15/50
+12/12 - 1s - loss: 1078.6812 - NMAE_metric: 0.1440 - MARE: 0.1440
+Epoch 16/50
+12/12 - 1s - loss: 1006.5076 - NMAE_metric: 0.1358 - MARE: 0.1358
+Epoch 17/50
+12/12 - 1s - loss: 1015.2807 - NMAE_metric: 0.1344 - MARE: 0.1344
+Epoch 18/50
+12/12 - 1s - loss: 869.1813 - NMAE_metric: 0.1272 - MARE: 0.1272
+Epoch 19/50
+12/12 - 1s - loss: 987.9618 - NMAE_metric: 0.1324 - MARE: 0.1324
+Epoch 20/50
+12/12 - 1s - loss: 907.8958 - NMAE_metric: 0.1289 - MARE: 0.1289
+Epoch 21/50
+12/12 - 1s - loss: 866.8420 - NMAE_metric: 0.1284 - MARE: 0.1284
+Epoch 22/50
+12/12 - 1s - loss: 850.2274 - NMAE_metric: 0.1255 - MARE: 0.1255
+Epoch 23/50
+12/12 - 1s - loss: 834.6901 - NMAE_metric: 0.1244 - MARE: 0.1244
+Epoch 24/50
+12/12 - 1s - loss: 766.2237 - NMAE_metric: 0.1195 - MARE: 0.1195
+Epoch 25/50
+12/12 - 1s - loss: 761.0683 - NMAE_metric: 0.1198 - MARE: 0.1198
+Epoch 26/50
+12/12 - 1s - loss: 768.7238 - NMAE_metric: 0.1170 - MARE: 0.1170
+Epoch 27/50
+12/12 - 1s - loss: 725.0127 - NMAE_metric: 0.1171 - MARE: 0.1171
+Epoch 28/50
+12/12 - 1s - loss: 754.6489 - NMAE_metric: 0.1160 - MARE: 0.1160
+Epoch 29/50
+12/12 - 1s - loss: 769.7139 - NMAE_metric: 0.1173 - MARE: 0.1173
+Epoch 30/50
+12/12 - 1s - loss: 746.7900 - NMAE_metric: 0.1161 - MARE: 0.1161
+Epoch 31/50
+12/12 - 1s - loss: 731.1924 - NMAE_metric: 0.1139 - MARE: 0.1139
+Epoch 32/50
+12/12 - 1s - loss: 706.0514 - NMAE_metric: 0.1141 - MARE: 0.1141
+Epoch 33/50
+12/12 - 1s - loss: 694.0110 - NMAE_metric: 0.1134 - MARE: 0.1134
+Epoch 34/50
+12/12 - 1s - loss: 695.5087 - NMAE_metric: 0.1119 - MARE: 0.1119
+Epoch 35/50
+12/12 - 1s - loss: 644.1779 - NMAE_metric: 0.1088 - MARE: 0.1088
+Epoch 36/50
+12/12 - 1s - loss: 680.6545 - NMAE_metric: 0.1098 - MARE: 0.1098
+Epoch 37/50
+12/12 - 1s - loss: 630.0679 - NMAE_metric: 0.1072 - MARE: 0.1072
+Epoch 38/50
+12/12 - 1s - loss: 624.8172 - NMAE_metric: 0.1073 - MARE: 0.1073
+Epoch 39/50
+12/12 - 1s - loss: 555.3628 - NMAE_metric: 0.1025 - MARE: 0.1025
+Epoch 40/50
+12/12 - 1s - loss: 628.3329 - NMAE_metric: 0.1050 - MARE: 0.1050
+Epoch 41/50
+12/12 - 1s - loss: 791.1157 - NMAE_metric: 0.1148 - MARE: 0.1148
+Epoch 42/50
+12/12 - 1s - loss: 621.7219 - NMAE_metric: 0.1061 - MARE: 0.1061
+Epoch 43/50
+12/12 - 1s - loss: 615.5201 - NMAE_metric: 0.1056 - MARE: 0.1056
+Epoch 44/50
+12/12 - 1s - loss: 594.9033 - NMAE_metric: 0.1061 - MARE: 0.1061
+Epoch 45/50
+12/12 - 1s - loss: 571.3588 - NMAE_metric: 0.0991 - MARE: 0.0991
+Epoch 46/50
+12/12 - 1s - loss: 560.8237 - NMAE_metric: 0.1019 - MARE: 0.1019
+Epoch 47/50
+12/12 - 1s - loss: 533.3430 - NMAE_metric: 0.0999 - MARE: 0.0999
+Epoch 48/50
+12/12 - 1s - loss: 539.3134 - NMAE_metric: 0.1003 - MARE: 0.1003
+Epoch 49/50
+12/12 - 1s - loss: 625.6552 - NMAE_metric: 0.1016 - MARE: 0.1016
+Epoch 50/50
+12/12 - 1s - loss: 555.3712 - NMAE_metric: 0.1020 - MARE: 0.1020
+
+END OF CELL 6238, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 3713 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_4825']
+Epoch 1/50
+12/12 - 0s - loss: 2477.8794 - NMAE_metric: 0.9216 - MARE: 0.9216
+Epoch 2/50
+12/12 - 0s - loss: 1388.9297 - NMAE_metric: 0.6121 - MARE: 0.6121
+Epoch 3/50
+12/12 - 0s - loss: 712.8339 - NMAE_metric: 0.4385 - MARE: 0.4385
+Epoch 4/50
+12/12 - 0s - loss: 379.0934 - NMAE_metric: 0.3197 - MARE: 0.3197
+Epoch 5/50
+12/12 - 1s - loss: 302.9580 - NMAE_metric: 0.2813 - MARE: 0.2813
+Epoch 6/50
+12/12 - 1s - loss: 255.8097 - NMAE_metric: 0.2624 - MARE: 0.2624
+Epoch 7/50
+12/12 - 1s - loss: 225.7269 - NMAE_metric: 0.2453 - MARE: 0.2453
+Epoch 8/50
+12/12 - 1s - loss: 197.4592 - NMAE_metric: 0.2301 - MARE: 0.2301
+Epoch 9/50
+12/12 - 1s - loss: 173.1866 - NMAE_metric: 0.2175 - MARE: 0.2175
+Epoch 10/50
+12/12 - 1s - loss: 165.3739 - NMAE_metric: 0.2138 - MARE: 0.2138
+Epoch 11/50
+12/12 - 1s - loss: 161.6345 - NMAE_metric: 0.2118 - MARE: 0.2118
+Epoch 12/50
+12/12 - 1s - loss: 149.7403 - NMAE_metric: 0.2021 - MARE: 0.2021
+Epoch 13/50
+12/12 - 1s - loss: 138.9407 - NMAE_metric: 0.1966 - MARE: 0.1966
+Epoch 14/50
+12/12 - 1s - loss: 135.9979 - NMAE_metric: 0.1963 - MARE: 0.1963
+Epoch 15/50
+12/12 - 1s - loss: 134.5848 - NMAE_metric: 0.1954 - MARE: 0.1954
+Epoch 16/50
+12/12 - 1s - loss: 130.8438 - NMAE_metric: 0.1909 - MARE: 0.1909
+Epoch 17/50
+12/12 - 1s - loss: 130.4722 - NMAE_metric: 0.1929 - MARE: 0.1929
+Epoch 18/50
+12/12 - 1s - loss: 129.9713 - NMAE_metric: 0.1915 - MARE: 0.1915
+Epoch 19/50
+12/12 - 1s - loss: 120.6459 - NMAE_metric: 0.1842 - MARE: 0.1842
+Epoch 20/50
+12/12 - 1s - loss: 122.7798 - NMAE_metric: 0.1859 - MARE: 0.1859
+Epoch 21/50
+12/12 - 1s - loss: 123.8883 - NMAE_metric: 0.1867 - MARE: 0.1867
+Epoch 22/50
+12/12 - 1s - loss: 120.5336 - NMAE_metric: 0.1842 - MARE: 0.1842
+Epoch 23/50
+12/12 - 1s - loss: 115.2400 - NMAE_metric: 0.1802 - MARE: 0.1802
+Epoch 24/50
+12/12 - 1s - loss: 111.5589 - NMAE_metric: 0.1764 - MARE: 0.1764
+Epoch 25/50
+12/12 - 1s - loss: 109.8347 - NMAE_metric: 0.1755 - MARE: 0.1755
+Epoch 26/50
+12/12 - 1s - loss: 113.8980 - NMAE_metric: 0.1794 - MARE: 0.1794
+Epoch 27/50
+12/12 - 1s - loss: 108.5139 - NMAE_metric: 0.1752 - MARE: 0.1752
+Epoch 28/50
+12/12 - 1s - loss: 105.5563 - NMAE_metric: 0.1725 - MARE: 0.1725
+Epoch 29/50
+12/12 - 1s - loss: 103.2521 - NMAE_metric: 0.1691 - MARE: 0.1691
+Epoch 30/50
+12/12 - 1s - loss: 107.3153 - NMAE_metric: 0.1751 - MARE: 0.1751
+Epoch 31/50
+12/12 - 1s - loss: 100.5713 - NMAE_metric: 0.1700 - MARE: 0.1700
+Epoch 32/50
+12/12 - 1s - loss: 106.7862 - NMAE_metric: 0.1742 - MARE: 0.1742
+Epoch 33/50
+12/12 - 1s - loss: 102.6676 - NMAE_metric: 0.1708 - MARE: 0.1708
+Epoch 34/50
+12/12 - 1s - loss: 100.3664 - NMAE_metric: 0.1690 - MARE: 0.1690
+Epoch 35/50
+12/12 - 1s - loss: 103.7117 - NMAE_metric: 0.1725 - MARE: 0.1725
+Epoch 36/50
+12/12 - 1s - loss: 104.1674 - NMAE_metric: 0.1708 - MARE: 0.1708
+Epoch 37/50
+12/12 - 1s - loss: 101.6154 - NMAE_metric: 0.1702 - MARE: 0.1702
+Epoch 38/50
+12/12 - 1s - loss: 99.2106 - NMAE_metric: 0.1680 - MARE: 0.1680
+Epoch 39/50
+12/12 - 1s - loss: 97.5825 - NMAE_metric: 0.1689 - MARE: 0.1689
+Epoch 40/50
+12/12 - 1s - loss: 92.0177 - NMAE_metric: 0.1636 - MARE: 0.1636
+Epoch 41/50
+12/12 - 1s - loss: 95.9509 - NMAE_metric: 0.1645 - MARE: 0.1645
+Epoch 42/50
+12/12 - 1s - loss: 95.1186 - NMAE_metric: 0.1641 - MARE: 0.1641
+Epoch 43/50
+12/12 - 1s - loss: 98.0498 - NMAE_metric: 0.1649 - MARE: 0.1649
+Epoch 44/50
+12/12 - 1s - loss: 95.6802 - NMAE_metric: 0.1648 - MARE: 0.1648
+Epoch 45/50
+12/12 - 1s - loss: 96.6267 - NMAE_metric: 0.1664 - MARE: 0.1664
+Epoch 46/50
+12/12 - 1s - loss: 96.6253 - NMAE_metric: 0.1679 - MARE: 0.1679
+Epoch 47/50
+12/12 - 1s - loss: 88.7646 - NMAE_metric: 0.1576 - MARE: 0.1576
+Epoch 48/50
+12/12 - 1s - loss: 94.2902 - NMAE_metric: 0.1650 - MARE: 0.1650
+Epoch 49/50
+12/12 - 1s - loss: 89.7432 - NMAE_metric: 0.1626 - MARE: 0.1626
+Epoch 50/50
+12/12 - 1s - loss: 89.4604 - NMAE_metric: 0.1610 - MARE: 0.1610
+
+END OF CELL 3713, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 1213 DATA TO 5 NEIGHBORS
+
+Used cols:
+[]
+Epoch 1/50
+12/12 - 1s - loss: 962.1965 - NMAE_metric: 0.8630 - MARE: 0.8630
+Epoch 2/50
+12/12 - 0s - loss: 524.0375 - NMAE_metric: 0.5507 - MARE: 0.5507
+Epoch 3/50
+12/12 - 1s - loss: 265.8260 - NMAE_metric: 0.4069 - MARE: 0.4069
+Epoch 4/50
+12/12 - 1s - loss: 143.2498 - NMAE_metric: 0.2897 - MARE: 0.2897
+Epoch 5/50
+12/12 - 1s - loss: 102.9118 - NMAE_metric: 0.2468 - MARE: 0.2468
+Epoch 6/50
+12/12 - 1s - loss: 84.9413 - NMAE_metric: 0.2225 - MARE: 0.2225
+Epoch 7/50
+12/12 - 1s - loss: 77.4309 - NMAE_metric: 0.2122 - MARE: 0.2122
+Epoch 8/50
+12/12 - 1s - loss: 68.0473 - NMAE_metric: 0.1979 - MARE: 0.1979
+Epoch 9/50
+12/12 - 1s - loss: 66.1115 - NMAE_metric: 0.1962 - MARE: 0.1962
+Epoch 10/50
+12/12 - 1s - loss: 62.7769 - NMAE_metric: 0.1911 - MARE: 0.1911
+Epoch 11/50
+12/12 - 1s - loss: 56.2750 - NMAE_metric: 0.1824 - MARE: 0.1824
+Epoch 12/50
+12/12 - 1s - loss: 58.3001 - NMAE_metric: 0.1862 - MARE: 0.1862
+Epoch 13/50
+12/12 - 1s - loss: 55.0145 - NMAE_metric: 0.1833 - MARE: 0.1833
+Epoch 14/50
+12/12 - 1s - loss: 53.8121 - NMAE_metric: 0.1781 - MARE: 0.1781
+Epoch 15/50
+12/12 - 1s - loss: 50.3672 - NMAE_metric: 0.1729 - MARE: 0.1729
+Epoch 16/50
+12/12 - 1s - loss: 50.5620 - NMAE_metric: 0.1733 - MARE: 0.1733
+Epoch 17/50
+12/12 - 1s - loss: 48.1291 - NMAE_metric: 0.1703 - MARE: 0.1703
+Epoch 18/50
+12/12 - 1s - loss: 47.3119 - NMAE_metric: 0.1692 - MARE: 0.1692
+Epoch 19/50
+12/12 - 1s - loss: 47.7927 - NMAE_metric: 0.1663 - MARE: 0.1663
+Epoch 20/50
+12/12 - 1s - loss: 47.2477 - NMAE_metric: 0.1688 - MARE: 0.1688
+Epoch 21/50
+12/12 - 1s - loss: 46.9071 - NMAE_metric: 0.1700 - MARE: 0.1700
+Epoch 22/50
+12/12 - 1s - loss: 46.9420 - NMAE_metric: 0.1670 - MARE: 0.1670
+Epoch 23/50
+12/12 - 1s - loss: 45.7475 - NMAE_metric: 0.1654 - MARE: 0.1654
+Epoch 24/50
+12/12 - 1s - loss: 44.5848 - NMAE_metric: 0.1637 - MARE: 0.1637
+Epoch 25/50
+12/12 - 1s - loss: 45.1750 - NMAE_metric: 0.1637 - MARE: 0.1637
+Epoch 26/50
+12/12 - 1s - loss: 43.3248 - NMAE_metric: 0.1615 - MARE: 0.1615
+Epoch 27/50
+12/12 - 1s - loss: 42.3306 - NMAE_metric: 0.1602 - MARE: 0.1602
+Epoch 28/50
+12/12 - 1s - loss: 43.0754 - NMAE_metric: 0.1595 - MARE: 0.1595
+Epoch 29/50
+12/12 - 1s - loss: 42.2780 - NMAE_metric: 0.1589 - MARE: 0.1589
+Epoch 30/50
+12/12 - 1s - loss: 40.6668 - NMAE_metric: 0.1562 - MARE: 0.1562
+Epoch 31/50
+12/12 - 1s - loss: 38.9668 - NMAE_metric: 0.1522 - MARE: 0.1522
+Epoch 32/50
+12/12 - 1s - loss: 39.3988 - NMAE_metric: 0.1519 - MARE: 0.1519
+Epoch 33/50
+12/12 - 1s - loss: 40.5942 - NMAE_metric: 0.1553 - MARE: 0.1553
+Epoch 34/50
+12/12 - 1s - loss: 41.0718 - NMAE_metric: 0.1581 - MARE: 0.1581
+Epoch 35/50
+12/12 - 1s - loss: 39.5295 - NMAE_metric: 0.1528 - MARE: 0.1528
+Epoch 36/50
+12/12 - 1s - loss: 38.1145 - NMAE_metric: 0.1514 - MARE: 0.1514
+Epoch 37/50
+12/12 - 1s - loss: 37.4011 - NMAE_metric: 0.1485 - MARE: 0.1485
+Epoch 38/50
+12/12 - 1s - loss: 37.9086 - NMAE_metric: 0.1479 - MARE: 0.1479
+Epoch 39/50
+12/12 - 1s - loss: 42.2671 - NMAE_metric: 0.1597 - MARE: 0.1597
+Epoch 40/50
+12/12 - 1s - loss: 38.2003 - NMAE_metric: 0.1514 - MARE: 0.1514
+Epoch 41/50
+12/12 - 1s - loss: 37.3620 - NMAE_metric: 0.1484 - MARE: 0.1484
+Epoch 42/50
+12/12 - 1s - loss: 34.8375 - NMAE_metric: 0.1428 - MARE: 0.1428
+Epoch 43/50
+12/12 - 1s - loss: 36.5109 - NMAE_metric: 0.1458 - MARE: 0.1458
+Epoch 44/50
+12/12 - 1s - loss: 35.9291 - NMAE_metric: 0.1457 - MARE: 0.1457
+Epoch 45/50
+12/12 - 1s - loss: 35.2615 - NMAE_metric: 0.1454 - MARE: 0.1454
+Epoch 46/50
+12/12 - 1s - loss: 37.6660 - NMAE_metric: 0.1480 - MARE: 0.1480
+Epoch 47/50
+12/12 - 1s - loss: 36.3284 - NMAE_metric: 0.1477 - MARE: 0.1477
+Epoch 48/50
+12/12 - 1s - loss: 35.7187 - NMAE_metric: 0.1457 - MARE: 0.1457
+Epoch 49/50
+12/12 - 1s - loss: 35.0199 - NMAE_metric: 0.1450 - MARE: 0.1450
+Epoch 50/50
+12/12 - 1s - loss: 35.7310 - NMAE_metric: 0.1461 - MARE: 0.1461
+
+END OF CELL 1213, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 3738 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_3456', 'internet_traffic_2145', 'internet_traffic_2447', 'internet_traffic_4942', 'internet_traffic_4634', 'internet_traffic_5348', 'internet_traffic_5246', 'internet_traffic_3853', 'internet_traffic_5144', 'internet_traffic_4737', 'internet_traffic_5250', 'internet_traffic_4553', 'internet_traffic_4840', 'internet_traffic_4053', 'internet_traffic_5639', 'internet_traffic_5636', 'internet_traffic_4853', 'internet_traffic_5642', 'internet_traffic_5248', 'internet_traffic_4825', 'internet_traffic_5543']
+Epoch 1/50
+12/12 - 1s - loss: 119809.9375 - NMAE_metric: 0.9773 - MARE: 0.9773
+Epoch 2/50
+12/12 - 1s - loss: 71195.7969 - NMAE_metric: 0.6817 - MARE: 0.6817
+Epoch 3/50
+12/12 - 1s - loss: 44062.6641 - NMAE_metric: 0.5153 - MARE: 0.5153
+Epoch 4/50
+12/12 - 1s - loss: 23881.2754 - NMAE_metric: 0.3628 - MARE: 0.3628
+Epoch 5/50
+12/12 - 1s - loss: 14518.8535 - NMAE_metric: 0.2795 - MARE: 0.2795
+Epoch 6/50
+12/12 - 1s - loss: 11128.0283 - NMAE_metric: 0.2429 - MARE: 0.2429
+Epoch 7/50
+12/12 - 1s - loss: 9445.1240 - NMAE_metric: 0.2233 - MARE: 0.2233
+Epoch 8/50
+12/12 - 1s - loss: 8445.3672 - NMAE_metric: 0.2103 - MARE: 0.2103
+Epoch 9/50
+12/12 - 1s - loss: 8095.2578 - NMAE_metric: 0.2085 - MARE: 0.2085
+Epoch 10/50
+12/12 - 1s - loss: 7580.2788 - NMAE_metric: 0.2001 - MARE: 0.2001
+Epoch 11/50
+12/12 - 1s - loss: 6768.8755 - NMAE_metric: 0.1907 - MARE: 0.1907
+Epoch 12/50
+12/12 - 1s - loss: 6652.0771 - NMAE_metric: 0.1879 - MARE: 0.1879
+Epoch 13/50
+12/12 - 1s - loss: 6477.7183 - NMAE_metric: 0.1850 - MARE: 0.1850
+Epoch 14/50
+12/12 - 1s - loss: 6148.9365 - NMAE_metric: 0.1792 - MARE: 0.1792
+Epoch 15/50
+12/12 - 1s - loss: 6264.8916 - NMAE_metric: 0.1829 - MARE: 0.1829
+Epoch 16/50
+12/12 - 1s - loss: 5963.7681 - NMAE_metric: 0.1776 - MARE: 0.1776
+Epoch 17/50
+12/12 - 1s - loss: 5795.8320 - NMAE_metric: 0.1769 - MARE: 0.1769
+Epoch 18/50
+12/12 - 1s - loss: 5317.0576 - NMAE_metric: 0.1677 - MARE: 0.1677
+Epoch 19/50
+12/12 - 1s - loss: 5680.8784 - NMAE_metric: 0.1731 - MARE: 0.1731
+Epoch 20/50
+12/12 - 1s - loss: 5344.1870 - NMAE_metric: 0.1680 - MARE: 0.1680
+Epoch 21/50
+12/12 - 1s - loss: 5359.9888 - NMAE_metric: 0.1669 - MARE: 0.1669
+Epoch 22/50
+12/12 - 1s - loss: 5135.5947 - NMAE_metric: 0.1636 - MARE: 0.1636
+Epoch 23/50
+12/12 - 1s - loss: 5183.8555 - NMAE_metric: 0.1650 - MARE: 0.1650
+Epoch 24/50
+12/12 - 1s - loss: 5037.7109 - NMAE_metric: 0.1659 - MARE: 0.1659
+Epoch 25/50
+12/12 - 1s - loss: 5253.0981 - NMAE_metric: 0.1664 - MARE: 0.1664
+Epoch 26/50
+12/12 - 1s - loss: 4860.2124 - NMAE_metric: 0.1601 - MARE: 0.1601
+Epoch 27/50
+12/12 - 1s - loss: 4799.1685 - NMAE_metric: 0.1587 - MARE: 0.1587
+Epoch 28/50
+12/12 - 1s - loss: 4674.7793 - NMAE_metric: 0.1582 - MARE: 0.1582
+Epoch 29/50
+12/12 - 1s - loss: 4961.7192 - NMAE_metric: 0.1611 - MARE: 0.1611
+Epoch 30/50
+12/12 - 1s - loss: 4706.9570 - NMAE_metric: 0.1588 - MARE: 0.1588
+Epoch 31/50
+12/12 - 1s - loss: 4615.4370 - NMAE_metric: 0.1566 - MARE: 0.1566
+Epoch 32/50
+12/12 - 1s - loss: 4622.2256 - NMAE_metric: 0.1584 - MARE: 0.1584
+Epoch 33/50
+12/12 - 1s - loss: 4523.5483 - NMAE_metric: 0.1538 - MARE: 0.1538
+Epoch 34/50
+12/12 - 1s - loss: 4672.3848 - NMAE_metric: 0.1576 - MARE: 0.1576
+Epoch 35/50
+12/12 - 1s - loss: 4216.3760 - NMAE_metric: 0.1491 - MARE: 0.1491
+Epoch 36/50
+12/12 - 1s - loss: 4545.2368 - NMAE_metric: 0.1554 - MARE: 0.1554
+Epoch 37/50
+12/12 - 1s - loss: 4426.3647 - NMAE_metric: 0.1520 - MARE: 0.1520
+Epoch 38/50
+12/12 - 1s - loss: 4418.2837 - NMAE_metric: 0.1521 - MARE: 0.1521
+Epoch 39/50
+12/12 - 1s - loss: 4434.0244 - NMAE_metric: 0.1529 - MARE: 0.1529
+Epoch 40/50
+12/12 - 1s - loss: 4340.3711 - NMAE_metric: 0.1529 - MARE: 0.1529
+Epoch 41/50
+12/12 - 1s - loss: 3928.7424 - NMAE_metric: 0.1454 - MARE: 0.1454
+Epoch 42/50
+12/12 - 1s - loss: 3961.5227 - NMAE_metric: 0.1461 - MARE: 0.1461
+Epoch 43/50
+12/12 - 1s - loss: 4026.4348 - NMAE_metric: 0.1492 - MARE: 0.1492
+Epoch 44/50
+12/12 - 1s - loss: 3811.0315 - NMAE_metric: 0.1402 - MARE: 0.1402
+Epoch 45/50
+12/12 - 1s - loss: 3905.9509 - NMAE_metric: 0.1460 - MARE: 0.1460
+Epoch 46/50
+12/12 - 1s - loss: 3937.1665 - NMAE_metric: 0.1459 - MARE: 0.1459
+Epoch 47/50
+12/12 - 1s - loss: 3827.7449 - NMAE_metric: 0.1412 - MARE: 0.1412
+Epoch 48/50
+12/12 - 1s - loss: 3892.4092 - NMAE_metric: 0.1450 - MARE: 0.1450
+Epoch 49/50
+12/12 - 1s - loss: 3709.5425 - NMAE_metric: 0.1392 - MARE: 0.1392
+Epoch 50/50
+12/12 - 1s - loss: 3690.7039 - NMAE_metric: 0.1412 - MARE: 0.1412
+
+END OF CELL 3738, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 1238 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_2145', 'internet_traffic_2447']
+Epoch 1/50
+12/12 - 0s - loss: 15327.6104 - NMAE_metric: 0.9516 - MARE: 0.9516
+Epoch 2/50
+12/12 - 0s - loss: 9883.1348 - NMAE_metric: 0.6492 - MARE: 0.6492
+Epoch 3/50
+12/12 - 1s - loss: 6920.8247 - NMAE_metric: 0.5408 - MARE: 0.5408
+Epoch 4/50
+12/12 - 1s - loss: 4083.3862 - NMAE_metric: 0.4040 - MARE: 0.4040
+Epoch 5/50
+12/12 - 1s - loss: 2265.1919 - NMAE_metric: 0.3071 - MARE: 0.3071
+Epoch 6/50
+12/12 - 1s - loss: 1524.8898 - NMAE_metric: 0.2519 - MARE: 0.2519
+Epoch 7/50
+12/12 - 1s - loss: 1324.7437 - NMAE_metric: 0.2310 - MARE: 0.2310
+Epoch 8/50
+12/12 - 1s - loss: 1254.5443 - NMAE_metric: 0.2212 - MARE: 0.2212
+Epoch 9/50
+12/12 - 1s - loss: 1133.8282 - NMAE_metric: 0.2125 - MARE: 0.2125
+Epoch 10/50
+12/12 - 1s - loss: 1082.6045 - NMAE_metric: 0.2075 - MARE: 0.2075
+Epoch 11/50
+12/12 - 1s - loss: 1073.7107 - NMAE_metric: 0.2082 - MARE: 0.2082
+Epoch 12/50
+12/12 - 1s - loss: 1024.4001 - NMAE_metric: 0.2004 - MARE: 0.2004
+Epoch 13/50
+12/12 - 1s - loss: 924.7482 - NMAE_metric: 0.1943 - MARE: 0.1943
+Epoch 14/50
+12/12 - 1s - loss: 882.0848 - NMAE_metric: 0.1898 - MARE: 0.1898
+Epoch 15/50
+12/12 - 1s - loss: 887.2178 - NMAE_metric: 0.1875 - MARE: 0.1875
+Epoch 16/50
+12/12 - 1s - loss: 833.6687 - NMAE_metric: 0.1830 - MARE: 0.1830
+Epoch 17/50
+12/12 - 1s - loss: 793.7799 - NMAE_metric: 0.1755 - MARE: 0.1755
+Epoch 18/50
+12/12 - 1s - loss: 771.2723 - NMAE_metric: 0.1760 - MARE: 0.1760
+Epoch 19/50
+12/12 - 1s - loss: 802.7234 - NMAE_metric: 0.1774 - MARE: 0.1774
+Epoch 20/50
+12/12 - 1s - loss: 788.7199 - NMAE_metric: 0.1761 - MARE: 0.1761
+Epoch 21/50
+12/12 - 1s - loss: 750.6265 - NMAE_metric: 0.1781 - MARE: 0.1781
+Epoch 22/50
+12/12 - 1s - loss: 674.3615 - NMAE_metric: 0.1661 - MARE: 0.1661
+Epoch 23/50
+12/12 - 1s - loss: 655.2078 - NMAE_metric: 0.1644 - MARE: 0.1644
+Epoch 24/50
+12/12 - 1s - loss: 709.7163 - NMAE_metric: 0.1673 - MARE: 0.1673
+Epoch 25/50
+12/12 - 1s - loss: 699.6778 - NMAE_metric: 0.1668 - MARE: 0.1668
+Epoch 26/50
+12/12 - 1s - loss: 692.7076 - NMAE_metric: 0.1673 - MARE: 0.1673
+Epoch 27/50
+12/12 - 1s - loss: 646.5198 - NMAE_metric: 0.1562 - MARE: 0.1562
+Epoch 28/50
+12/12 - 1s - loss: 611.2231 - NMAE_metric: 0.1585 - MARE: 0.1585
+Epoch 29/50
+12/12 - 1s - loss: 618.8901 - NMAE_metric: 0.1576 - MARE: 0.1576
+Epoch 30/50
+12/12 - 1s - loss: 613.5566 - NMAE_metric: 0.1568 - MARE: 0.1568
+Epoch 31/50
+12/12 - 1s - loss: 621.9547 - NMAE_metric: 0.1541 - MARE: 0.1541
+Epoch 32/50
+12/12 - 1s - loss: 600.0706 - NMAE_metric: 0.1542 - MARE: 0.1542
+Epoch 33/50
+12/12 - 1s - loss: 597.6542 - NMAE_metric: 0.1549 - MARE: 0.1549
+Epoch 34/50
+12/12 - 1s - loss: 615.0735 - NMAE_metric: 0.1538 - MARE: 0.1538
+Epoch 35/50
+12/12 - 1s - loss: 561.7951 - NMAE_metric: 0.1525 - MARE: 0.1525
+Epoch 36/50
+12/12 - 1s - loss: 574.4050 - NMAE_metric: 0.1534 - MARE: 0.1534
+Epoch 37/50
+12/12 - 1s - loss: 569.9591 - NMAE_metric: 0.1509 - MARE: 0.1509
+Epoch 38/50
+12/12 - 1s - loss: 564.6802 - NMAE_metric: 0.1507 - MARE: 0.1507
+Epoch 39/50
+12/12 - 1s - loss: 625.1934 - NMAE_metric: 0.1542 - MARE: 0.1542
+Epoch 40/50
+12/12 - 1s - loss: 515.2956 - NMAE_metric: 0.1461 - MARE: 0.1461
+Epoch 41/50
+12/12 - 1s - loss: 586.9651 - NMAE_metric: 0.1512 - MARE: 0.1512
+Epoch 42/50
+12/12 - 1s - loss: 552.1849 - NMAE_metric: 0.1483 - MARE: 0.1483
+Epoch 43/50
+12/12 - 1s - loss: 528.4105 - NMAE_metric: 0.1465 - MARE: 0.1465
+Epoch 44/50
+12/12 - 1s - loss: 523.4730 - NMAE_metric: 0.1483 - MARE: 0.1483
+Epoch 45/50
+12/12 - 1s - loss: 520.7150 - NMAE_metric: 0.1440 - MARE: 0.1440
+Epoch 46/50
+12/12 - 1s - loss: 545.6334 - NMAE_metric: 0.1486 - MARE: 0.1486
+Epoch 47/50
+12/12 - 1s - loss: 497.4139 - NMAE_metric: 0.1406 - MARE: 0.1406
+Epoch 48/50
+12/12 - 1s - loss: 506.5630 - NMAE_metric: 0.1428 - MARE: 0.1428
+Epoch 49/50
+12/12 - 1s - loss: 526.5575 - NMAE_metric: 0.1446 - MARE: 0.1446
+Epoch 50/50
+12/12 - 1s - loss: 474.0860 - NMAE_metric: 0.1379 - MARE: 0.1379
+
+END OF CELL 1238, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 8763 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7455', 'internet_traffic_7853', 'internet_traffic_7465', 'internet_traffic_8067', 'internet_traffic_7164', 'internet_traffic_7063', 'internet_traffic_8151', 'internet_traffic_7056', 'internet_traffic_7071', 'internet_traffic_6862', 'internet_traffic_7866', 'internet_traffic_7371', 'internet_traffic_8776', 'internet_traffic_7872', 'internet_traffic_8374', 'internet_traffic_7672', 'internet_traffic_6867']
+Epoch 1/50
+12/12 - 1s - loss: 18030.2773 - NMAE_metric: 0.9153 - MARE: 0.9153
+Epoch 2/50
+12/12 - 1s - loss: 11344.7480 - NMAE_metric: 0.6320 - MARE: 0.6320
+Epoch 3/50
+12/12 - 1s - loss: 6952.3267 - NMAE_metric: 0.4803 - MARE: 0.4803
+Epoch 4/50
+12/12 - 1s - loss: 3145.7102 - NMAE_metric: 0.3071 - MARE: 0.3071
+Epoch 5/50
+12/12 - 1s - loss: 1554.6212 - NMAE_metric: 0.2225 - MARE: 0.2225
+Epoch 6/50
+12/12 - 1s - loss: 1137.2872 - NMAE_metric: 0.1876 - MARE: 0.1876
+Epoch 7/50
+12/12 - 1s - loss: 1024.9835 - NMAE_metric: 0.1793 - MARE: 0.1793
+Epoch 8/50
+12/12 - 1s - loss: 1014.0768 - NMAE_metric: 0.1768 - MARE: 0.1768
+Epoch 9/50
+12/12 - 1s - loss: 916.9031 - NMAE_metric: 0.1678 - MARE: 0.1678
+Epoch 10/50
+12/12 - 1s - loss: 871.8813 - NMAE_metric: 0.1657 - MARE: 0.1657
+Epoch 11/50
+12/12 - 1s - loss: 842.6506 - NMAE_metric: 0.1612 - MARE: 0.1612
+Epoch 12/50
+12/12 - 1s - loss: 802.6897 - NMAE_metric: 0.1608 - MARE: 0.1608
+Epoch 13/50
+12/12 - 1s - loss: 817.8481 - NMAE_metric: 0.1602 - MARE: 0.1602
+Epoch 14/50
+12/12 - 1s - loss: 801.3321 - NMAE_metric: 0.1604 - MARE: 0.1604
+Epoch 15/50
+12/12 - 1s - loss: 788.4984 - NMAE_metric: 0.1585 - MARE: 0.1585
+Epoch 16/50
+12/12 - 1s - loss: 762.7611 - NMAE_metric: 0.1550 - MARE: 0.1550
+Epoch 17/50
+12/12 - 1s - loss: 732.5269 - NMAE_metric: 0.1536 - MARE: 0.1536
+Epoch 18/50
+12/12 - 1s - loss: 707.5120 - NMAE_metric: 0.1488 - MARE: 0.1488
+Epoch 19/50
+12/12 - 1s - loss: 696.1525 - NMAE_metric: 0.1497 - MARE: 0.1497
+Epoch 20/50
+12/12 - 1s - loss: 677.1065 - NMAE_metric: 0.1478 - MARE: 0.1478
+Epoch 21/50
+12/12 - 1s - loss: 676.1549 - NMAE_metric: 0.1463 - MARE: 0.1463
+Epoch 22/50
+12/12 - 1s - loss: 664.5469 - NMAE_metric: 0.1456 - MARE: 0.1456
+Epoch 23/50
+12/12 - 1s - loss: 668.3159 - NMAE_metric: 0.1463 - MARE: 0.1463
+Epoch 24/50
+12/12 - 1s - loss: 630.3413 - NMAE_metric: 0.1394 - MARE: 0.1394
+Epoch 25/50
+12/12 - 1s - loss: 612.8214 - NMAE_metric: 0.1391 - MARE: 0.1391
+Epoch 26/50
+12/12 - 1s - loss: 603.8361 - NMAE_metric: 0.1384 - MARE: 0.1384
+Epoch 27/50
+12/12 - 1s - loss: 602.1858 - NMAE_metric: 0.1370 - MARE: 0.1370
+Epoch 28/50
+12/12 - 1s - loss: 588.1282 - NMAE_metric: 0.1381 - MARE: 0.1381
+Epoch 29/50
+12/12 - 1s - loss: 579.5536 - NMAE_metric: 0.1377 - MARE: 0.1377
+Epoch 30/50
+12/12 - 1s - loss: 561.4893 - NMAE_metric: 0.1343 - MARE: 0.1343
+Epoch 31/50
+12/12 - 1s - loss: 544.6191 - NMAE_metric: 0.1307 - MARE: 0.1307
+Epoch 32/50
+12/12 - 1s - loss: 540.0906 - NMAE_metric: 0.1299 - MARE: 0.1299
+Epoch 33/50
+12/12 - 1s - loss: 543.0146 - NMAE_metric: 0.1312 - MARE: 0.1312
+Epoch 34/50
+12/12 - 1s - loss: 522.4569 - NMAE_metric: 0.1297 - MARE: 0.1297
+Epoch 35/50
+12/12 - 1s - loss: 504.5454 - NMAE_metric: 0.1265 - MARE: 0.1265
+Epoch 36/50
+12/12 - 1s - loss: 500.4195 - NMAE_metric: 0.1257 - MARE: 0.1257
+Epoch 37/50
+12/12 - 1s - loss: 490.6766 - NMAE_metric: 0.1263 - MARE: 0.1263
+Epoch 38/50
+12/12 - 1s - loss: 490.6976 - NMAE_metric: 0.1241 - MARE: 0.1241
+Epoch 39/50
+12/12 - 1s - loss: 497.1162 - NMAE_metric: 0.1269 - MARE: 0.1269
+Epoch 40/50
+12/12 - 1s - loss: 484.1908 - NMAE_metric: 0.1243 - MARE: 0.1243
+Epoch 41/50
+12/12 - 1s - loss: 473.1101 - NMAE_metric: 0.1234 - MARE: 0.1234
+Epoch 42/50
+12/12 - 1s - loss: 452.9568 - NMAE_metric: 0.1212 - MARE: 0.1212
+Epoch 43/50
+12/12 - 1s - loss: 480.6208 - NMAE_metric: 0.1209 - MARE: 0.1209
+Epoch 44/50
+12/12 - 1s - loss: 457.7130 - NMAE_metric: 0.1223 - MARE: 0.1223
+Epoch 45/50
+12/12 - 1s - loss: 423.6259 - NMAE_metric: 0.1192 - MARE: 0.1192
+Epoch 46/50
+12/12 - 1s - loss: 447.5232 - NMAE_metric: 0.1199 - MARE: 0.1199
+Epoch 47/50
+12/12 - 1s - loss: 445.8424 - NMAE_metric: 0.1182 - MARE: 0.1182
+Epoch 48/50
+12/12 - 1s - loss: 434.0077 - NMAE_metric: 0.1182 - MARE: 0.1182
+Epoch 49/50
+12/12 - 1s - loss: 417.2550 - NMAE_metric: 0.1164 - MARE: 0.1164
+Epoch 50/50
+12/12 - 1s - loss: 410.8267 - NMAE_metric: 0.1142 - MARE: 0.1142
+
+END OF CELL 8763, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 6263 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7455', 'internet_traffic_7853', 'internet_traffic_5547', 'internet_traffic_7465', 'internet_traffic_8067', 'internet_traffic_5348', 'internet_traffic_7164', 'internet_traffic_5255', 'internet_traffic_5257', 'internet_traffic_7063', 'internet_traffic_6777', 'internet_traffic_5252', 'internet_traffic_5159', 'internet_traffic_7079', 'internet_traffic_4662', 'internet_traffic_5246', 'internet_traffic_7056', 'internet_traffic_5851', 'internet_traffic_5061', 'internet_traffic_6052', 'internet_traffic_7071', 'internet_traffic_6862', 'internet_traffic_6075', 'internet_traffic_5457', 'internet_traffic_5845', 'internet_traffic_4960', 'internet_traffic_5361', 'internet_traffic_6057', 'internet_traffic_5250', 'internet_traffic_5464', 'internet_traffic_6369', 'internet_traffic_5872', 'internet_traffic_7866', 'internet_traffic_4553', 'internet_traffic_5565', 'internet_traffic_5947', 'internet_traffic_7371', 'internet_traffic_6570', 'internet_traffic_5164', 'internet_traffic_4853', 'internet_traffic_4954', 'internet_traffic_7872', 'internet_traffic_5749', 'internet_traffic_5661', 'internet_traffic_6870', 'internet_traffic_6375', 'internet_traffic_7672', 'internet_traffic_5248', 'internet_traffic_5162', 'internet_traffic_5360', 'internet_traffic_4761', 'internet_traffic_5254', 'internet_traffic_5265', 'internet_traffic_5561', 'internet_traffic_5355', 'internet_traffic_5662', 'internet_traffic_4757', 'internet_traffic_5155', 'internet_traffic_6867', 'internet_traffic_5871', 'internet_traffic_6569', 'internet_traffic_5160', 'internet_traffic_5465', 'internet_traffic_4572', 'internet_traffic_5551', 'internet_traffic_6746', 'internet_traffic_6149', 'internet_traffic_5852', 'internet_traffic_5772', 'internet_traffic_5568', 'internet_traffic_5060', 'internet_traffic_5650']
+Epoch 1/50
+12/12 - 1s - loss: 4780874.5000 - NMAE_metric: 0.9909 - MARE: 0.9909
+Epoch 2/50
+12/12 - 1s - loss: 3326257.5000 - NMAE_metric: 0.7719 - MARE: 0.7719
+Epoch 3/50
+12/12 - 1s - loss: 2225765.2500 - NMAE_metric: 0.5711 - MARE: 0.5711
+Epoch 4/50
+12/12 - 1s - loss: 1615070.8750 - NMAE_metric: 0.5208 - MARE: 0.5208
+Epoch 5/50
+12/12 - 1s - loss: 919954.3125 - NMAE_metric: 0.3743 - MARE: 0.3743
+Epoch 6/50
+12/12 - 1s - loss: 541801.0625 - NMAE_metric: 0.2798 - MARE: 0.2798
+Epoch 7/50
+12/12 - 1s - loss: 420213.6250 - NMAE_metric: 0.2470 - MARE: 0.2470
+Epoch 8/50
+12/12 - 1s - loss: 341790.7500 - NMAE_metric: 0.2300 - MARE: 0.2300
+Epoch 9/50
+12/12 - 1s - loss: 269272.0312 - NMAE_metric: 0.2040 - MARE: 0.2040
+Epoch 10/50
+12/12 - 1s - loss: 202879.0000 - NMAE_metric: 0.1810 - MARE: 0.1810
+Epoch 11/50
+12/12 - 1s - loss: 181807.7031 - NMAE_metric: 0.1748 - MARE: 0.1748
+Epoch 12/50
+12/12 - 1s - loss: 159198.7812 - NMAE_metric: 0.1649 - MARE: 0.1649
+Epoch 13/50
+12/12 - 1s - loss: 164993.9844 - NMAE_metric: 0.1663 - MARE: 0.1663
+Epoch 14/50
+12/12 - 1s - loss: 141266.3438 - NMAE_metric: 0.1567 - MARE: 0.1567
+Epoch 15/50
+12/12 - 1s - loss: 134662.5625 - NMAE_metric: 0.1497 - MARE: 0.1497
+Epoch 16/50
+12/12 - 1s - loss: 139861.6094 - NMAE_metric: 0.1524 - MARE: 0.1524
+Epoch 17/50
+12/12 - 1s - loss: 126016.5234 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 18/50
+12/12 - 1s - loss: 123049.1172 - NMAE_metric: 0.1431 - MARE: 0.1431
+Epoch 19/50
+12/12 - 1s - loss: 112088.2656 - NMAE_metric: 0.1406 - MARE: 0.1406
+Epoch 20/50
+12/12 - 1s - loss: 112961.8281 - NMAE_metric: 0.1405 - MARE: 0.1405
+Epoch 21/50
+12/12 - 1s - loss: 105726.3125 - NMAE_metric: 0.1356 - MARE: 0.1356
+Epoch 22/50
+12/12 - 1s - loss: 105632.8281 - NMAE_metric: 0.1349 - MARE: 0.1349
+Epoch 23/50
+12/12 - 1s - loss: 99909.5938 - NMAE_metric: 0.1298 - MARE: 0.1298
+Epoch 24/50
+12/12 - 1s - loss: 96270.2109 - NMAE_metric: 0.1292 - MARE: 0.1292
+Epoch 25/50
+12/12 - 1s - loss: 91898.5859 - NMAE_metric: 0.1255 - MARE: 0.1255
+Epoch 26/50
+12/12 - 1s - loss: 92649.9219 - NMAE_metric: 0.1261 - MARE: 0.1261
+Epoch 27/50
+12/12 - 1s - loss: 99556.5078 - NMAE_metric: 0.1272 - MARE: 0.1272
+Epoch 28/50
+12/12 - 1s - loss: 84097.0625 - NMAE_metric: 0.1181 - MARE: 0.1181
+Epoch 29/50
+12/12 - 1s - loss: 91214.6641 - NMAE_metric: 0.1232 - MARE: 0.1232
+Epoch 30/50
+12/12 - 1s - loss: 89780.7031 - NMAE_metric: 0.1230 - MARE: 0.1230
+Epoch 31/50
+12/12 - 1s - loss: 82484.2578 - NMAE_metric: 0.1179 - MARE: 0.1179
+Epoch 32/50
+12/12 - 1s - loss: 82353.6641 - NMAE_metric: 0.1157 - MARE: 0.1157
+Epoch 33/50
+12/12 - 1s - loss: 79908.9844 - NMAE_metric: 0.1166 - MARE: 0.1166
+Epoch 34/50
+12/12 - 1s - loss: 91304.9453 - NMAE_metric: 0.1225 - MARE: 0.1225
+Epoch 35/50
+12/12 - 1s - loss: 82276.1641 - NMAE_metric: 0.1188 - MARE: 0.1188
+Epoch 36/50
+12/12 - 1s - loss: 81812.4766 - NMAE_metric: 0.1173 - MARE: 0.1173
+Epoch 37/50
+12/12 - 1s - loss: 76071.7344 - NMAE_metric: 0.1117 - MARE: 0.1117
+Epoch 38/50
+12/12 - 1s - loss: 82190.9297 - NMAE_metric: 0.1166 - MARE: 0.1166
+Epoch 39/50
+12/12 - 1s - loss: 73097.1797 - NMAE_metric: 0.1105 - MARE: 0.1105
+Epoch 40/50
+12/12 - 1s - loss: 76467.0156 - NMAE_metric: 0.1118 - MARE: 0.1118
+Epoch 41/50
+12/12 - 1s - loss: 81752.2188 - NMAE_metric: 0.1171 - MARE: 0.1171
+Epoch 42/50
+12/12 - 1s - loss: 72764.7969 - NMAE_metric: 0.1119 - MARE: 0.1119
+Epoch 43/50
+12/12 - 1s - loss: 72569.7812 - NMAE_metric: 0.1103 - MARE: 0.1103
+Epoch 44/50
+12/12 - 1s - loss: 70101.4688 - NMAE_metric: 0.1094 - MARE: 0.1094
+Epoch 45/50
+12/12 - 1s - loss: 71921.0859 - NMAE_metric: 0.1110 - MARE: 0.1110
+Epoch 46/50
+12/12 - 1s - loss: 70393.0859 - NMAE_metric: 0.1074 - MARE: 0.1074
+Epoch 47/50
+12/12 - 1s - loss: 66356.7969 - NMAE_metric: 0.1038 - MARE: 0.1038
+Epoch 48/50
+12/12 - 1s - loss: 65818.3828 - NMAE_metric: 0.1058 - MARE: 0.1058
+Epoch 49/50
+12/12 - 1s - loss: 67722.0547 - NMAE_metric: 0.1059 - MARE: 0.1059
+Epoch 50/50
+12/12 - 1s - loss: 67390.5859 - NMAE_metric: 0.1064 - MARE: 0.1064
+
+END OF CELL 6263, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 8788 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7696', 'internet_traffic_8091', 'internet_traffic_7788', 'internet_traffic_7079', 'internet_traffic_8776', 'internet_traffic_7872', 'internet_traffic_8374', 'internet_traffic_7672', 'internet_traffic_7592']
+Epoch 1/50
+12/12 - 0s - loss: 139872.8750 - NMAE_metric: 0.9871 - MARE: 0.9871
+Epoch 2/50
+12/12 - 1s - loss: 99414.8828 - NMAE_metric: 0.7529 - MARE: 0.7529
+Epoch 3/50
+12/12 - 1s - loss: 74371.7812 - NMAE_metric: 0.5951 - MARE: 0.5951
+Epoch 4/50
+12/12 - 1s - loss: 44056.4609 - NMAE_metric: 0.4553 - MARE: 0.4553
+Epoch 5/50
+12/12 - 1s - loss: 21043.4160 - NMAE_metric: 0.3100 - MARE: 0.3100
+Epoch 6/50
+12/12 - 1s - loss: 14938.1426 - NMAE_metric: 0.2549 - MARE: 0.2549
+Epoch 7/50
+12/12 - 1s - loss: 12479.6943 - NMAE_metric: 0.2362 - MARE: 0.2362
+Epoch 8/50
+12/12 - 1s - loss: 10648.8105 - NMAE_metric: 0.2216 - MARE: 0.2216
+Epoch 9/50
+12/12 - 1s - loss: 9857.0938 - NMAE_metric: 0.2156 - MARE: 0.2156
+Epoch 10/50
+12/12 - 1s - loss: 9187.6055 - NMAE_metric: 0.2072 - MARE: 0.2072
+Epoch 11/50
+12/12 - 1s - loss: 8742.2588 - NMAE_metric: 0.1970 - MARE: 0.1970
+Epoch 12/50
+12/12 - 1s - loss: 8465.0117 - NMAE_metric: 0.1973 - MARE: 0.1973
+Epoch 13/50
+12/12 - 1s - loss: 8001.9414 - NMAE_metric: 0.1918 - MARE: 0.1918
+Epoch 14/50
+12/12 - 1s - loss: 7597.6455 - NMAE_metric: 0.1876 - MARE: 0.1876
+Epoch 15/50
+12/12 - 1s - loss: 7269.4805 - NMAE_metric: 0.1855 - MARE: 0.1855
+Epoch 16/50
+12/12 - 1s - loss: 6898.7632 - NMAE_metric: 0.1785 - MARE: 0.1785
+Epoch 17/50
+12/12 - 1s - loss: 6581.8608 - NMAE_metric: 0.1735 - MARE: 0.1735
+Epoch 18/50
+12/12 - 1s - loss: 6575.4526 - NMAE_metric: 0.1751 - MARE: 0.1751
+Epoch 19/50
+12/12 - 1s - loss: 6681.6733 - NMAE_metric: 0.1743 - MARE: 0.1743
+Epoch 20/50
+12/12 - 1s - loss: 6713.3618 - NMAE_metric: 0.1761 - MARE: 0.1761
+Epoch 21/50
+12/12 - 1s - loss: 6249.4331 - NMAE_metric: 0.1712 - MARE: 0.1712
+Epoch 22/50
+12/12 - 1s - loss: 6006.3062 - NMAE_metric: 0.1686 - MARE: 0.1686
+Epoch 23/50
+12/12 - 1s - loss: 5572.6328 - NMAE_metric: 0.1603 - MARE: 0.1603
+Epoch 24/50
+12/12 - 1s - loss: 5460.8057 - NMAE_metric: 0.1614 - MARE: 0.1614
+Epoch 25/50
+12/12 - 1s - loss: 5271.2563 - NMAE_metric: 0.1537 - MARE: 0.1537
+Epoch 26/50
+12/12 - 1s - loss: 5341.4258 - NMAE_metric: 0.1591 - MARE: 0.1591
+Epoch 27/50
+12/12 - 1s - loss: 5171.0996 - NMAE_metric: 0.1548 - MARE: 0.1548
+Epoch 28/50
+12/12 - 1s - loss: 4962.4692 - NMAE_metric: 0.1527 - MARE: 0.1527
+Epoch 29/50
+12/12 - 1s - loss: 5096.9395 - NMAE_metric: 0.1545 - MARE: 0.1545
+Epoch 30/50
+12/12 - 1s - loss: 4744.0093 - NMAE_metric: 0.1512 - MARE: 0.1512
+Epoch 31/50
+12/12 - 1s - loss: 4495.8555 - NMAE_metric: 0.1472 - MARE: 0.1472
+Epoch 32/50
+12/12 - 1s - loss: 4354.3027 - NMAE_metric: 0.1426 - MARE: 0.1426
+Epoch 33/50
+12/12 - 1s - loss: 4377.1064 - NMAE_metric: 0.1429 - MARE: 0.1429
+Epoch 34/50
+12/12 - 1s - loss: 4256.4785 - NMAE_metric: 0.1439 - MARE: 0.1439
+Epoch 35/50
+12/12 - 1s - loss: 4387.7300 - NMAE_metric: 0.1434 - MARE: 0.1434
+Epoch 36/50
+12/12 - 1s - loss: 4242.3149 - NMAE_metric: 0.1417 - MARE: 0.1417
+Epoch 37/50
+12/12 - 1s - loss: 4002.9482 - NMAE_metric: 0.1398 - MARE: 0.1398
+Epoch 38/50
+12/12 - 1s - loss: 4132.9805 - NMAE_metric: 0.1390 - MARE: 0.1390
+Epoch 39/50
+12/12 - 1s - loss: 3818.6003 - NMAE_metric: 0.1369 - MARE: 0.1369
+Epoch 40/50
+12/12 - 1s - loss: 3731.8303 - NMAE_metric: 0.1339 - MARE: 0.1339
+Epoch 41/50
+12/12 - 1s - loss: 3598.6042 - NMAE_metric: 0.1328 - MARE: 0.1328
+Epoch 42/50
+12/12 - 1s - loss: 3707.4453 - NMAE_metric: 0.1345 - MARE: 0.1345
+Epoch 43/50
+12/12 - 1s - loss: 3681.2617 - NMAE_metric: 0.1336 - MARE: 0.1336
+Epoch 44/50
+12/12 - 1s - loss: 3535.2134 - NMAE_metric: 0.1315 - MARE: 0.1315
+Epoch 45/50
+12/12 - 1s - loss: 3483.3452 - NMAE_metric: 0.1295 - MARE: 0.1295
+Epoch 46/50
+12/12 - 1s - loss: 3690.7959 - NMAE_metric: 0.1333 - MARE: 0.1333
+Epoch 47/50
+12/12 - 1s - loss: 3570.7373 - NMAE_metric: 0.1306 - MARE: 0.1306
+Epoch 48/50
+12/12 - 1s - loss: 3609.6240 - NMAE_metric: 0.1324 - MARE: 0.1324
+Epoch 49/50
+12/12 - 1s - loss: 3425.0281 - NMAE_metric: 0.1301 - MARE: 0.1301
+Epoch 50/50
+12/12 - 1s - loss: 3256.9360 - NMAE_metric: 0.1264 - MARE: 0.1264
+
+END OF CELL 8788, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 6288 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_7696', 'internet_traffic_6777', 'internet_traffic_8091', 'internet_traffic_7788', 'internet_traffic_7079', 'internet_traffic_7071', 'internet_traffic_6075', 'internet_traffic_6369', 'internet_traffic_5872', 'internet_traffic_6570', 'internet_traffic_6870', 'internet_traffic_6375', 'internet_traffic_7592', 'internet_traffic_5871', 'internet_traffic_6569', 'internet_traffic_5772']
+Epoch 1/50
+12/12 - 1s - loss: 65460.6602 - NMAE_metric: 0.9738 - MARE: 0.9738
+Epoch 2/50
+12/12 - 1s - loss: 37557.7891 - NMAE_metric: 0.6888 - MARE: 0.6888
+Epoch 3/50
+12/12 - 1s - loss: 23078.4961 - NMAE_metric: 0.5225 - MARE: 0.5225
+Epoch 4/50
+12/12 - 1s - loss: 11857.2275 - NMAE_metric: 0.3685 - MARE: 0.3685
+Epoch 5/50
+12/12 - 1s - loss: 9770.3506 - NMAE_metric: 0.3228 - MARE: 0.3228
+Epoch 6/50
+12/12 - 1s - loss: 7922.0840 - NMAE_metric: 0.2947 - MARE: 0.2947
+Epoch 7/50
+12/12 - 1s - loss: 7296.1572 - NMAE_metric: 0.2790 - MARE: 0.2790
+Epoch 8/50
+12/12 - 1s - loss: 7074.6924 - NMAE_metric: 0.2697 - MARE: 0.2697
+Epoch 9/50
+12/12 - 1s - loss: 6851.0977 - NMAE_metric: 0.2651 - MARE: 0.2651
+Epoch 10/50
+12/12 - 1s - loss: 6593.5562 - NMAE_metric: 0.2498 - MARE: 0.2498
+Epoch 11/50
+12/12 - 1s - loss: 6069.1572 - NMAE_metric: 0.2439 - MARE: 0.2439
+Epoch 12/50
+12/12 - 1s - loss: 5568.0918 - NMAE_metric: 0.2315 - MARE: 0.2315
+Epoch 13/50
+12/12 - 1s - loss: 5189.5376 - NMAE_metric: 0.2312 - MARE: 0.2312
+Epoch 14/50
+12/12 - 1s - loss: 5687.6738 - NMAE_metric: 0.2311 - MARE: 0.2311
+Epoch 15/50
+12/12 - 1s - loss: 4719.1655 - NMAE_metric: 0.2156 - MARE: 0.2156
+Epoch 16/50
+12/12 - 1s - loss: 4585.9233 - NMAE_metric: 0.2102 - MARE: 0.2102
+Epoch 17/50
+12/12 - 1s - loss: 4514.5552 - NMAE_metric: 0.2076 - MARE: 0.2076
+Epoch 18/50
+12/12 - 1s - loss: 4529.5264 - NMAE_metric: 0.2103 - MARE: 0.2103
+Epoch 19/50
+12/12 - 1s - loss: 4548.2700 - NMAE_metric: 0.2083 - MARE: 0.2083
+Epoch 20/50
+12/12 - 1s - loss: 4323.9209 - NMAE_metric: 0.2049 - MARE: 0.2049
+Epoch 21/50
+12/12 - 1s - loss: 4427.9897 - NMAE_metric: 0.2096 - MARE: 0.2096
+Epoch 22/50
+12/12 - 1s - loss: 4372.6396 - NMAE_metric: 0.2037 - MARE: 0.2037
+Epoch 23/50
+12/12 - 1s - loss: 4194.3623 - NMAE_metric: 0.2029 - MARE: 0.2029
+Epoch 24/50
+12/12 - 1s - loss: 4549.7622 - NMAE_metric: 0.2095 - MARE: 0.2095
+Epoch 25/50
+12/12 - 1s - loss: 3746.6440 - NMAE_metric: 0.1889 - MARE: 0.1889
+Epoch 26/50
+12/12 - 1s - loss: 4012.6829 - NMAE_metric: 0.1916 - MARE: 0.1916
+Epoch 27/50
+12/12 - 1s - loss: 3727.3369 - NMAE_metric: 0.1899 - MARE: 0.1899
+Epoch 28/50
+12/12 - 1s - loss: 3512.9033 - NMAE_metric: 0.1821 - MARE: 0.1821
+Epoch 29/50
+12/12 - 1s - loss: 3479.7231 - NMAE_metric: 0.1874 - MARE: 0.1874
+Epoch 30/50
+12/12 - 1s - loss: 3308.9841 - NMAE_metric: 0.1798 - MARE: 0.1798
+Epoch 31/50
+12/12 - 1s - loss: 3204.8340 - NMAE_metric: 0.1802 - MARE: 0.1802
+Epoch 32/50
+12/12 - 1s - loss: 3527.0474 - NMAE_metric: 0.1897 - MARE: 0.1897
+Epoch 33/50
+12/12 - 1s - loss: 3261.5859 - NMAE_metric: 0.1771 - MARE: 0.1771
+Epoch 34/50
+12/12 - 1s - loss: 3237.5530 - NMAE_metric: 0.1798 - MARE: 0.1798
+Epoch 35/50
+12/12 - 1s - loss: 3736.9353 - NMAE_metric: 0.1891 - MARE: 0.1891
+Epoch 36/50
+12/12 - 1s - loss: 3109.9878 - NMAE_metric: 0.1712 - MARE: 0.1712
+Epoch 37/50
+12/12 - 1s - loss: 3002.1106 - NMAE_metric: 0.1710 - MARE: 0.1710
+Epoch 38/50
+12/12 - 1s - loss: 3056.6960 - NMAE_metric: 0.1778 - MARE: 0.1778
+Epoch 39/50
+12/12 - 1s - loss: 2926.1604 - NMAE_metric: 0.1732 - MARE: 0.1732
+Epoch 40/50
+12/12 - 1s - loss: 2842.2192 - NMAE_metric: 0.1705 - MARE: 0.1705
+Epoch 41/50
+12/12 - 1s - loss: 3136.8967 - NMAE_metric: 0.1772 - MARE: 0.1772
+Epoch 42/50
+12/12 - 1s - loss: 2871.9922 - NMAE_metric: 0.1736 - MARE: 0.1736
+Epoch 43/50
+12/12 - 1s - loss: 3147.3794 - NMAE_metric: 0.1744 - MARE: 0.1744
+Epoch 44/50
+12/12 - 1s - loss: 2871.9841 - NMAE_metric: 0.1703 - MARE: 0.1703
+Epoch 45/50
+12/12 - 1s - loss: 2782.8206 - NMAE_metric: 0.1642 - MARE: 0.1642
+Epoch 46/50
+12/12 - 1s - loss: 2546.5581 - NMAE_metric: 0.1586 - MARE: 0.1586
+Epoch 47/50
+12/12 - 1s - loss: 2763.1895 - NMAE_metric: 0.1657 - MARE: 0.1657
+Epoch 48/50
+12/12 - 1s - loss: 2833.2634 - NMAE_metric: 0.1707 - MARE: 0.1707
+Epoch 49/50
+12/12 - 1s - loss: 2588.8022 - NMAE_metric: 0.1612 - MARE: 0.1612
+Epoch 50/50
+12/12 - 1s - loss: 2420.9917 - NMAE_metric: 0.1579 - MARE: 0.1579
+
+END OF CELL 6288, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 3763 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_3456', 'internet_traffic_4069', 'internet_traffic_5255', 'internet_traffic_5257', 'internet_traffic_5252', 'internet_traffic_5159', 'internet_traffic_3971', 'internet_traffic_4662', 'internet_traffic_5061', 'internet_traffic_3853', 'internet_traffic_5457', 'internet_traffic_4960', 'internet_traffic_5361', 'internet_traffic_5250', 'internet_traffic_5464', 'internet_traffic_4553', 'internet_traffic_5565', 'internet_traffic_3873', 'internet_traffic_3676', 'internet_traffic_4053', 'internet_traffic_5164', 'internet_traffic_3482', 'internet_traffic_4853', 'internet_traffic_4954', 'internet_traffic_5661', 'internet_traffic_5162', 'internet_traffic_5360', 'internet_traffic_4761', 'internet_traffic_5254', 'internet_traffic_5265', 'internet_traffic_5561', 'internet_traffic_5355', 'internet_traffic_5662', 'internet_traffic_4757', 'internet_traffic_5155', 'internet_traffic_5160', 'internet_traffic_5465', 'internet_traffic_4572', 'internet_traffic_5568', 'internet_traffic_5060']
+Epoch 1/50
+12/12 - 1s - loss: 1069920.1250 - NMAE_metric: 0.9888 - MARE: 0.9888
+Epoch 2/50
+12/12 - 1s - loss: 748474.3750 - NMAE_metric: 0.7484 - MARE: 0.7484
+Epoch 3/50
+12/12 - 1s - loss: 568548.0625 - NMAE_metric: 0.5938 - MARE: 0.5938
+Epoch 4/50
+12/12 - 1s - loss: 365677.4062 - NMAE_metric: 0.4748 - MARE: 0.4748
+Epoch 5/50
+12/12 - 1s - loss: 141627.0625 - NMAE_metric: 0.2914 - MARE: 0.2914
+Epoch 6/50
+12/12 - 1s - loss: 91268.1797 - NMAE_metric: 0.2340 - MARE: 0.2340
+Epoch 7/50
+12/12 - 1s - loss: 70209.4453 - NMAE_metric: 0.2101 - MARE: 0.2101
+Epoch 8/50
+12/12 - 1s - loss: 57754.5469 - NMAE_metric: 0.1907 - MARE: 0.1907
+Epoch 9/50
+12/12 - 1s - loss: 49884.6680 - NMAE_metric: 0.1762 - MARE: 0.1762
+Epoch 10/50
+12/12 - 1s - loss: 48772.9570 - NMAE_metric: 0.1731 - MARE: 0.1731
+Epoch 11/50
+12/12 - 1s - loss: 46206.6875 - NMAE_metric: 0.1697 - MARE: 0.1697
+Epoch 12/50
+12/12 - 1s - loss: 41050.6094 - NMAE_metric: 0.1612 - MARE: 0.1612
+Epoch 13/50
+12/12 - 1s - loss: 39945.1953 - NMAE_metric: 0.1582 - MARE: 0.1582
+Epoch 14/50
+12/12 - 1s - loss: 39405.2930 - NMAE_metric: 0.1584 - MARE: 0.1584
+Epoch 15/50
+12/12 - 1s - loss: 37278.9531 - NMAE_metric: 0.1532 - MARE: 0.1532
+Epoch 16/50
+12/12 - 1s - loss: 33406.2188 - NMAE_metric: 0.1456 - MARE: 0.1456
+Epoch 17/50
+12/12 - 1s - loss: 34887.9336 - NMAE_metric: 0.1474 - MARE: 0.1474
+Epoch 18/50
+12/12 - 1s - loss: 32854.6562 - NMAE_metric: 0.1456 - MARE: 0.1456
+Epoch 19/50
+12/12 - 1s - loss: 32098.6680 - NMAE_metric: 0.1438 - MARE: 0.1438
+Epoch 20/50
+12/12 - 1s - loss: 31305.5625 - NMAE_metric: 0.1400 - MARE: 0.1400
+Epoch 21/50
+12/12 - 1s - loss: 30458.7930 - NMAE_metric: 0.1384 - MARE: 0.1384
+Epoch 22/50
+12/12 - 1s - loss: 28844.0566 - NMAE_metric: 0.1360 - MARE: 0.1360
+Epoch 23/50
+12/12 - 1s - loss: 28967.9727 - NMAE_metric: 0.1383 - MARE: 0.1383
+Epoch 24/50
+12/12 - 1s - loss: 29392.2520 - NMAE_metric: 0.1352 - MARE: 0.1352
+Epoch 25/50
+12/12 - 1s - loss: 28077.7168 - NMAE_metric: 0.1349 - MARE: 0.1349
+Epoch 26/50
+12/12 - 1s - loss: 27410.3301 - NMAE_metric: 0.1329 - MARE: 0.1329
+Epoch 27/50
+12/12 - 1s - loss: 29269.6816 - NMAE_metric: 0.1370 - MARE: 0.1370
+Epoch 28/50
+12/12 - 1s - loss: 25891.9941 - NMAE_metric: 0.1297 - MARE: 0.1297
+Epoch 29/50
+12/12 - 1s - loss: 24961.8457 - NMAE_metric: 0.1251 - MARE: 0.1251
+Epoch 30/50
+12/12 - 1s - loss: 25468.5938 - NMAE_metric: 0.1299 - MARE: 0.1299
+Epoch 31/50
+12/12 - 1s - loss: 26037.0781 - NMAE_metric: 0.1292 - MARE: 0.1292
+Epoch 32/50
+12/12 - 1s - loss: 24358.7324 - NMAE_metric: 0.1249 - MARE: 0.1249
+Epoch 33/50
+12/12 - 1s - loss: 23370.7656 - NMAE_metric: 0.1224 - MARE: 0.1224
+Epoch 34/50
+12/12 - 1s - loss: 23145.9902 - NMAE_metric: 0.1207 - MARE: 0.1207
+Epoch 35/50
+12/12 - 1s - loss: 24119.6035 - NMAE_metric: 0.1252 - MARE: 0.1252
+Epoch 36/50
+12/12 - 1s - loss: 21151.3770 - NMAE_metric: 0.1165 - MARE: 0.1165
+Epoch 37/50
+12/12 - 1s - loss: 22142.8203 - NMAE_metric: 0.1195 - MARE: 0.1195
+Epoch 38/50
+12/12 - 1s - loss: 22874.9473 - NMAE_metric: 0.1224 - MARE: 0.1224
+Epoch 39/50
+12/12 - 1s - loss: 22566.0000 - NMAE_metric: 0.1211 - MARE: 0.1211
+Epoch 40/50
+12/12 - 1s - loss: 21679.8613 - NMAE_metric: 0.1183 - MARE: 0.1183
+Epoch 41/50
+12/12 - 1s - loss: 22653.1387 - NMAE_metric: 0.1198 - MARE: 0.1198
+Epoch 42/50
+12/12 - 1s - loss: 21451.6406 - NMAE_metric: 0.1181 - MARE: 0.1181
+Epoch 43/50
+12/12 - 1s - loss: 22280.9863 - NMAE_metric: 0.1195 - MARE: 0.1195
+Epoch 44/50
+12/12 - 1s - loss: 20917.3809 - NMAE_metric: 0.1158 - MARE: 0.1158
+Epoch 45/50
+12/12 - 1s - loss: 22087.8027 - NMAE_metric: 0.1172 - MARE: 0.1172
+Epoch 46/50
+12/12 - 1s - loss: 21326.9297 - NMAE_metric: 0.1147 - MARE: 0.1147
+Epoch 47/50
+12/12 - 1s - loss: 21535.5332 - NMAE_metric: 0.1169 - MARE: 0.1169
+Epoch 48/50
+12/12 - 1s - loss: 19493.8496 - NMAE_metric: 0.1121 - MARE: 0.1121
+Epoch 49/50
+12/12 - 1s - loss: 18838.2090 - NMAE_metric: 0.1097 - MARE: 0.1097
+Epoch 50/50
+12/12 - 1s - loss: 19430.4707 - NMAE_metric: 0.1117 - MARE: 0.1117
+
+END OF CELL 3763, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 1263 DATA TO 5 NEIGHBORS
+
+Used cols:
+[]
+Epoch 1/50
+12/12 - 1s - loss: 8682.4717 - NMAE_metric: 0.9310 - MARE: 0.9310
+Epoch 2/50
+12/12 - 1s - loss: 6264.5093 - NMAE_metric: 0.6932 - MARE: 0.6932
+Epoch 3/50
+12/12 - 1s - loss: 4982.2163 - NMAE_metric: 0.5928 - MARE: 0.5928
+Epoch 4/50
+12/12 - 1s - loss: 3490.0762 - NMAE_metric: 0.4991 - MARE: 0.4991
+Epoch 5/50
+12/12 - 1s - loss: 1825.5804 - NMAE_metric: 0.3562 - MARE: 0.3562
+Epoch 6/50
+12/12 - 1s - loss: 1163.8560 - NMAE_metric: 0.2703 - MARE: 0.2703
+Epoch 7/50
+12/12 - 1s - loss: 943.5086 - NMAE_metric: 0.2475 - MARE: 0.2475
+Epoch 8/50
+12/12 - 1s - loss: 841.9156 - NMAE_metric: 0.2288 - MARE: 0.2288
+Epoch 9/50
+12/12 - 1s - loss: 787.9133 - NMAE_metric: 0.2273 - MARE: 0.2273
+Epoch 10/50
+12/12 - 1s - loss: 774.7055 - NMAE_metric: 0.2181 - MARE: 0.2181
+Epoch 11/50
+12/12 - 1s - loss: 749.0627 - NMAE_metric: 0.2215 - MARE: 0.2215
+Epoch 12/50
+12/12 - 1s - loss: 707.1866 - NMAE_metric: 0.2133 - MARE: 0.2133
+Epoch 13/50
+12/12 - 1s - loss: 660.0179 - NMAE_metric: 0.2069 - MARE: 0.2069
+Epoch 14/50
+12/12 - 1s - loss: 666.4100 - NMAE_metric: 0.2030 - MARE: 0.2030
+Epoch 15/50
+12/12 - 1s - loss: 668.2521 - NMAE_metric: 0.2004 - MARE: 0.2004
+Epoch 16/50
+12/12 - 1s - loss: 653.0060 - NMAE_metric: 0.2010 - MARE: 0.2010
+Epoch 17/50
+12/12 - 1s - loss: 652.4837 - NMAE_metric: 0.2022 - MARE: 0.2022
+Epoch 18/50
+12/12 - 1s - loss: 651.6693 - NMAE_metric: 0.1992 - MARE: 0.1992
+Epoch 19/50
+12/12 - 1s - loss: 587.2933 - NMAE_metric: 0.1923 - MARE: 0.1923
+Epoch 20/50
+12/12 - 1s - loss: 582.1713 - NMAE_metric: 0.1936 - MARE: 0.1936
+Epoch 21/50
+12/12 - 1s - loss: 602.9242 - NMAE_metric: 0.1907 - MARE: 0.1907
+Epoch 22/50
+12/12 - 1s - loss: 574.4222 - NMAE_metric: 0.1904 - MARE: 0.1904
+Epoch 23/50
+12/12 - 1s - loss: 553.9983 - NMAE_metric: 0.1854 - MARE: 0.1854
+Epoch 24/50
+12/12 - 1s - loss: 538.2449 - NMAE_metric: 0.1852 - MARE: 0.1852
+Epoch 25/50
+12/12 - 1s - loss: 516.3344 - NMAE_metric: 0.1816 - MARE: 0.1816
+Epoch 26/50
+12/12 - 1s - loss: 527.8381 - NMAE_metric: 0.1878 - MARE: 0.1878
+Epoch 27/50
+12/12 - 1s - loss: 513.3071 - NMAE_metric: 0.1848 - MARE: 0.1848
+Epoch 28/50
+12/12 - 1s - loss: 538.4879 - NMAE_metric: 0.1827 - MARE: 0.1827
+Epoch 29/50
+12/12 - 1s - loss: 466.0873 - NMAE_metric: 0.1774 - MARE: 0.1774
+Epoch 30/50
+12/12 - 1s - loss: 489.2990 - NMAE_metric: 0.1801 - MARE: 0.1801
+Epoch 31/50
+12/12 - 1s - loss: 466.0459 - NMAE_metric: 0.1787 - MARE: 0.1787
+Epoch 32/50
+12/12 - 1s - loss: 486.7471 - NMAE_metric: 0.1775 - MARE: 0.1775
+Epoch 33/50
+12/12 - 1s - loss: 484.4414 - NMAE_metric: 0.1806 - MARE: 0.1806
+Epoch 34/50
+12/12 - 1s - loss: 464.1811 - NMAE_metric: 0.1785 - MARE: 0.1785
+Epoch 35/50
+12/12 - 1s - loss: 444.3116 - NMAE_metric: 0.1749 - MARE: 0.1749
+Epoch 36/50
+12/12 - 1s - loss: 448.5605 - NMAE_metric: 0.1753 - MARE: 0.1753
+Epoch 37/50
+12/12 - 1s - loss: 468.3124 - NMAE_metric: 0.1760 - MARE: 0.1760
+Epoch 38/50
+12/12 - 1s - loss: 466.8813 - NMAE_metric: 0.1781 - MARE: 0.1781
+Epoch 39/50
+12/12 - 1s - loss: 413.0004 - NMAE_metric: 0.1689 - MARE: 0.1689
+Epoch 40/50
+12/12 - 1s - loss: 429.9638 - NMAE_metric: 0.1706 - MARE: 0.1706
+Epoch 41/50
+12/12 - 1s - loss: 410.6463 - NMAE_metric: 0.1714 - MARE: 0.1714
+Epoch 42/50
+12/12 - 1s - loss: 391.4776 - NMAE_metric: 0.1660 - MARE: 0.1660
+Epoch 43/50
+12/12 - 1s - loss: 415.4748 - NMAE_metric: 0.1699 - MARE: 0.1699
+Epoch 44/50
+12/12 - 1s - loss: 417.4615 - NMAE_metric: 0.1716 - MARE: 0.1716
+Epoch 45/50
+12/12 - 1s - loss: 396.8074 - NMAE_metric: 0.1645 - MARE: 0.1645
+Epoch 46/50
+12/12 - 1s - loss: 399.7420 - NMAE_metric: 0.1687 - MARE: 0.1687
+Epoch 47/50
+12/12 - 1s - loss: 408.1571 - NMAE_metric: 0.1643 - MARE: 0.1643
+Epoch 48/50
+12/12 - 1s - loss: 396.2233 - NMAE_metric: 0.1651 - MARE: 0.1651
+Epoch 49/50
+12/12 - 1s - loss: 392.8071 - NMAE_metric: 0.1640 - MARE: 0.1640
+Epoch 50/50
+12/12 - 1s - loss: 368.1091 - NMAE_metric: 0.1598 - MARE: 0.1598
+
+END OF CELL 1263, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 3788 DATA TO 5 NEIGHBORS
+
+Used cols:
+['internet_traffic_4069', 'internet_traffic_3971', 'internet_traffic_3873', 'internet_traffic_3676', 'internet_traffic_3482', 'internet_traffic_4572']
+Epoch 1/50
+12/12 - 1s - loss: 58034.4805 - NMAE_metric: 0.9792 - MARE: 0.9792
+Epoch 2/50
+12/12 - 1s - loss: 36485.3438 - NMAE_metric: 0.7322 - MARE: 0.7322
+Epoch 3/50
+12/12 - 1s - loss: 22756.2461 - NMAE_metric: 0.5518 - MARE: 0.5518
+Epoch 4/50
+12/12 - 1s - loss: 15107.5635 - NMAE_metric: 0.4756 - MARE: 0.4756
+Epoch 5/50
+12/12 - 1s - loss: 8963.1445 - NMAE_metric: 0.3541 - MARE: 0.3541
+Epoch 6/50
+12/12 - 1s - loss: 8085.6167 - NMAE_metric: 0.3346 - MARE: 0.3346
+Epoch 7/50
+12/12 - 1s - loss: 6605.6030 - NMAE_metric: 0.3085 - MARE: 0.3085
+Epoch 8/50
+12/12 - 1s - loss: 5464.0205 - NMAE_metric: 0.2773 - MARE: 0.2773
+Epoch 9/50
+12/12 - 1s - loss: 4447.1099 - NMAE_metric: 0.2513 - MARE: 0.2513
+Epoch 10/50
+12/12 - 1s - loss: 3984.3904 - NMAE_metric: 0.2382 - MARE: 0.2382
+Epoch 11/50
+12/12 - 1s - loss: 3595.1001 - NMAE_metric: 0.2279 - MARE: 0.2279
+Epoch 12/50
+12/12 - 1s - loss: 3552.7781 - NMAE_metric: 0.2283 - MARE: 0.2283
+Epoch 13/50
+12/12 - 1s - loss: 3107.1726 - NMAE_metric: 0.2116 - MARE: 0.2116
+Epoch 14/50
+12/12 - 1s - loss: 3043.8396 - NMAE_metric: 0.2092 - MARE: 0.2092
+Epoch 15/50
+12/12 - 1s - loss: 2904.3618 - NMAE_metric: 0.2058 - MARE: 0.2058
+Epoch 16/50
+12/12 - 1s - loss: 2908.6411 - NMAE_metric: 0.2056 - MARE: 0.2056
+Epoch 17/50
+12/12 - 1s - loss: 2735.8726 - NMAE_metric: 0.1990 - MARE: 0.1990
+Epoch 18/50
+12/12 - 1s - loss: 2527.8503 - NMAE_metric: 0.1923 - MARE: 0.1923
+Epoch 19/50
+12/12 - 1s - loss: 2567.5356 - NMAE_metric: 0.1935 - MARE: 0.1935
+Epoch 20/50
+12/12 - 1s - loss: 2589.1421 - NMAE_metric: 0.1930 - MARE: 0.1930
+Epoch 21/50
+12/12 - 1s - loss: 2458.7773 - NMAE_metric: 0.1893 - MARE: 0.1893
+Epoch 22/50
+12/12 - 1s - loss: 2302.0818 - NMAE_metric: 0.1871 - MARE: 0.1871
+Epoch 23/50
+12/12 - 1s - loss: 2384.7146 - NMAE_metric: 0.1855 - MARE: 0.1855
+Epoch 24/50
+12/12 - 1s - loss: 2270.2258 - NMAE_metric: 0.1828 - MARE: 0.1828
+Epoch 25/50
+12/12 - 1s - loss: 2289.5720 - NMAE_metric: 0.1829 - MARE: 0.1829
+Epoch 26/50
+12/12 - 1s - loss: 2243.1555 - NMAE_metric: 0.1808 - MARE: 0.1808
+Epoch 27/50
+12/12 - 1s - loss: 2166.9919 - NMAE_metric: 0.1776 - MARE: 0.1776
+Epoch 28/50
+12/12 - 1s - loss: 2006.4657 - NMAE_metric: 0.1736 - MARE: 0.1736
+Epoch 29/50
+12/12 - 1s - loss: 2146.7549 - NMAE_metric: 0.1780 - MARE: 0.1780
+Epoch 30/50
+12/12 - 1s - loss: 2073.2649 - NMAE_metric: 0.1753 - MARE: 0.1753
+Epoch 31/50
+12/12 - 1s - loss: 1950.0652 - NMAE_metric: 0.1719 - MARE: 0.1719
+Epoch 32/50
+12/12 - 1s - loss: 1987.1714 - NMAE_metric: 0.1711 - MARE: 0.1711
+Epoch 33/50
+12/12 - 1s - loss: 1940.5798 - NMAE_metric: 0.1681 - MARE: 0.1681
+Epoch 34/50
+12/12 - 1s - loss: 1978.8380 - NMAE_metric: 0.1716 - MARE: 0.1716
+Epoch 35/50
+12/12 - 1s - loss: 2158.9153 - NMAE_metric: 0.1784 - MARE: 0.1784
+Epoch 36/50
+12/12 - 1s - loss: 2035.3004 - NMAE_metric: 0.1717 - MARE: 0.1717
+Epoch 37/50
+12/12 - 1s - loss: 1906.4111 - NMAE_metric: 0.1686 - MARE: 0.1686
+Epoch 38/50
+12/12 - 1s - loss: 2008.5717 - NMAE_metric: 0.1703 - MARE: 0.1703
+Epoch 39/50
+12/12 - 1s - loss: 1947.2092 - NMAE_metric: 0.1710 - MARE: 0.1710
+Epoch 40/50
+12/12 - 1s - loss: 1856.6943 - NMAE_metric: 0.1635 - MARE: 0.1635
+Epoch 41/50
+12/12 - 1s - loss: 1816.8523 - NMAE_metric: 0.1623 - MARE: 0.1623
+Epoch 42/50
+12/12 - 1s - loss: 1778.2375 - NMAE_metric: 0.1598 - MARE: 0.1598
+Epoch 43/50
+12/12 - 1s - loss: 1764.5049 - NMAE_metric: 0.1603 - MARE: 0.1603
+Epoch 44/50
+12/12 - 1s - loss: 1871.7625 - NMAE_metric: 0.1669 - MARE: 0.1669
+Epoch 45/50
+12/12 - 1s - loss: 1744.1958 - NMAE_metric: 0.1615 - MARE: 0.1615
+Epoch 46/50
+12/12 - 1s - loss: 1739.1796 - NMAE_metric: 0.1610 - MARE: 0.1610
+Epoch 47/50
+12/12 - 1s - loss: 1783.0970 - NMAE_metric: 0.1634 - MARE: 0.1634
+Epoch 48/50
+12/12 - 1s - loss: 1706.2865 - NMAE_metric: 0.1604 - MARE: 0.1604
+Epoch 49/50
+12/12 - 1s - loss: 1608.7527 - NMAE_metric: 0.1569 - MARE: 0.1569
+Epoch 50/50
+12/12 - 1s - loss: 1588.1882 - NMAE_metric: 0.1536 - MARE: 0.1536
+
+END OF CELL 3788, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 1288 DATA TO 5 NEIGHBORS
+
+Used cols:
+[]
+Epoch 1/50
+12/12 - 1s - loss: 1078.0089 - NMAE_metric: 0.8947 - MARE: 0.8947
+Epoch 2/50
+12/12 - 0s - loss: 622.0153 - NMAE_metric: 0.5973 - MARE: 0.5973
+Epoch 3/50
+12/12 - 1s - loss: 337.8014 - NMAE_metric: 0.4593 - MARE: 0.4593
+Epoch 4/50
+12/12 - 1s - loss: 181.9054 - NMAE_metric: 0.3372 - MARE: 0.3372
+Epoch 5/50
+12/12 - 1s - loss: 127.2649 - NMAE_metric: 0.2660 - MARE: 0.2660
+Epoch 6/50
+12/12 - 1s - loss: 98.7960 - NMAE_metric: 0.2332 - MARE: 0.2332
+Epoch 7/50
+12/12 - 1s - loss: 89.4243 - NMAE_metric: 0.2250 - MARE: 0.2250
+Epoch 8/50
+12/12 - 1s - loss: 86.6239 - NMAE_metric: 0.2154 - MARE: 0.2154
+Epoch 9/50
+12/12 - 1s - loss: 80.2025 - NMAE_metric: 0.2082 - MARE: 0.2082
+Epoch 10/50
+12/12 - 1s - loss: 80.7224 - NMAE_metric: 0.2088 - MARE: 0.2088
+Epoch 11/50
+12/12 - 1s - loss: 76.1807 - NMAE_metric: 0.2013 - MARE: 0.2013
+Epoch 12/50
+12/12 - 1s - loss: 71.5630 - NMAE_metric: 0.1982 - MARE: 0.1982
+Epoch 13/50
+12/12 - 1s - loss: 67.2270 - NMAE_metric: 0.1898 - MARE: 0.1898
+Epoch 14/50
+12/12 - 1s - loss: 71.7118 - NMAE_metric: 0.1932 - MARE: 0.1932
+Epoch 15/50
+12/12 - 1s - loss: 63.9156 - NMAE_metric: 0.1848 - MARE: 0.1848
+Epoch 16/50
+12/12 - 2s - loss: 66.0774 - NMAE_metric: 0.1912 - MARE: 0.1912
+Epoch 17/50
+12/12 - 1s - loss: 62.6299 - NMAE_metric: 0.1804 - MARE: 0.1804
+Epoch 18/50
+12/12 - 1s - loss: 67.9437 - NMAE_metric: 0.1862 - MARE: 0.1862
+Epoch 19/50
+12/12 - 1s - loss: 59.7378 - NMAE_metric: 0.1784 - MARE: 0.1784
+Epoch 20/50
+12/12 - 1s - loss: 60.8599 - NMAE_metric: 0.1763 - MARE: 0.1763
+Epoch 21/50
+12/12 - 1s - loss: 60.5184 - NMAE_metric: 0.1803 - MARE: 0.1803
+Epoch 22/50
+12/12 - 1s - loss: 59.0803 - NMAE_metric: 0.1795 - MARE: 0.1795
+Epoch 23/50
+12/12 - 1s - loss: 57.0558 - NMAE_metric: 0.1715 - MARE: 0.1715
+Epoch 24/50
+12/12 - 1s - loss: 56.8429 - NMAE_metric: 0.1723 - MARE: 0.1723
+Epoch 25/50
+12/12 - 1s - loss: 56.4701 - NMAE_metric: 0.1723 - MARE: 0.1723
+Epoch 26/50
+12/12 - 1s - loss: 56.3963 - NMAE_metric: 0.1731 - MARE: 0.1731
+Epoch 27/50
+12/12 - 1s - loss: 55.5470 - NMAE_metric: 0.1680 - MARE: 0.1680
+Epoch 28/50
+12/12 - 1s - loss: 56.5814 - NMAE_metric: 0.1710 - MARE: 0.1710
+Epoch 29/50
+12/12 - 1s - loss: 54.0794 - NMAE_metric: 0.1693 - MARE: 0.1693
+Epoch 30/50
+12/12 - 1s - loss: 55.7238 - NMAE_metric: 0.1707 - MARE: 0.1707
+Epoch 31/50
+12/12 - 1s - loss: 51.2725 - NMAE_metric: 0.1650 - MARE: 0.1650
+Epoch 32/50
+12/12 - 1s - loss: 52.3269 - NMAE_metric: 0.1675 - MARE: 0.1675
+Epoch 33/50
+12/12 - 1s - loss: 50.5186 - NMAE_metric: 0.1615 - MARE: 0.1615
+Epoch 34/50
+12/12 - 1s - loss: 51.6533 - NMAE_metric: 0.1634 - MARE: 0.1634
+Epoch 35/50
+12/12 - 1s - loss: 51.9117 - NMAE_metric: 0.1624 - MARE: 0.1624
+Epoch 36/50
+12/12 - 1s - loss: 48.1887 - NMAE_metric: 0.1574 - MARE: 0.1574
+Epoch 37/50
+12/12 - 1s - loss: 51.2561 - NMAE_metric: 0.1614 - MARE: 0.1614
+Epoch 38/50
+12/12 - 1s - loss: 46.2501 - NMAE_metric: 0.1583 - MARE: 0.1583
+Epoch 39/50
+12/12 - 1s - loss: 47.7150 - NMAE_metric: 0.1556 - MARE: 0.1556
+Epoch 40/50
+12/12 - 1s - loss: 46.4293 - NMAE_metric: 0.1586 - MARE: 0.1586
+Epoch 41/50
+12/12 - 1s - loss: 47.8519 - NMAE_metric: 0.1573 - MARE: 0.1573
+Epoch 42/50
+12/12 - 1s - loss: 44.1688 - NMAE_metric: 0.1523 - MARE: 0.1523
+Epoch 43/50
+12/12 - 1s - loss: 44.5629 - NMAE_metric: 0.1532 - MARE: 0.1532
+Epoch 44/50
+12/12 - 1s - loss: 45.4714 - NMAE_metric: 0.1526 - MARE: 0.1526
+Epoch 45/50
+12/12 - 1s - loss: 43.9068 - NMAE_metric: 0.1537 - MARE: 0.1537
+Epoch 46/50
+12/12 - 1s - loss: 44.8352 - NMAE_metric: 0.1512 - MARE: 0.1512
+Epoch 47/50
+12/12 - 1s - loss: 43.0053 - NMAE_metric: 0.1499 - MARE: 0.1499
+Epoch 48/50
+12/12 - 1s - loss: 41.7173 - NMAE_metric: 0.1479 - MARE: 0.1479
+Epoch 49/50
+12/12 - 1s - loss: 40.8148 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 50/50
+12/12 - 1s - loss: 42.4633 - NMAE_metric: 0.1504 - MARE: 0.1504
+
+END OF CELL 1288, NEIGHBORHOOD 5, HUBS True
+
+**********
+
+
+
+
+GET CELL 8713 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 1s - loss: 50036.3984 - NMAE_metric: 0.9651 - MARE: 0.9651
+Epoch 2/50
+12/12 - 0s - loss: 32233.0957 - NMAE_metric: 0.6581 - MARE: 0.6581
+Epoch 3/50
+12/12 - 1s - loss: 25709.1016 - NMAE_metric: 0.5660 - MARE: 0.5660
+Epoch 4/50
+12/12 - 1s - loss: 15967.1611 - NMAE_metric: 0.4461 - MARE: 0.4461
+Epoch 5/50
+12/12 - 1s - loss: 6306.3765 - NMAE_metric: 0.2921 - MARE: 0.2921
+Epoch 6/50
+12/12 - 1s - loss: 4030.5723 - NMAE_metric: 0.2260 - MARE: 0.2260
+Epoch 7/50
+12/12 - 1s - loss: 3338.9456 - NMAE_metric: 0.2076 - MARE: 0.2076
+Epoch 8/50
+12/12 - 1s - loss: 2874.3652 - NMAE_metric: 0.1939 - MARE: 0.1939
+Epoch 9/50
+12/12 - 1s - loss: 2520.5100 - NMAE_metric: 0.1839 - MARE: 0.1839
+Epoch 10/50
+12/12 - 1s - loss: 2330.0791 - NMAE_metric: 0.1775 - MARE: 0.1775
+Epoch 11/50
+12/12 - 1s - loss: 2210.4404 - NMAE_metric: 0.1737 - MARE: 0.1737
+Epoch 12/50
+12/12 - 1s - loss: 2156.2778 - NMAE_metric: 0.1674 - MARE: 0.1674
+Epoch 13/50
+12/12 - 1s - loss: 1975.6517 - NMAE_metric: 0.1607 - MARE: 0.1607
+Epoch 14/50
+12/12 - 1s - loss: 1934.8046 - NMAE_metric: 0.1605 - MARE: 0.1605
+Epoch 15/50
+12/12 - 1s - loss: 1822.5513 - NMAE_metric: 0.1539 - MARE: 0.1539
+Epoch 16/50
+12/12 - 1s - loss: 1896.1908 - NMAE_metric: 0.1568 - MARE: 0.1568
+Epoch 17/50
+12/12 - 1s - loss: 1731.5446 - NMAE_metric: 0.1533 - MARE: 0.1533
+Epoch 18/50
+12/12 - 1s - loss: 1804.2899 - NMAE_metric: 0.1529 - MARE: 0.1529
+Epoch 19/50
+12/12 - 1s - loss: 1746.0443 - NMAE_metric: 0.1508 - MARE: 0.1508
+Epoch 20/50
+12/12 - 1s - loss: 1708.2166 - NMAE_metric: 0.1487 - MARE: 0.1487
+Epoch 21/50
+12/12 - 1s - loss: 1606.6230 - NMAE_metric: 0.1463 - MARE: 0.1463
+Epoch 22/50
+12/12 - 1s - loss: 1527.9968 - NMAE_metric: 0.1430 - MARE: 0.1430
+Epoch 23/50
+12/12 - 1s - loss: 1617.7964 - NMAE_metric: 0.1441 - MARE: 0.1441
+Epoch 24/50
+12/12 - 1s - loss: 1590.8242 - NMAE_metric: 0.1445 - MARE: 0.1445
+Epoch 25/50
+12/12 - 1s - loss: 1475.3734 - NMAE_metric: 0.1406 - MARE: 0.1406
+Epoch 26/50
+12/12 - 1s - loss: 1486.0945 - NMAE_metric: 0.1395 - MARE: 0.1395
+Epoch 27/50
+12/12 - 1s - loss: 1425.0802 - NMAE_metric: 0.1380 - MARE: 0.1380
+Epoch 28/50
+12/12 - 1s - loss: 1394.9642 - NMAE_metric: 0.1358 - MARE: 0.1358
+Epoch 29/50
+12/12 - 1s - loss: 1414.3175 - NMAE_metric: 0.1362 - MARE: 0.1362
+Epoch 30/50
+12/12 - 1s - loss: 1511.9816 - NMAE_metric: 0.1410 - MARE: 0.1410
+Epoch 31/50
+12/12 - 1s - loss: 1361.1021 - NMAE_metric: 0.1331 - MARE: 0.1331
+Epoch 32/50
+12/12 - 1s - loss: 1340.2937 - NMAE_metric: 0.1341 - MARE: 0.1341
+Epoch 33/50
+12/12 - 1s - loss: 1279.7426 - NMAE_metric: 0.1293 - MARE: 0.1293
+Epoch 34/50
+12/12 - 1s - loss: 1303.0610 - NMAE_metric: 0.1314 - MARE: 0.1314
+Epoch 35/50
+12/12 - 1s - loss: 1350.3896 - NMAE_metric: 0.1332 - MARE: 0.1332
+Epoch 36/50
+12/12 - 1s - loss: 1321.3123 - NMAE_metric: 0.1312 - MARE: 0.1312
+Epoch 37/50
+12/12 - 1s - loss: 1290.7405 - NMAE_metric: 0.1318 - MARE: 0.1318
+Epoch 38/50
+12/12 - 1s - loss: 1230.5674 - NMAE_metric: 0.1274 - MARE: 0.1274
+Epoch 39/50
+12/12 - 1s - loss: 1219.9995 - NMAE_metric: 0.1261 - MARE: 0.1261
+Epoch 40/50
+12/12 - 1s - loss: 1165.8510 - NMAE_metric: 0.1235 - MARE: 0.1235
+Epoch 41/50
+12/12 - 1s - loss: 1241.7030 - NMAE_metric: 0.1280 - MARE: 0.1280
+Epoch 42/50
+12/12 - 1s - loss: 1209.8679 - NMAE_metric: 0.1266 - MARE: 0.1266
+Epoch 43/50
+12/12 - 1s - loss: 1241.4410 - NMAE_metric: 0.1281 - MARE: 0.1281
+Epoch 44/50
+12/12 - 1s - loss: 1157.2540 - NMAE_metric: 0.1224 - MARE: 0.1224
+Epoch 45/50
+12/12 - 1s - loss: 1244.4567 - NMAE_metric: 0.1273 - MARE: 0.1273
+Epoch 46/50
+12/12 - 1s - loss: 1147.7186 - NMAE_metric: 0.1229 - MARE: 0.1229
+Epoch 47/50
+12/12 - 1s - loss: 1094.6091 - NMAE_metric: 0.1205 - MARE: 0.1205
+Epoch 48/50
+12/12 - 1s - loss: 1147.1616 - NMAE_metric: 0.1216 - MARE: 0.1216
+Epoch 49/50
+12/12 - 1s - loss: 1155.9075 - NMAE_metric: 0.1221 - MARE: 0.1221
+Epoch 50/50
+12/12 - 1s - loss: 1110.7823 - NMAE_metric: 0.1214 - MARE: 0.1214
+
+END OF CELL 8713, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 6213 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 7584.0596 - NMAE_metric: 0.9382 - MARE: 0.9382
+Epoch 2/50
+12/12 - 1s - loss: 3448.7358 - NMAE_metric: 0.6198 - MARE: 0.6198
+Epoch 3/50
+12/12 - 1s - loss: 2094.4993 - NMAE_metric: 0.5056 - MARE: 0.5056
+Epoch 4/50
+12/12 - 1s - loss: 1504.7839 - NMAE_metric: 0.3887 - MARE: 0.3887
+Epoch 5/50
+12/12 - 1s - loss: 1206.8944 - NMAE_metric: 0.3413 - MARE: 0.3413
+Epoch 6/50
+12/12 - 1s - loss: 987.9480 - NMAE_metric: 0.2834 - MARE: 0.2834
+Epoch 7/50
+12/12 - 1s - loss: 900.9030 - NMAE_metric: 0.2668 - MARE: 0.2668
+Epoch 8/50
+12/12 - 1s - loss: 952.7187 - NMAE_metric: 0.2584 - MARE: 0.2584
+Epoch 9/50
+12/12 - 1s - loss: 864.7716 - NMAE_metric: 0.2457 - MARE: 0.2457
+Epoch 10/50
+12/12 - 1s - loss: 751.2292 - NMAE_metric: 0.2401 - MARE: 0.2401
+Epoch 11/50
+12/12 - 1s - loss: 711.9719 - NMAE_metric: 0.2294 - MARE: 0.2294
+Epoch 12/50
+12/12 - 1s - loss: 733.7873 - NMAE_metric: 0.2273 - MARE: 0.2273
+Epoch 13/50
+12/12 - 1s - loss: 756.3022 - NMAE_metric: 0.2288 - MARE: 0.2288
+Epoch 14/50
+12/12 - 1s - loss: 860.7350 - NMAE_metric: 0.2381 - MARE: 0.2381
+Epoch 15/50
+12/12 - 1s - loss: 690.3652 - NMAE_metric: 0.2172 - MARE: 0.2172
+Epoch 16/50
+12/12 - 1s - loss: 704.8535 - NMAE_metric: 0.2254 - MARE: 0.2254
+Epoch 17/50
+12/12 - 1s - loss: 729.7283 - NMAE_metric: 0.2219 - MARE: 0.2219
+Epoch 18/50
+12/12 - 1s - loss: 635.3685 - NMAE_metric: 0.2160 - MARE: 0.2160
+Epoch 19/50
+12/12 - 1s - loss: 667.5877 - NMAE_metric: 0.2161 - MARE: 0.2161
+Epoch 20/50
+12/12 - 1s - loss: 639.8242 - NMAE_metric: 0.2147 - MARE: 0.2147
+Epoch 21/50
+12/12 - 1s - loss: 616.7907 - NMAE_metric: 0.2108 - MARE: 0.2108
+Epoch 22/50
+12/12 - 1s - loss: 523.4075 - NMAE_metric: 0.2029 - MARE: 0.2029
+Epoch 23/50
+12/12 - 1s - loss: 529.1899 - NMAE_metric: 0.1985 - MARE: 0.1985
+Epoch 24/50
+12/12 - 1s - loss: 554.7995 - NMAE_metric: 0.2012 - MARE: 0.2012
+Epoch 25/50
+12/12 - 1s - loss: 570.6135 - NMAE_metric: 0.1964 - MARE: 0.1964
+Epoch 26/50
+12/12 - 1s - loss: 553.3531 - NMAE_metric: 0.1989 - MARE: 0.1989
+Epoch 27/50
+12/12 - 1s - loss: 713.6222 - NMAE_metric: 0.2109 - MARE: 0.2109
+Epoch 28/50
+12/12 - 1s - loss: 527.6138 - NMAE_metric: 0.1962 - MARE: 0.1962
+Epoch 29/50
+12/12 - 1s - loss: 474.9596 - NMAE_metric: 0.1893 - MARE: 0.1893
+Epoch 30/50
+12/12 - 1s - loss: 528.7767 - NMAE_metric: 0.1962 - MARE: 0.1962
+Epoch 31/50
+12/12 - 1s - loss: 555.7142 - NMAE_metric: 0.1928 - MARE: 0.1928
+Epoch 32/50
+12/12 - 1s - loss: 529.1580 - NMAE_metric: 0.1913 - MARE: 0.1913
+Epoch 33/50
+12/12 - 1s - loss: 412.2175 - NMAE_metric: 0.1778 - MARE: 0.1778
+Epoch 34/50
+12/12 - 1s - loss: 407.6945 - NMAE_metric: 0.1816 - MARE: 0.1816
+Epoch 35/50
+12/12 - 1s - loss: 423.4142 - NMAE_metric: 0.1800 - MARE: 0.1800
+Epoch 36/50
+12/12 - 1s - loss: 446.3564 - NMAE_metric: 0.1847 - MARE: 0.1847
+Epoch 37/50
+12/12 - 1s - loss: 412.0744 - NMAE_metric: 0.1753 - MARE: 0.1753
+Epoch 38/50
+12/12 - 1s - loss: 417.3850 - NMAE_metric: 0.1777 - MARE: 0.1777
+Epoch 39/50
+12/12 - 1s - loss: 475.1409 - NMAE_metric: 0.1810 - MARE: 0.1810
+Epoch 40/50
+12/12 - 1s - loss: 459.7467 - NMAE_metric: 0.1792 - MARE: 0.1792
+Epoch 41/50
+12/12 - 1s - loss: 452.6673 - NMAE_metric: 0.1802 - MARE: 0.1802
+Epoch 42/50
+12/12 - 1s - loss: 425.5251 - NMAE_metric: 0.1714 - MARE: 0.1714
+Epoch 43/50
+12/12 - 1s - loss: 451.1624 - NMAE_metric: 0.1722 - MARE: 0.1722
+Epoch 44/50
+12/12 - 1s - loss: 409.1358 - NMAE_metric: 0.1743 - MARE: 0.1743
+Epoch 45/50
+12/12 - 1s - loss: 442.6289 - NMAE_metric: 0.1786 - MARE: 0.1786
+Epoch 46/50
+12/12 - 1s - loss: 448.6841 - NMAE_metric: 0.1753 - MARE: 0.1753
+Epoch 47/50
+12/12 - 1s - loss: 424.3624 - NMAE_metric: 0.1753 - MARE: 0.1753
+Epoch 48/50
+12/12 - 1s - loss: 499.7871 - NMAE_metric: 0.1814 - MARE: 0.1814
+Epoch 49/50
+12/12 - 1s - loss: 450.4261 - NMAE_metric: 0.1726 - MARE: 0.1726
+Epoch 50/50
+12/12 - 1s - loss: 412.6228 - NMAE_metric: 0.1723 - MARE: 0.1723
+
+END OF CELL 6213, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 8738 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 1s - loss: 320900.4375 - NMAE_metric: 0.9921 - MARE: 0.9921
+Epoch 2/50
+12/12 - 1s - loss: 246370.9531 - NMAE_metric: 0.8026 - MARE: 0.8026
+Epoch 3/50
+12/12 - 1s - loss: 170839.6406 - NMAE_metric: 0.5991 - MARE: 0.5991
+Epoch 4/50
+12/12 - 1s - loss: 128892.7578 - NMAE_metric: 0.5187 - MARE: 0.5187
+Epoch 5/50
+12/12 - 1s - loss: 89075.1484 - NMAE_metric: 0.4082 - MARE: 0.4082
+Epoch 6/50
+12/12 - 1s - loss: 53498.1445 - NMAE_metric: 0.3227 - MARE: 0.3227
+Epoch 7/50
+12/12 - 1s - loss: 33839.5586 - NMAE_metric: 0.2533 - MARE: 0.2533
+Epoch 8/50
+12/12 - 1s - loss: 25645.3633 - NMAE_metric: 0.2231 - MARE: 0.2231
+Epoch 9/50
+12/12 - 1s - loss: 20606.7910 - NMAE_metric: 0.2029 - MARE: 0.2029
+Epoch 10/50
+12/12 - 1s - loss: 18618.2383 - NMAE_metric: 0.1936 - MARE: 0.1936
+Epoch 11/50
+12/12 - 1s - loss: 17618.8535 - NMAE_metric: 0.1854 - MARE: 0.1854
+Epoch 12/50
+12/12 - 1s - loss: 17120.2637 - NMAE_metric: 0.1875 - MARE: 0.1875
+Epoch 13/50
+12/12 - 1s - loss: 16193.9492 - NMAE_metric: 0.1788 - MARE: 0.1788
+Epoch 14/50
+12/12 - 1s - loss: 15940.7207 - NMAE_metric: 0.1796 - MARE: 0.1796
+Epoch 15/50
+12/12 - 1s - loss: 14853.8135 - NMAE_metric: 0.1748 - MARE: 0.1748
+Epoch 16/50
+12/12 - 1s - loss: 14927.5713 - NMAE_metric: 0.1735 - MARE: 0.1735
+Epoch 17/50
+12/12 - 1s - loss: 14786.1045 - NMAE_metric: 0.1740 - MARE: 0.1740
+Epoch 18/50
+12/12 - 1s - loss: 13822.0166 - NMAE_metric: 0.1680 - MARE: 0.1680
+Epoch 19/50
+12/12 - 1s - loss: 13592.0967 - NMAE_metric: 0.1673 - MARE: 0.1673
+Epoch 20/50
+12/12 - 1s - loss: 13762.7139 - NMAE_metric: 0.1677 - MARE: 0.1677
+Epoch 21/50
+12/12 - 1s - loss: 13013.0557 - NMAE_metric: 0.1627 - MARE: 0.1627
+Epoch 22/50
+12/12 - 1s - loss: 12986.6875 - NMAE_metric: 0.1622 - MARE: 0.1622
+Epoch 23/50
+12/12 - 1s - loss: 12556.4619 - NMAE_metric: 0.1592 - MARE: 0.1592
+Epoch 24/50
+12/12 - 1s - loss: 12336.5947 - NMAE_metric: 0.1596 - MARE: 0.1596
+Epoch 25/50
+12/12 - 1s - loss: 12616.2471 - NMAE_metric: 0.1603 - MARE: 0.1603
+Epoch 26/50
+12/12 - 1s - loss: 12840.2500 - NMAE_metric: 0.1600 - MARE: 0.1600
+Epoch 27/50
+12/12 - 1s - loss: 12371.5225 - NMAE_metric: 0.1607 - MARE: 0.1607
+Epoch 28/50
+12/12 - 1s - loss: 12720.1582 - NMAE_metric: 0.1592 - MARE: 0.1592
+Epoch 29/50
+12/12 - 1s - loss: 12111.7773 - NMAE_metric: 0.1573 - MARE: 0.1573
+Epoch 30/50
+12/12 - 1s - loss: 12117.7168 - NMAE_metric: 0.1578 - MARE: 0.1578
+Epoch 31/50
+12/12 - 1s - loss: 11616.7686 - NMAE_metric: 0.1555 - MARE: 0.1555
+Epoch 32/50
+12/12 - 1s - loss: 11477.0791 - NMAE_metric: 0.1540 - MARE: 0.1540
+Epoch 33/50
+12/12 - 1s - loss: 11128.1816 - NMAE_metric: 0.1515 - MARE: 0.1515
+Epoch 34/50
+12/12 - 1s - loss: 11393.9258 - NMAE_metric: 0.1504 - MARE: 0.1504
+Epoch 35/50
+12/12 - 1s - loss: 11014.3545 - NMAE_metric: 0.1471 - MARE: 0.1471
+Epoch 36/50
+12/12 - 1s - loss: 10723.2158 - NMAE_metric: 0.1458 - MARE: 0.1458
+Epoch 37/50
+12/12 - 1s - loss: 10887.3701 - NMAE_metric: 0.1470 - MARE: 0.1470
+Epoch 38/50
+12/12 - 1s - loss: 10695.3135 - NMAE_metric: 0.1483 - MARE: 0.1483
+Epoch 39/50
+12/12 - 1s - loss: 10843.8701 - NMAE_metric: 0.1463 - MARE: 0.1463
+Epoch 40/50
+12/12 - 1s - loss: 10543.7383 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 41/50
+12/12 - 1s - loss: 10243.3857 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 42/50
+12/12 - 1s - loss: 10010.5820 - NMAE_metric: 0.1421 - MARE: 0.1421
+Epoch 43/50
+12/12 - 1s - loss: 10176.0791 - NMAE_metric: 0.1425 - MARE: 0.1425
+Epoch 44/50
+12/12 - 1s - loss: 9902.7852 - NMAE_metric: 0.1422 - MARE: 0.1422
+Epoch 45/50
+12/12 - 1s - loss: 10167.1279 - NMAE_metric: 0.1422 - MARE: 0.1422
+Epoch 46/50
+12/12 - 1s - loss: 10651.7832 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 47/50
+12/12 - 1s - loss: 10439.2041 - NMAE_metric: 0.1441 - MARE: 0.1441
+Epoch 48/50
+12/12 - 1s - loss: 9674.1094 - NMAE_metric: 0.1399 - MARE: 0.1399
+Epoch 49/50
+12/12 - 1s - loss: 9580.2480 - NMAE_metric: 0.1403 - MARE: 0.1403
+Epoch 50/50
+12/12 - 1s - loss: 9536.5391 - NMAE_metric: 0.1375 - MARE: 0.1375
+
+END OF CELL 8738, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 6238 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 45006.9414 - NMAE_metric: 0.9658 - MARE: 0.9658
+Epoch 2/50
+12/12 - 1s - loss: 28555.1523 - NMAE_metric: 0.6787 - MARE: 0.6787
+Epoch 3/50
+12/12 - 1s - loss: 20628.9043 - NMAE_metric: 0.5487 - MARE: 0.5487
+Epoch 4/50
+12/12 - 1s - loss: 13190.1055 - NMAE_metric: 0.4595 - MARE: 0.4595
+Epoch 5/50
+12/12 - 1s - loss: 7502.9907 - NMAE_metric: 0.3474 - MARE: 0.3474
+Epoch 6/50
+12/12 - 1s - loss: 5357.5698 - NMAE_metric: 0.2872 - MARE: 0.2872
+Epoch 7/50
+12/12 - 1s - loss: 4348.3730 - NMAE_metric: 0.2556 - MARE: 0.2556
+Epoch 8/50
+12/12 - 1s - loss: 3817.1875 - NMAE_metric: 0.2366 - MARE: 0.2366
+Epoch 9/50
+12/12 - 1s - loss: 3377.6279 - NMAE_metric: 0.2272 - MARE: 0.2272
+Epoch 10/50
+12/12 - 1s - loss: 3043.3025 - NMAE_metric: 0.2156 - MARE: 0.2156
+Epoch 11/50
+12/12 - 1s - loss: 2771.8357 - NMAE_metric: 0.2084 - MARE: 0.2084
+Epoch 12/50
+12/12 - 1s - loss: 2389.0972 - NMAE_metric: 0.1985 - MARE: 0.1985
+Epoch 13/50
+12/12 - 1s - loss: 2194.0642 - NMAE_metric: 0.1870 - MARE: 0.1870
+Epoch 14/50
+12/12 - 1s - loss: 2047.1006 - NMAE_metric: 0.1797 - MARE: 0.1797
+Epoch 15/50
+12/12 - 1s - loss: 2093.2588 - NMAE_metric: 0.1823 - MARE: 0.1823
+Epoch 16/50
+12/12 - 1s - loss: 1853.5164 - NMAE_metric: 0.1741 - MARE: 0.1741
+Epoch 17/50
+12/12 - 1s - loss: 1755.5629 - NMAE_metric: 0.1700 - MARE: 0.1700
+Epoch 18/50
+12/12 - 1s - loss: 1662.3098 - NMAE_metric: 0.1689 - MARE: 0.1689
+Epoch 19/50
+12/12 - 1s - loss: 1709.5607 - NMAE_metric: 0.1715 - MARE: 0.1715
+Epoch 20/50
+12/12 - 1s - loss: 1554.3110 - NMAE_metric: 0.1634 - MARE: 0.1634
+Epoch 21/50
+12/12 - 1s - loss: 1601.6360 - NMAE_metric: 0.1634 - MARE: 0.1634
+Epoch 22/50
+12/12 - 1s - loss: 1419.5076 - NMAE_metric: 0.1594 - MARE: 0.1594
+Epoch 23/50
+12/12 - 1s - loss: 1473.7812 - NMAE_metric: 0.1605 - MARE: 0.1605
+Epoch 24/50
+12/12 - 1s - loss: 1350.5183 - NMAE_metric: 0.1548 - MARE: 0.1548
+Epoch 25/50
+12/12 - 1s - loss: 1339.4966 - NMAE_metric: 0.1546 - MARE: 0.1546
+Epoch 26/50
+12/12 - 1s - loss: 1355.1694 - NMAE_metric: 0.1515 - MARE: 0.1515
+Epoch 27/50
+12/12 - 1s - loss: 1264.7505 - NMAE_metric: 0.1505 - MARE: 0.1505
+Epoch 28/50
+12/12 - 1s - loss: 1291.4015 - NMAE_metric: 0.1491 - MARE: 0.1491
+Epoch 29/50
+12/12 - 1s - loss: 1250.8326 - NMAE_metric: 0.1505 - MARE: 0.1505
+Epoch 30/50
+12/12 - 1s - loss: 1288.5479 - NMAE_metric: 0.1521 - MARE: 0.1521
+Epoch 31/50
+12/12 - 1s - loss: 1156.1313 - NMAE_metric: 0.1468 - MARE: 0.1468
+Epoch 32/50
+12/12 - 1s - loss: 1156.0049 - NMAE_metric: 0.1427 - MARE: 0.1427
+Epoch 33/50
+12/12 - 1s - loss: 1097.2688 - NMAE_metric: 0.1441 - MARE: 0.1441
+Epoch 34/50
+12/12 - 1s - loss: 1202.1545 - NMAE_metric: 0.1421 - MARE: 0.1421
+Epoch 35/50
+12/12 - 1s - loss: 1124.2090 - NMAE_metric: 0.1423 - MARE: 0.1423
+Epoch 36/50
+12/12 - 1s - loss: 1100.7228 - NMAE_metric: 0.1400 - MARE: 0.1400
+Epoch 37/50
+12/12 - 1s - loss: 1141.1759 - NMAE_metric: 0.1413 - MARE: 0.1413
+Epoch 38/50
+12/12 - 1s - loss: 1181.6611 - NMAE_metric: 0.1428 - MARE: 0.1428
+Epoch 39/50
+12/12 - 1s - loss: 1079.9130 - NMAE_metric: 0.1375 - MARE: 0.1375
+Epoch 40/50
+12/12 - 1s - loss: 999.1875 - NMAE_metric: 0.1340 - MARE: 0.1340
+Epoch 41/50
+12/12 - 1s - loss: 1069.3046 - NMAE_metric: 0.1358 - MARE: 0.1358
+Epoch 42/50
+12/12 - 1s - loss: 990.7187 - NMAE_metric: 0.1340 - MARE: 0.1340
+Epoch 43/50
+12/12 - 1s - loss: 1035.1925 - NMAE_metric: 0.1358 - MARE: 0.1358
+Epoch 44/50
+12/12 - 1s - loss: 991.6517 - NMAE_metric: 0.1341 - MARE: 0.1341
+Epoch 45/50
+12/12 - 1s - loss: 967.0115 - NMAE_metric: 0.1326 - MARE: 0.1326
+Epoch 46/50
+12/12 - 1s - loss: 928.6222 - NMAE_metric: 0.1315 - MARE: 0.1315
+Epoch 47/50
+12/12 - 1s - loss: 955.3541 - NMAE_metric: 0.1294 - MARE: 0.1294
+Epoch 48/50
+12/12 - 1s - loss: 861.7211 - NMAE_metric: 0.1281 - MARE: 0.1281
+Epoch 49/50
+12/12 - 1s - loss: 1041.3445 - NMAE_metric: 0.1350 - MARE: 0.1350
+Epoch 50/50
+12/12 - 1s - loss: 897.2072 - NMAE_metric: 0.1293 - MARE: 0.1293
+
+END OF CELL 6238, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 3713 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 2342.1724 - NMAE_metric: 0.8878 - MARE: 0.8878
+Epoch 2/50
+12/12 - 1s - loss: 1453.1013 - NMAE_metric: 0.6308 - MARE: 0.6308
+Epoch 3/50
+12/12 - 1s - loss: 821.8178 - NMAE_metric: 0.4778 - MARE: 0.4778
+Epoch 4/50
+12/12 - 1s - loss: 480.0249 - NMAE_metric: 0.3570 - MARE: 0.3570
+Epoch 5/50
+12/12 - 1s - loss: 362.9034 - NMAE_metric: 0.3110 - MARE: 0.3110
+Epoch 6/50
+12/12 - 1s - loss: 297.8141 - NMAE_metric: 0.2888 - MARE: 0.2888
+Epoch 7/50
+12/12 - 1s - loss: 264.5899 - NMAE_metric: 0.2636 - MARE: 0.2636
+Epoch 8/50
+12/12 - 1s - loss: 230.2655 - NMAE_metric: 0.2506 - MARE: 0.2506
+Epoch 9/50
+12/12 - 1s - loss: 220.9899 - NMAE_metric: 0.2449 - MARE: 0.2449
+Epoch 10/50
+12/12 - 1s - loss: 200.8127 - NMAE_metric: 0.2315 - MARE: 0.2315
+Epoch 11/50
+12/12 - 1s - loss: 174.6102 - NMAE_metric: 0.2173 - MARE: 0.2173
+Epoch 12/50
+12/12 - 1s - loss: 173.1931 - NMAE_metric: 0.2170 - MARE: 0.2170
+Epoch 13/50
+12/12 - 1s - loss: 156.5198 - NMAE_metric: 0.2082 - MARE: 0.2082
+Epoch 14/50
+12/12 - 2s - loss: 157.2630 - NMAE_metric: 0.2088 - MARE: 0.2088
+Epoch 15/50
+12/12 - 1s - loss: 145.5158 - NMAE_metric: 0.2008 - MARE: 0.2008
+Epoch 16/50
+12/12 - 1s - loss: 140.8359 - NMAE_metric: 0.2032 - MARE: 0.2032
+Epoch 17/50
+12/12 - 1s - loss: 136.0397 - NMAE_metric: 0.1969 - MARE: 0.1969
+Epoch 18/50
+12/12 - 1s - loss: 132.4428 - NMAE_metric: 0.1952 - MARE: 0.1952
+Epoch 19/50
+12/12 - 1s - loss: 140.5387 - NMAE_metric: 0.1991 - MARE: 0.1991
+Epoch 20/50
+12/12 - 1s - loss: 132.1534 - NMAE_metric: 0.1909 - MARE: 0.1909
+Epoch 21/50
+12/12 - 1s - loss: 128.9178 - NMAE_metric: 0.1884 - MARE: 0.1884
+Epoch 22/50
+12/12 - 1s - loss: 121.1827 - NMAE_metric: 0.1873 - MARE: 0.1873
+Epoch 23/50
+12/12 - 1s - loss: 119.3572 - NMAE_metric: 0.1835 - MARE: 0.1835
+Epoch 24/50
+12/12 - 1s - loss: 118.7486 - NMAE_metric: 0.1841 - MARE: 0.1841
+Epoch 25/50
+12/12 - 1s - loss: 117.6549 - NMAE_metric: 0.1808 - MARE: 0.1808
+Epoch 26/50
+12/12 - 1s - loss: 115.1684 - NMAE_metric: 0.1816 - MARE: 0.1816
+Epoch 27/50
+12/12 - 1s - loss: 110.3724 - NMAE_metric: 0.1792 - MARE: 0.1792
+Epoch 28/50
+12/12 - 1s - loss: 109.3615 - NMAE_metric: 0.1782 - MARE: 0.1782
+Epoch 29/50
+12/12 - 1s - loss: 109.6795 - NMAE_metric: 0.1772 - MARE: 0.1772
+Epoch 30/50
+12/12 - 1s - loss: 110.0709 - NMAE_metric: 0.1766 - MARE: 0.1766
+Epoch 31/50
+12/12 - 1s - loss: 109.8487 - NMAE_metric: 0.1771 - MARE: 0.1771
+Epoch 32/50
+12/12 - 1s - loss: 103.1103 - NMAE_metric: 0.1713 - MARE: 0.1713
+Epoch 33/50
+12/12 - 1s - loss: 108.3669 - NMAE_metric: 0.1738 - MARE: 0.1738
+Epoch 34/50
+12/12 - 1s - loss: 106.0236 - NMAE_metric: 0.1716 - MARE: 0.1716
+Epoch 35/50
+12/12 - 1s - loss: 110.2612 - NMAE_metric: 0.1793 - MARE: 0.1793
+Epoch 36/50
+12/12 - 1s - loss: 106.9217 - NMAE_metric: 0.1779 - MARE: 0.1779
+Epoch 37/50
+12/12 - 1s - loss: 104.4960 - NMAE_metric: 0.1739 - MARE: 0.1739
+Epoch 38/50
+12/12 - 1s - loss: 105.9077 - NMAE_metric: 0.1722 - MARE: 0.1722
+Epoch 39/50
+12/12 - 1s - loss: 105.0035 - NMAE_metric: 0.1720 - MARE: 0.1720
+Epoch 40/50
+12/12 - 1s - loss: 100.0110 - NMAE_metric: 0.1694 - MARE: 0.1694
+Epoch 41/50
+12/12 - 1s - loss: 99.3509 - NMAE_metric: 0.1697 - MARE: 0.1697
+Epoch 42/50
+12/12 - 1s - loss: 98.3593 - NMAE_metric: 0.1707 - MARE: 0.1707
+Epoch 43/50
+12/12 - 1s - loss: 97.2129 - NMAE_metric: 0.1669 - MARE: 0.1669
+Epoch 44/50
+12/12 - 1s - loss: 99.2332 - NMAE_metric: 0.1660 - MARE: 0.1660
+Epoch 45/50
+12/12 - 1s - loss: 95.9714 - NMAE_metric: 0.1660 - MARE: 0.1660
+Epoch 46/50
+12/12 - 1s - loss: 99.4944 - NMAE_metric: 0.1666 - MARE: 0.1666
+Epoch 47/50
+12/12 - 1s - loss: 94.3198 - NMAE_metric: 0.1661 - MARE: 0.1661
+Epoch 48/50
+12/12 - 1s - loss: 92.7448 - NMAE_metric: 0.1631 - MARE: 0.1631
+Epoch 49/50
+12/12 - 1s - loss: 90.9434 - NMAE_metric: 0.1598 - MARE: 0.1598
+Epoch 50/50
+12/12 - 1s - loss: 96.0543 - NMAE_metric: 0.1631 - MARE: 0.1631
+
+END OF CELL 3713, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 1213 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 956.7404 - NMAE_metric: 0.8522 - MARE: 0.8522
+Epoch 2/50
+12/12 - 1s - loss: 551.5377 - NMAE_metric: 0.5723 - MARE: 0.5723
+Epoch 3/50
+12/12 - 1s - loss: 282.7095 - NMAE_metric: 0.4094 - MARE: 0.4094
+Epoch 4/50
+12/12 - 1s - loss: 154.7931 - NMAE_metric: 0.2920 - MARE: 0.2920
+Epoch 5/50
+12/12 - 1s - loss: 106.4197 - NMAE_metric: 0.2519 - MARE: 0.2519
+Epoch 6/50
+12/12 - 1s - loss: 85.3736 - NMAE_metric: 0.2308 - MARE: 0.2308
+Epoch 7/50
+12/12 - 1s - loss: 77.8742 - NMAE_metric: 0.2133 - MARE: 0.2133
+Epoch 8/50
+12/12 - 1s - loss: 66.4964 - NMAE_metric: 0.2007 - MARE: 0.2007
+Epoch 9/50
+12/12 - 1s - loss: 63.8934 - NMAE_metric: 0.1932 - MARE: 0.1932
+Epoch 10/50
+12/12 - 1s - loss: 58.5155 - NMAE_metric: 0.1834 - MARE: 0.1834
+Epoch 11/50
+12/12 - 1s - loss: 54.9762 - NMAE_metric: 0.1810 - MARE: 0.1810
+Epoch 12/50
+12/12 - 1s - loss: 53.4763 - NMAE_metric: 0.1782 - MARE: 0.1782
+Epoch 13/50
+12/12 - 1s - loss: 54.0706 - NMAE_metric: 0.1796 - MARE: 0.1796
+Epoch 14/50
+12/12 - 1s - loss: 52.5423 - NMAE_metric: 0.1746 - MARE: 0.1746
+Epoch 15/50
+12/12 - 1s - loss: 49.7359 - NMAE_metric: 0.1719 - MARE: 0.1719
+Epoch 16/50
+12/12 - 1s - loss: 49.5313 - NMAE_metric: 0.1707 - MARE: 0.1707
+Epoch 17/50
+12/12 - 1s - loss: 48.4595 - NMAE_metric: 0.1674 - MARE: 0.1674
+Epoch 18/50
+12/12 - 1s - loss: 47.9937 - NMAE_metric: 0.1698 - MARE: 0.1698
+Epoch 19/50
+12/12 - 1s - loss: 45.5301 - NMAE_metric: 0.1643 - MARE: 0.1643
+Epoch 20/50
+12/12 - 1s - loss: 46.2473 - NMAE_metric: 0.1655 - MARE: 0.1655
+Epoch 21/50
+12/12 - 1s - loss: 42.2252 - NMAE_metric: 0.1610 - MARE: 0.1610
+Epoch 22/50
+12/12 - 1s - loss: 43.2540 - NMAE_metric: 0.1616 - MARE: 0.1616
+Epoch 23/50
+12/12 - 1s - loss: 44.6692 - NMAE_metric: 0.1632 - MARE: 0.1632
+Epoch 24/50
+12/12 - 1s - loss: 43.0999 - NMAE_metric: 0.1597 - MARE: 0.1597
+Epoch 25/50
+12/12 - 1s - loss: 41.4791 - NMAE_metric: 0.1564 - MARE: 0.1564
+Epoch 26/50
+12/12 - 1s - loss: 39.5487 - NMAE_metric: 0.1545 - MARE: 0.1545
+Epoch 27/50
+12/12 - 1s - loss: 39.2480 - NMAE_metric: 0.1530 - MARE: 0.1530
+Epoch 28/50
+12/12 - 1s - loss: 39.3681 - NMAE_metric: 0.1524 - MARE: 0.1524
+Epoch 29/50
+12/12 - 1s - loss: 38.0081 - NMAE_metric: 0.1531 - MARE: 0.1531
+Epoch 30/50
+12/12 - 1s - loss: 38.3928 - NMAE_metric: 0.1527 - MARE: 0.1527
+Epoch 31/50
+12/12 - 1s - loss: 37.8612 - NMAE_metric: 0.1510 - MARE: 0.1510
+Epoch 32/50
+12/12 - 1s - loss: 37.3507 - NMAE_metric: 0.1501 - MARE: 0.1501
+Epoch 33/50
+12/12 - 1s - loss: 36.0181 - NMAE_metric: 0.1468 - MARE: 0.1468
+Epoch 34/50
+12/12 - 1s - loss: 37.4742 - NMAE_metric: 0.1485 - MARE: 0.1485
+Epoch 35/50
+12/12 - 1s - loss: 36.6337 - NMAE_metric: 0.1472 - MARE: 0.1472
+Epoch 36/50
+12/12 - 1s - loss: 35.2220 - NMAE_metric: 0.1452 - MARE: 0.1452
+Epoch 37/50
+12/12 - 1s - loss: 36.9832 - NMAE_metric: 0.1475 - MARE: 0.1475
+Epoch 38/50
+12/12 - 1s - loss: 35.9747 - NMAE_metric: 0.1468 - MARE: 0.1468
+Epoch 39/50
+12/12 - 1s - loss: 35.8153 - NMAE_metric: 0.1455 - MARE: 0.1455
+Epoch 40/50
+12/12 - 1s - loss: 34.3254 - NMAE_metric: 0.1439 - MARE: 0.1439
+Epoch 41/50
+12/12 - 1s - loss: 33.8805 - NMAE_metric: 0.1429 - MARE: 0.1429
+Epoch 42/50
+12/12 - 1s - loss: 33.9907 - NMAE_metric: 0.1420 - MARE: 0.1420
+Epoch 43/50
+12/12 - 1s - loss: 33.3701 - NMAE_metric: 0.1417 - MARE: 0.1417
+Epoch 44/50
+12/12 - 1s - loss: 32.0669 - NMAE_metric: 0.1373 - MARE: 0.1373
+Epoch 45/50
+12/12 - 1s - loss: 32.8646 - NMAE_metric: 0.1405 - MARE: 0.1405
+Epoch 46/50
+12/12 - 1s - loss: 33.8207 - NMAE_metric: 0.1436 - MARE: 0.1436
+Epoch 47/50
+12/12 - 1s - loss: 32.5669 - NMAE_metric: 0.1394 - MARE: 0.1394
+Epoch 48/50
+12/12 - 1s - loss: 31.3952 - NMAE_metric: 0.1375 - MARE: 0.1375
+Epoch 49/50
+12/12 - 1s - loss: 33.0410 - NMAE_metric: 0.1417 - MARE: 0.1417
+Epoch 50/50
+12/12 - 1s - loss: 32.2546 - NMAE_metric: 0.1378 - MARE: 0.1378
+
+END OF CELL 1213, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 3738 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 1s - loss: 121016.9844 - NMAE_metric: 0.9844 - MARE: 0.9844
+Epoch 2/50
+12/12 - 1s - loss: 80105.0859 - NMAE_metric: 0.7269 - MARE: 0.7269
+Epoch 3/50
+12/12 - 1s - loss: 48533.6211 - NMAE_metric: 0.5380 - MARE: 0.5380
+Epoch 4/50
+12/12 - 1s - loss: 30807.7617 - NMAE_metric: 0.4289 - MARE: 0.4289
+Epoch 5/50
+12/12 - 1s - loss: 18037.9453 - NMAE_metric: 0.3141 - MARE: 0.3141
+Epoch 6/50
+12/12 - 1s - loss: 13058.4727 - NMAE_metric: 0.2607 - MARE: 0.2607
+Epoch 7/50
+12/12 - 1s - loss: 10798.5010 - NMAE_metric: 0.2431 - MARE: 0.2431
+Epoch 8/50
+12/12 - 1s - loss: 10013.0381 - NMAE_metric: 0.2352 - MARE: 0.2352
+Epoch 9/50
+12/12 - 1s - loss: 9391.0986 - NMAE_metric: 0.2258 - MARE: 0.2258
+Epoch 10/50
+12/12 - 1s - loss: 8376.4785 - NMAE_metric: 0.2138 - MARE: 0.2138
+Epoch 11/50
+12/12 - 1s - loss: 7621.6865 - NMAE_metric: 0.2056 - MARE: 0.2056
+Epoch 12/50
+12/12 - 1s - loss: 7386.5278 - NMAE_metric: 0.1996 - MARE: 0.1996
+Epoch 13/50
+12/12 - 1s - loss: 7540.2344 - NMAE_metric: 0.2023 - MARE: 0.2023
+Epoch 14/50
+12/12 - 1s - loss: 7486.7729 - NMAE_metric: 0.2024 - MARE: 0.2024
+Epoch 15/50
+12/12 - 1s - loss: 6711.7310 - NMAE_metric: 0.1917 - MARE: 0.1917
+Epoch 16/50
+12/12 - 1s - loss: 6656.5200 - NMAE_metric: 0.1897 - MARE: 0.1897
+Epoch 17/50
+12/12 - 1s - loss: 6743.6436 - NMAE_metric: 0.1897 - MARE: 0.1897
+Epoch 18/50
+12/12 - 1s - loss: 6247.6992 - NMAE_metric: 0.1867 - MARE: 0.1867
+Epoch 19/50
+12/12 - 1s - loss: 6131.5996 - NMAE_metric: 0.1821 - MARE: 0.1821
+Epoch 20/50
+12/12 - 1s - loss: 6186.5674 - NMAE_metric: 0.1848 - MARE: 0.1848
+Epoch 21/50
+12/12 - 1s - loss: 6238.9355 - NMAE_metric: 0.1827 - MARE: 0.1827
+Epoch 22/50
+12/12 - 1s - loss: 5954.6909 - NMAE_metric: 0.1811 - MARE: 0.1811
+Epoch 23/50
+12/12 - 1s - loss: 6204.5977 - NMAE_metric: 0.1830 - MARE: 0.1830
+Epoch 24/50
+12/12 - 1s - loss: 5927.4067 - NMAE_metric: 0.1800 - MARE: 0.1800
+Epoch 25/50
+12/12 - 1s - loss: 5824.5249 - NMAE_metric: 0.1779 - MARE: 0.1779
+Epoch 26/50
+12/12 - 1s - loss: 5578.5503 - NMAE_metric: 0.1744 - MARE: 0.1744
+Epoch 27/50
+12/12 - 1s - loss: 5449.5752 - NMAE_metric: 0.1695 - MARE: 0.1695
+Epoch 28/50
+12/12 - 1s - loss: 5539.6045 - NMAE_metric: 0.1738 - MARE: 0.1738
+Epoch 29/50
+12/12 - 1s - loss: 5499.7998 - NMAE_metric: 0.1726 - MARE: 0.1726
+Epoch 30/50
+12/12 - 1s - loss: 5651.9458 - NMAE_metric: 0.1739 - MARE: 0.1739
+Epoch 31/50
+12/12 - 1s - loss: 5442.1284 - NMAE_metric: 0.1728 - MARE: 0.1728
+Epoch 32/50
+12/12 - 1s - loss: 5274.0767 - NMAE_metric: 0.1678 - MARE: 0.1678
+Epoch 33/50
+12/12 - 1s - loss: 5288.9351 - NMAE_metric: 0.1683 - MARE: 0.1683
+Epoch 34/50
+12/12 - 1s - loss: 5327.6660 - NMAE_metric: 0.1688 - MARE: 0.1688
+Epoch 35/50
+12/12 - 1s - loss: 5138.5884 - NMAE_metric: 0.1646 - MARE: 0.1646
+Epoch 36/50
+12/12 - 1s - loss: 5137.9258 - NMAE_metric: 0.1646 - MARE: 0.1646
+Epoch 37/50
+12/12 - 1s - loss: 5369.4136 - NMAE_metric: 0.1701 - MARE: 0.1701
+Epoch 38/50
+12/12 - 1s - loss: 5177.8477 - NMAE_metric: 0.1676 - MARE: 0.1676
+Epoch 39/50
+12/12 - 1s - loss: 5124.3584 - NMAE_metric: 0.1666 - MARE: 0.1666
+Epoch 40/50
+12/12 - 1s - loss: 5091.0347 - NMAE_metric: 0.1653 - MARE: 0.1653
+Epoch 41/50
+12/12 - 1s - loss: 4679.9775 - NMAE_metric: 0.1581 - MARE: 0.1581
+Epoch 42/50
+12/12 - 1s - loss: 4560.4707 - NMAE_metric: 0.1572 - MARE: 0.1572
+Epoch 43/50
+12/12 - 1s - loss: 5049.6196 - NMAE_metric: 0.1674 - MARE: 0.1674
+Epoch 44/50
+12/12 - 1s - loss: 4768.5015 - NMAE_metric: 0.1610 - MARE: 0.1610
+Epoch 45/50
+12/12 - 1s - loss: 5042.3916 - NMAE_metric: 0.1670 - MARE: 0.1670
+Epoch 46/50
+12/12 - 1s - loss: 4379.5093 - NMAE_metric: 0.1549 - MARE: 0.1549
+Epoch 47/50
+12/12 - 1s - loss: 4776.4683 - NMAE_metric: 0.1606 - MARE: 0.1606
+Epoch 48/50
+12/12 - 1s - loss: 4740.5796 - NMAE_metric: 0.1604 - MARE: 0.1604
+Epoch 49/50
+12/12 - 1s - loss: 4617.5708 - NMAE_metric: 0.1584 - MARE: 0.1584
+Epoch 50/50
+12/12 - 1s - loss: 4467.5322 - NMAE_metric: 0.1550 - MARE: 0.1550
+
+END OF CELL 3738, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 1238 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 14948.8389 - NMAE_metric: 0.9348 - MARE: 0.9348
+Epoch 2/50
+12/12 - 1s - loss: 9244.5146 - NMAE_metric: 0.6378 - MARE: 0.6378
+Epoch 3/50
+12/12 - 1s - loss: 6148.0381 - NMAE_metric: 0.5041 - MARE: 0.5041
+Epoch 4/50
+12/12 - 1s - loss: 3395.3086 - NMAE_metric: 0.3765 - MARE: 0.3765
+Epoch 5/50
+12/12 - 1s - loss: 1824.6191 - NMAE_metric: 0.2696 - MARE: 0.2696
+Epoch 6/50
+12/12 - 1s - loss: 1484.3732 - NMAE_metric: 0.2395 - MARE: 0.2395
+Epoch 7/50
+12/12 - 1s - loss: 1242.2917 - NMAE_metric: 0.2210 - MARE: 0.2210
+Epoch 8/50
+12/12 - 1s - loss: 1130.3403 - NMAE_metric: 0.2097 - MARE: 0.2097
+Epoch 9/50
+12/12 - 1s - loss: 1071.7323 - NMAE_metric: 0.2089 - MARE: 0.2089
+Epoch 10/50
+12/12 - 1s - loss: 978.3147 - NMAE_metric: 0.2004 - MARE: 0.2004
+Epoch 11/50
+12/12 - 1s - loss: 962.6475 - NMAE_metric: 0.1952 - MARE: 0.1952
+Epoch 12/50
+12/12 - 1s - loss: 880.0258 - NMAE_metric: 0.1883 - MARE: 0.1883
+Epoch 13/50
+12/12 - 1s - loss: 879.4854 - NMAE_metric: 0.1861 - MARE: 0.1861
+Epoch 14/50
+12/12 - 1s - loss: 845.7083 - NMAE_metric: 0.1838 - MARE: 0.1838
+Epoch 15/50
+12/12 - 1s - loss: 808.8898 - NMAE_metric: 0.1798 - MARE: 0.1798
+Epoch 16/50
+12/12 - 1s - loss: 759.5901 - NMAE_metric: 0.1762 - MARE: 0.1762
+Epoch 17/50
+12/12 - 1s - loss: 727.7796 - NMAE_metric: 0.1725 - MARE: 0.1725
+Epoch 18/50
+12/12 - 1s - loss: 724.7137 - NMAE_metric: 0.1692 - MARE: 0.1692
+Epoch 19/50
+12/12 - 1s - loss: 730.6770 - NMAE_metric: 0.1712 - MARE: 0.1712
+Epoch 20/50
+12/12 - 1s - loss: 753.8124 - NMAE_metric: 0.1744 - MARE: 0.1744
+Epoch 21/50
+12/12 - 1s - loss: 701.4965 - NMAE_metric: 0.1637 - MARE: 0.1637
+Epoch 22/50
+12/12 - 1s - loss: 645.1884 - NMAE_metric: 0.1633 - MARE: 0.1633
+Epoch 23/50
+12/12 - 1s - loss: 680.6218 - NMAE_metric: 0.1624 - MARE: 0.1624
+Epoch 24/50
+12/12 - 1s - loss: 668.9019 - NMAE_metric: 0.1616 - MARE: 0.1616
+Epoch 25/50
+12/12 - 1s - loss: 671.9521 - NMAE_metric: 0.1618 - MARE: 0.1618
+Epoch 26/50
+12/12 - 1s - loss: 637.6809 - NMAE_metric: 0.1618 - MARE: 0.1618
+Epoch 27/50
+12/12 - 1s - loss: 663.8008 - NMAE_metric: 0.1614 - MARE: 0.1614
+Epoch 28/50
+12/12 - 1s - loss: 620.1151 - NMAE_metric: 0.1571 - MARE: 0.1571
+Epoch 29/50
+12/12 - 1s - loss: 603.3946 - NMAE_metric: 0.1561 - MARE: 0.1561
+Epoch 30/50
+12/12 - 1s - loss: 611.3619 - NMAE_metric: 0.1565 - MARE: 0.1565
+Epoch 31/50
+12/12 - 1s - loss: 577.5770 - NMAE_metric: 0.1517 - MARE: 0.1517
+Epoch 32/50
+12/12 - 1s - loss: 602.0209 - NMAE_metric: 0.1520 - MARE: 0.1520
+Epoch 33/50
+12/12 - 1s - loss: 575.7270 - NMAE_metric: 0.1536 - MARE: 0.1536
+Epoch 34/50
+12/12 - 1s - loss: 566.4086 - NMAE_metric: 0.1513 - MARE: 0.1513
+Epoch 35/50
+12/12 - 1s - loss: 546.0069 - NMAE_metric: 0.1478 - MARE: 0.1478
+Epoch 36/50
+12/12 - 1s - loss: 564.7881 - NMAE_metric: 0.1505 - MARE: 0.1505
+Epoch 37/50
+12/12 - 1s - loss: 561.0776 - NMAE_metric: 0.1517 - MARE: 0.1517
+Epoch 38/50
+12/12 - 1s - loss: 569.9386 - NMAE_metric: 0.1506 - MARE: 0.1506
+Epoch 39/50
+12/12 - 1s - loss: 549.9059 - NMAE_metric: 0.1487 - MARE: 0.1487
+Epoch 40/50
+12/12 - 1s - loss: 537.5052 - NMAE_metric: 0.1482 - MARE: 0.1482
+Epoch 41/50
+12/12 - 1s - loss: 514.4619 - NMAE_metric: 0.1447 - MARE: 0.1447
+Epoch 42/50
+12/12 - 1s - loss: 534.9720 - NMAE_metric: 0.1476 - MARE: 0.1476
+Epoch 43/50
+12/12 - 1s - loss: 540.7946 - NMAE_metric: 0.1496 - MARE: 0.1496
+Epoch 44/50
+12/12 - 1s - loss: 563.6689 - NMAE_metric: 0.1521 - MARE: 0.1521
+Epoch 45/50
+12/12 - 1s - loss: 560.6167 - NMAE_metric: 0.1507 - MARE: 0.1507
+Epoch 46/50
+12/12 - 1s - loss: 498.3719 - NMAE_metric: 0.1425 - MARE: 0.1425
+Epoch 47/50
+12/12 - 1s - loss: 527.1695 - NMAE_metric: 0.1467 - MARE: 0.1467
+Epoch 48/50
+12/12 - 1s - loss: 576.2092 - NMAE_metric: 0.1456 - MARE: 0.1456
+Epoch 49/50
+12/12 - 1s - loss: 501.6292 - NMAE_metric: 0.1401 - MARE: 0.1401
+Epoch 50/50
+12/12 - 1s - loss: 500.3339 - NMAE_metric: 0.1425 - MARE: 0.1425
+
+END OF CELL 1238, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 8763 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 19060.1816 - NMAE_metric: 0.9620 - MARE: 0.9620
+Epoch 2/50
+12/12 - 1s - loss: 11647.2900 - NMAE_metric: 0.6448 - MARE: 0.6448
+Epoch 3/50
+12/12 - 1s - loss: 7627.4336 - NMAE_metric: 0.5070 - MARE: 0.5070
+Epoch 4/50
+12/12 - 1s - loss: 3353.5652 - NMAE_metric: 0.3202 - MARE: 0.3202
+Epoch 5/50
+12/12 - 1s - loss: 1721.3789 - NMAE_metric: 0.2318 - MARE: 0.2318
+Epoch 6/50
+12/12 - 1s - loss: 1247.2623 - NMAE_metric: 0.1995 - MARE: 0.1995
+Epoch 7/50
+12/12 - 1s - loss: 1103.6503 - NMAE_metric: 0.1863 - MARE: 0.1863
+Epoch 8/50
+12/12 - 1s - loss: 1056.5902 - NMAE_metric: 0.1820 - MARE: 0.1820
+Epoch 9/50
+12/12 - 1s - loss: 973.2753 - NMAE_metric: 0.1754 - MARE: 0.1754
+Epoch 10/50
+12/12 - 1s - loss: 922.5567 - NMAE_metric: 0.1699 - MARE: 0.1699
+Epoch 11/50
+12/12 - 1s - loss: 878.9790 - NMAE_metric: 0.1678 - MARE: 0.1678
+Epoch 12/50
+12/12 - 1s - loss: 816.9290 - NMAE_metric: 0.1601 - MARE: 0.1601
+Epoch 13/50
+12/12 - 1s - loss: 839.7922 - NMAE_metric: 0.1635 - MARE: 0.1635
+Epoch 14/50
+12/12 - 1s - loss: 804.4003 - NMAE_metric: 0.1577 - MARE: 0.1577
+Epoch 15/50
+12/12 - 1s - loss: 794.9958 - NMAE_metric: 0.1590 - MARE: 0.1590
+Epoch 16/50
+12/12 - 1s - loss: 782.5303 - NMAE_metric: 0.1590 - MARE: 0.1590
+Epoch 17/50
+12/12 - 1s - loss: 768.5262 - NMAE_metric: 0.1564 - MARE: 0.1564
+Epoch 18/50
+12/12 - 1s - loss: 736.4562 - NMAE_metric: 0.1520 - MARE: 0.1520
+Epoch 19/50
+12/12 - 1s - loss: 701.1506 - NMAE_metric: 0.1503 - MARE: 0.1503
+Epoch 20/50
+12/12 - 1s - loss: 684.2489 - NMAE_metric: 0.1469 - MARE: 0.1469
+Epoch 21/50
+12/12 - 1s - loss: 705.3481 - NMAE_metric: 0.1489 - MARE: 0.1489
+Epoch 22/50
+12/12 - 1s - loss: 655.4860 - NMAE_metric: 0.1452 - MARE: 0.1452
+Epoch 23/50
+12/12 - 1s - loss: 651.7401 - NMAE_metric: 0.1436 - MARE: 0.1436
+Epoch 24/50
+12/12 - 1s - loss: 647.6962 - NMAE_metric: 0.1429 - MARE: 0.1429
+Epoch 25/50
+12/12 - 1s - loss: 648.6303 - NMAE_metric: 0.1434 - MARE: 0.1434
+Epoch 26/50
+12/12 - 1s - loss: 692.5769 - NMAE_metric: 0.1491 - MARE: 0.1491
+Epoch 27/50
+12/12 - 1s - loss: 671.4961 - NMAE_metric: 0.1474 - MARE: 0.1474
+Epoch 28/50
+12/12 - 1s - loss: 640.1825 - NMAE_metric: 0.1431 - MARE: 0.1431
+Epoch 29/50
+12/12 - 1s - loss: 618.4736 - NMAE_metric: 0.1403 - MARE: 0.1403
+Epoch 30/50
+12/12 - 1s - loss: 605.0362 - NMAE_metric: 0.1392 - MARE: 0.1392
+Epoch 31/50
+12/12 - 1s - loss: 579.8648 - NMAE_metric: 0.1364 - MARE: 0.1364
+Epoch 32/50
+12/12 - 1s - loss: 579.5925 - NMAE_metric: 0.1375 - MARE: 0.1375
+Epoch 33/50
+12/12 - 1s - loss: 606.0389 - NMAE_metric: 0.1384 - MARE: 0.1384
+Epoch 34/50
+12/12 - 1s - loss: 572.0190 - NMAE_metric: 0.1369 - MARE: 0.1369
+Epoch 35/50
+12/12 - 1s - loss: 547.8947 - NMAE_metric: 0.1325 - MARE: 0.1325
+Epoch 36/50
+12/12 - 1s - loss: 557.3810 - NMAE_metric: 0.1354 - MARE: 0.1354
+Epoch 37/50
+12/12 - 1s - loss: 536.6151 - NMAE_metric: 0.1308 - MARE: 0.1308
+Epoch 38/50
+12/12 - 1s - loss: 519.8047 - NMAE_metric: 0.1297 - MARE: 0.1297
+Epoch 39/50
+12/12 - 1s - loss: 509.6054 - NMAE_metric: 0.1294 - MARE: 0.1294
+Epoch 40/50
+12/12 - 1s - loss: 513.9384 - NMAE_metric: 0.1294 - MARE: 0.1294
+Epoch 41/50
+12/12 - 1s - loss: 480.3183 - NMAE_metric: 0.1260 - MARE: 0.1260
+Epoch 42/50
+12/12 - 1s - loss: 490.3273 - NMAE_metric: 0.1260 - MARE: 0.1260
+Epoch 43/50
+12/12 - 1s - loss: 484.6508 - NMAE_metric: 0.1267 - MARE: 0.1267
+Epoch 44/50
+12/12 - 1s - loss: 490.2281 - NMAE_metric: 0.1242 - MARE: 0.1242
+Epoch 45/50
+12/12 - 1s - loss: 454.8638 - NMAE_metric: 0.1222 - MARE: 0.1222
+Epoch 46/50
+12/12 - 1s - loss: 467.0582 - NMAE_metric: 0.1230 - MARE: 0.1230
+Epoch 47/50
+12/12 - 1s - loss: 459.0033 - NMAE_metric: 0.1203 - MARE: 0.1203
+Epoch 48/50
+12/12 - 1s - loss: 443.5229 - NMAE_metric: 0.1209 - MARE: 0.1209
+Epoch 49/50
+12/12 - 1s - loss: 457.2035 - NMAE_metric: 0.1217 - MARE: 0.1217
+Epoch 50/50
+12/12 - 1s - loss: 451.1985 - NMAE_metric: 0.1185 - MARE: 0.1185
+
+END OF CELL 8763, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 6263 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 1s - loss: 4818535.5000 - NMAE_metric: 0.9960 - MARE: 0.9960
+Epoch 2/50
+12/12 - 1s - loss: 3707350.7500 - NMAE_metric: 0.8326 - MARE: 0.8326
+Epoch 3/50
+12/12 - 1s - loss: 2456743.7500 - NMAE_metric: 0.6316 - MARE: 0.6316
+Epoch 4/50
+12/12 - 1s - loss: 1923997.6250 - NMAE_metric: 0.5510 - MARE: 0.5510
+Epoch 5/50
+12/12 - 1s - loss: 1335414.7500 - NMAE_metric: 0.4654 - MARE: 0.4654
+Epoch 6/50
+12/12 - 1s - loss: 725188.2500 - NMAE_metric: 0.3315 - MARE: 0.3315
+Epoch 7/50
+12/12 - 1s - loss: 516743.4688 - NMAE_metric: 0.2706 - MARE: 0.2706
+Epoch 8/50
+12/12 - 1s - loss: 410997.2500 - NMAE_metric: 0.2459 - MARE: 0.2459
+Epoch 9/50
+12/12 - 1s - loss: 335736.7812 - NMAE_metric: 0.2252 - MARE: 0.2252
+Epoch 10/50
+12/12 - 1s - loss: 280452.8125 - NMAE_metric: 0.2112 - MARE: 0.2112
+Epoch 11/50
+12/12 - 1s - loss: 244039.3750 - NMAE_metric: 0.1983 - MARE: 0.1983
+Epoch 12/50
+12/12 - 1s - loss: 205716.8438 - NMAE_metric: 0.1847 - MARE: 0.1847
+Epoch 13/50
+12/12 - 1s - loss: 192307.9062 - NMAE_metric: 0.1797 - MARE: 0.1797
+Epoch 14/50
+12/12 - 1s - loss: 178012.8438 - NMAE_metric: 0.1763 - MARE: 0.1763
+Epoch 15/50
+12/12 - 1s - loss: 164484.0938 - NMAE_metric: 0.1690 - MARE: 0.1690
+Epoch 16/50
+12/12 - 1s - loss: 161799.9844 - NMAE_metric: 0.1654 - MARE: 0.1654
+Epoch 17/50
+12/12 - 1s - loss: 145769.8438 - NMAE_metric: 0.1575 - MARE: 0.1575
+Epoch 18/50
+12/12 - 1s - loss: 153731.7188 - NMAE_metric: 0.1636 - MARE: 0.1636
+Epoch 19/50
+12/12 - 1s - loss: 146556.1875 - NMAE_metric: 0.1560 - MARE: 0.1560
+Epoch 20/50
+12/12 - 1s - loss: 129675.9922 - NMAE_metric: 0.1506 - MARE: 0.1506
+Epoch 21/50
+12/12 - 1s - loss: 132748.3281 - NMAE_metric: 0.1528 - MARE: 0.1528
+Epoch 22/50
+12/12 - 1s - loss: 118387.8203 - NMAE_metric: 0.1439 - MARE: 0.1439
+Epoch 23/50
+12/12 - 1s - loss: 115411.3906 - NMAE_metric: 0.1396 - MARE: 0.1396
+Epoch 24/50
+12/12 - 1s - loss: 118005.3750 - NMAE_metric: 0.1451 - MARE: 0.1451
+Epoch 25/50
+12/12 - 1s - loss: 108416.3750 - NMAE_metric: 0.1360 - MARE: 0.1360
+Epoch 26/50
+12/12 - 1s - loss: 115802.7578 - NMAE_metric: 0.1399 - MARE: 0.1399
+Epoch 27/50
+12/12 - 1s - loss: 102355.9375 - NMAE_metric: 0.1353 - MARE: 0.1353
+Epoch 28/50
+12/12 - 1s - loss: 107710.7344 - NMAE_metric: 0.1366 - MARE: 0.1366
+Epoch 29/50
+12/12 - 1s - loss: 100989.7188 - NMAE_metric: 0.1314 - MARE: 0.1314
+Epoch 30/50
+12/12 - 1s - loss: 107600.4609 - NMAE_metric: 0.1347 - MARE: 0.1347
+Epoch 31/50
+12/12 - 1s - loss: 101160.0391 - NMAE_metric: 0.1318 - MARE: 0.1318
+Epoch 32/50
+12/12 - 1s - loss: 102401.1641 - NMAE_metric: 0.1328 - MARE: 0.1328
+Epoch 33/50
+12/12 - 1s - loss: 111791.7500 - NMAE_metric: 0.1369 - MARE: 0.1369
+Epoch 34/50
+12/12 - 1s - loss: 102091.8438 - NMAE_metric: 0.1328 - MARE: 0.1328
+Epoch 35/50
+12/12 - 1s - loss: 100150.5859 - NMAE_metric: 0.1311 - MARE: 0.1311
+Epoch 36/50
+12/12 - 1s - loss: 104644.6641 - NMAE_metric: 0.1353 - MARE: 0.1353
+Epoch 37/50
+12/12 - 1s - loss: 102768.5547 - NMAE_metric: 0.1325 - MARE: 0.1325
+Epoch 38/50
+12/12 - 1s - loss: 96981.9766 - NMAE_metric: 0.1291 - MARE: 0.1291
+Epoch 39/50
+12/12 - 1s - loss: 94222.3984 - NMAE_metric: 0.1269 - MARE: 0.1269
+Epoch 40/50
+12/12 - 1s - loss: 93437.9531 - NMAE_metric: 0.1275 - MARE: 0.1275
+Epoch 41/50
+12/12 - 1s - loss: 88475.0391 - NMAE_metric: 0.1234 - MARE: 0.1234
+Epoch 42/50
+12/12 - 1s - loss: 84352.0625 - NMAE_metric: 0.1204 - MARE: 0.1204
+Epoch 43/50
+12/12 - 1s - loss: 83367.9531 - NMAE_metric: 0.1197 - MARE: 0.1197
+Epoch 44/50
+12/12 - 1s - loss: 87979.0234 - NMAE_metric: 0.1239 - MARE: 0.1239
+Epoch 45/50
+12/12 - 1s - loss: 88144.6562 - NMAE_metric: 0.1239 - MARE: 0.1239
+Epoch 46/50
+12/12 - 1s - loss: 89972.0625 - NMAE_metric: 0.1218 - MARE: 0.1218
+Epoch 47/50
+12/12 - 1s - loss: 82145.9062 - NMAE_metric: 0.1181 - MARE: 0.1181
+Epoch 48/50
+12/12 - 1s - loss: 74714.5859 - NMAE_metric: 0.1132 - MARE: 0.1132
+Epoch 49/50
+12/12 - 1s - loss: 77008.1094 - NMAE_metric: 0.1143 - MARE: 0.1143
+Epoch 50/50
+12/12 - 1s - loss: 82608.7188 - NMAE_metric: 0.1175 - MARE: 0.1175
+
+END OF CELL 6263, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 8788 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 138562.3125 - NMAE_metric: 0.9817 - MARE: 0.9817
+Epoch 2/50
+12/12 - 1s - loss: 97404.9531 - NMAE_metric: 0.7295 - MARE: 0.7295
+Epoch 3/50
+12/12 - 1s - loss: 75575.2969 - NMAE_metric: 0.6038 - MARE: 0.6038
+Epoch 4/50
+12/12 - 1s - loss: 50652.1602 - NMAE_metric: 0.4944 - MARE: 0.4944
+Epoch 5/50
+12/12 - 1s - loss: 25102.0840 - NMAE_metric: 0.3310 - MARE: 0.3310
+Epoch 6/50
+12/12 - 1s - loss: 15840.2197 - NMAE_metric: 0.2706 - MARE: 0.2706
+Epoch 7/50
+12/12 - 1s - loss: 13076.3184 - NMAE_metric: 0.2467 - MARE: 0.2467
+Epoch 8/50
+12/12 - 1s - loss: 11851.4727 - NMAE_metric: 0.2354 - MARE: 0.2354
+Epoch 9/50
+12/12 - 1s - loss: 10281.8584 - NMAE_metric: 0.2191 - MARE: 0.2191
+Epoch 10/50
+12/12 - 1s - loss: 9465.7637 - NMAE_metric: 0.2111 - MARE: 0.2111
+Epoch 11/50
+12/12 - 1s - loss: 9293.0410 - NMAE_metric: 0.2049 - MARE: 0.2049
+Epoch 12/50
+12/12 - 1s - loss: 8986.8564 - NMAE_metric: 0.2008 - MARE: 0.2008
+Epoch 13/50
+12/12 - 1s - loss: 8524.1396 - NMAE_metric: 0.1981 - MARE: 0.1981
+Epoch 14/50
+12/12 - 1s - loss: 8153.0435 - NMAE_metric: 0.1941 - MARE: 0.1941
+Epoch 15/50
+12/12 - 1s - loss: 7574.0195 - NMAE_metric: 0.1877 - MARE: 0.1877
+Epoch 16/50
+12/12 - 1s - loss: 7354.4141 - NMAE_metric: 0.1864 - MARE: 0.1864
+Epoch 17/50
+12/12 - 1s - loss: 7280.5884 - NMAE_metric: 0.1835 - MARE: 0.1835
+Epoch 18/50
+12/12 - 1s - loss: 6829.4795 - NMAE_metric: 0.1780 - MARE: 0.1780
+Epoch 19/50
+12/12 - 1s - loss: 6813.6343 - NMAE_metric: 0.1749 - MARE: 0.1749
+Epoch 20/50
+12/12 - 1s - loss: 6588.2910 - NMAE_metric: 0.1730 - MARE: 0.1730
+Epoch 21/50
+12/12 - 1s - loss: 6683.4727 - NMAE_metric: 0.1760 - MARE: 0.1760
+Epoch 22/50
+12/12 - 1s - loss: 6649.5532 - NMAE_metric: 0.1732 - MARE: 0.1732
+Epoch 23/50
+12/12 - 1s - loss: 6188.4639 - NMAE_metric: 0.1696 - MARE: 0.1696
+Epoch 24/50
+12/12 - 1s - loss: 5835.3496 - NMAE_metric: 0.1649 - MARE: 0.1649
+Epoch 25/50
+12/12 - 1s - loss: 6009.5410 - NMAE_metric: 0.1652 - MARE: 0.1652
+Epoch 26/50
+12/12 - 1s - loss: 5584.9390 - NMAE_metric: 0.1594 - MARE: 0.1594
+Epoch 27/50
+12/12 - 1s - loss: 5852.2212 - NMAE_metric: 0.1654 - MARE: 0.1654
+Epoch 28/50
+12/12 - 1s - loss: 5492.9473 - NMAE_metric: 0.1597 - MARE: 0.1597
+Epoch 29/50
+12/12 - 1s - loss: 5876.0566 - NMAE_metric: 0.1670 - MARE: 0.1670
+Epoch 30/50
+12/12 - 1s - loss: 5546.7822 - NMAE_metric: 0.1638 - MARE: 0.1638
+Epoch 31/50
+12/12 - 1s - loss: 4961.9521 - NMAE_metric: 0.1543 - MARE: 0.1543
+Epoch 32/50
+12/12 - 1s - loss: 4987.9375 - NMAE_metric: 0.1540 - MARE: 0.1540
+Epoch 33/50
+12/12 - 1s - loss: 5102.4302 - NMAE_metric: 0.1535 - MARE: 0.1535
+Epoch 34/50
+12/12 - 1s - loss: 4678.9565 - NMAE_metric: 0.1501 - MARE: 0.1501
+Epoch 35/50
+12/12 - 1s - loss: 4613.0635 - NMAE_metric: 0.1469 - MARE: 0.1469
+Epoch 36/50
+12/12 - 1s - loss: 4662.2773 - NMAE_metric: 0.1496 - MARE: 0.1496
+Epoch 37/50
+12/12 - 1s - loss: 4405.8755 - NMAE_metric: 0.1428 - MARE: 0.1428
+Epoch 38/50
+12/12 - 1s - loss: 4581.9082 - NMAE_metric: 0.1494 - MARE: 0.1494
+Epoch 39/50
+12/12 - 1s - loss: 4381.3159 - NMAE_metric: 0.1456 - MARE: 0.1456
+Epoch 40/50
+12/12 - 1s - loss: 4445.1299 - NMAE_metric: 0.1461 - MARE: 0.1461
+Epoch 41/50
+12/12 - 1s - loss: 4287.1260 - NMAE_metric: 0.1456 - MARE: 0.1456
+Epoch 42/50
+12/12 - 1s - loss: 4326.5889 - NMAE_metric: 0.1449 - MARE: 0.1449
+Epoch 43/50
+12/12 - 1s - loss: 4069.7610 - NMAE_metric: 0.1401 - MARE: 0.1401
+Epoch 44/50
+12/12 - 1s - loss: 4065.3630 - NMAE_metric: 0.1407 - MARE: 0.1407
+Epoch 45/50
+12/12 - 1s - loss: 3756.0420 - NMAE_metric: 0.1351 - MARE: 0.1351
+Epoch 46/50
+12/12 - 1s - loss: 3766.9902 - NMAE_metric: 0.1354 - MARE: 0.1354
+Epoch 47/50
+12/12 - 1s - loss: 3959.9436 - NMAE_metric: 0.1383 - MARE: 0.1383
+Epoch 48/50
+12/12 - 1s - loss: 4009.1987 - NMAE_metric: 0.1422 - MARE: 0.1422
+Epoch 49/50
+12/12 - 1s - loss: 3877.1348 - NMAE_metric: 0.1387 - MARE: 0.1387
+Epoch 50/50
+12/12 - 1s - loss: 3626.0203 - NMAE_metric: 0.1351 - MARE: 0.1351
+
+END OF CELL 8788, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 6288 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 66354.8281 - NMAE_metric: 0.9818 - MARE: 0.9818
+Epoch 2/50
+12/12 - 1s - loss: 41900.3164 - NMAE_metric: 0.7329 - MARE: 0.7329
+Epoch 3/50
+12/12 - 1s - loss: 22789.1934 - NMAE_metric: 0.5387 - MARE: 0.5387
+Epoch 4/50
+12/12 - 1s - loss: 12559.8193 - NMAE_metric: 0.3898 - MARE: 0.3898
+Epoch 5/50
+12/12 - 1s - loss: 9556.1826 - NMAE_metric: 0.3322 - MARE: 0.3322
+Epoch 6/50
+12/12 - 1s - loss: 8430.3135 - NMAE_metric: 0.3079 - MARE: 0.3079
+Epoch 7/50
+12/12 - 1s - loss: 7772.8354 - NMAE_metric: 0.2900 - MARE: 0.2900
+Epoch 8/50
+12/12 - 1s - loss: 7482.2939 - NMAE_metric: 0.2826 - MARE: 0.2826
+Epoch 9/50
+12/12 - 1s - loss: 6467.8086 - NMAE_metric: 0.2618 - MARE: 0.2618
+Epoch 10/50
+12/12 - 1s - loss: 6328.2104 - NMAE_metric: 0.2578 - MARE: 0.2578
+Epoch 11/50
+12/12 - 1s - loss: 6776.9644 - NMAE_metric: 0.2508 - MARE: 0.2508
+Epoch 12/50
+12/12 - 1s - loss: 5748.8916 - NMAE_metric: 0.2437 - MARE: 0.2437
+Epoch 13/50
+12/12 - 1s - loss: 5434.8438 - NMAE_metric: 0.2323 - MARE: 0.2323
+Epoch 14/50
+12/12 - 1s - loss: 5451.8662 - NMAE_metric: 0.2331 - MARE: 0.2331
+Epoch 15/50
+12/12 - 1s - loss: 5532.0957 - NMAE_metric: 0.2295 - MARE: 0.2295
+Epoch 16/50
+12/12 - 1s - loss: 5377.5474 - NMAE_metric: 0.2298 - MARE: 0.2298
+Epoch 17/50
+12/12 - 1s - loss: 5210.7715 - NMAE_metric: 0.2233 - MARE: 0.2233
+Epoch 18/50
+12/12 - 1s - loss: 4958.0771 - NMAE_metric: 0.2226 - MARE: 0.2226
+Epoch 19/50
+12/12 - 1s - loss: 4649.1978 - NMAE_metric: 0.2196 - MARE: 0.2196
+Epoch 20/50
+12/12 - 1s - loss: 4469.3960 - NMAE_metric: 0.2160 - MARE: 0.2160
+Epoch 21/50
+12/12 - 1s - loss: 3999.9014 - NMAE_metric: 0.2048 - MARE: 0.2048
+Epoch 22/50
+12/12 - 1s - loss: 4136.9858 - NMAE_metric: 0.2049 - MARE: 0.2049
+Epoch 23/50
+12/12 - 1s - loss: 4248.8188 - NMAE_metric: 0.2052 - MARE: 0.2052
+Epoch 24/50
+12/12 - 1s - loss: 4043.4434 - NMAE_metric: 0.2012 - MARE: 0.2012
+Epoch 25/50
+12/12 - 1s - loss: 4056.0007 - NMAE_metric: 0.2002 - MARE: 0.2002
+Epoch 26/50
+12/12 - 1s - loss: 3801.7971 - NMAE_metric: 0.1989 - MARE: 0.1989
+Epoch 27/50
+12/12 - 1s - loss: 3606.4114 - NMAE_metric: 0.1912 - MARE: 0.1912
+Epoch 28/50
+12/12 - 1s - loss: 3954.5007 - NMAE_metric: 0.2010 - MARE: 0.2010
+Epoch 29/50
+12/12 - 1s - loss: 3561.8904 - NMAE_metric: 0.1937 - MARE: 0.1937
+Epoch 30/50
+12/12 - 1s - loss: 3908.1479 - NMAE_metric: 0.1961 - MARE: 0.1961
+Epoch 31/50
+12/12 - 1s - loss: 3983.9680 - NMAE_metric: 0.1958 - MARE: 0.1958
+Epoch 32/50
+12/12 - 1s - loss: 3627.2886 - NMAE_metric: 0.1887 - MARE: 0.1887
+Epoch 33/50
+12/12 - 1s - loss: 3417.6929 - NMAE_metric: 0.1878 - MARE: 0.1878
+Epoch 34/50
+12/12 - 1s - loss: 3667.9492 - NMAE_metric: 0.1881 - MARE: 0.1881
+Epoch 35/50
+12/12 - 1s - loss: 3550.0593 - NMAE_metric: 0.1860 - MARE: 0.1860
+Epoch 36/50
+12/12 - 1s - loss: 3530.3904 - NMAE_metric: 0.1890 - MARE: 0.1890
+Epoch 37/50
+12/12 - 1s - loss: 3462.3613 - NMAE_metric: 0.1838 - MARE: 0.1838
+Epoch 38/50
+12/12 - 1s - loss: 3637.1147 - NMAE_metric: 0.1845 - MARE: 0.1845
+Epoch 39/50
+12/12 - 1s - loss: 3300.0371 - NMAE_metric: 0.1846 - MARE: 0.1846
+Epoch 40/50
+12/12 - 1s - loss: 3526.7344 - NMAE_metric: 0.1857 - MARE: 0.1857
+Epoch 41/50
+12/12 - 1s - loss: 3383.3250 - NMAE_metric: 0.1865 - MARE: 0.1865
+Epoch 42/50
+12/12 - 1s - loss: 3301.6941 - NMAE_metric: 0.1878 - MARE: 0.1878
+Epoch 43/50
+12/12 - 1s - loss: 3183.5217 - NMAE_metric: 0.1796 - MARE: 0.1796
+Epoch 44/50
+12/12 - 1s - loss: 3012.6421 - NMAE_metric: 0.1818 - MARE: 0.1818
+Epoch 45/50
+12/12 - 1s - loss: 3137.1624 - NMAE_metric: 0.1808 - MARE: 0.1808
+Epoch 46/50
+12/12 - 1s - loss: 2998.2236 - NMAE_metric: 0.1755 - MARE: 0.1755
+Epoch 47/50
+12/12 - 1s - loss: 2946.4802 - NMAE_metric: 0.1729 - MARE: 0.1729
+Epoch 48/50
+12/12 - 1s - loss: 3281.2817 - NMAE_metric: 0.1881 - MARE: 0.1881
+Epoch 49/50
+12/12 - 1s - loss: 3076.2856 - NMAE_metric: 0.1802 - MARE: 0.1802
+Epoch 50/50
+12/12 - 1s - loss: 3186.1428 - NMAE_metric: 0.1786 - MARE: 0.1786
+
+END OF CELL 6288, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 3763 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 1080017.3750 - NMAE_metric: 0.9943 - MARE: 0.9943
+Epoch 2/50
+12/12 - 1s - loss: 835798.9375 - NMAE_metric: 0.8157 - MARE: 0.8157
+Epoch 3/50
+12/12 - 1s - loss: 610224.5625 - NMAE_metric: 0.6130 - MARE: 0.6130
+Epoch 4/50
+12/12 - 1s - loss: 455380.8125 - NMAE_metric: 0.5368 - MARE: 0.5368
+Epoch 5/50
+12/12 - 1s - loss: 225068.5312 - NMAE_metric: 0.3673 - MARE: 0.3673
+Epoch 6/50
+12/12 - 1s - loss: 113050.3359 - NMAE_metric: 0.2580 - MARE: 0.2580
+Epoch 7/50
+12/12 - 1s - loss: 77502.6797 - NMAE_metric: 0.2160 - MARE: 0.2160
+Epoch 8/50
+12/12 - 1s - loss: 65473.8008 - NMAE_metric: 0.2021 - MARE: 0.2021
+Epoch 9/50
+12/12 - 1s - loss: 58948.7188 - NMAE_metric: 0.1905 - MARE: 0.1905
+Epoch 10/50
+12/12 - 1s - loss: 55245.5508 - NMAE_metric: 0.1872 - MARE: 0.1872
+Epoch 11/50
+12/12 - 1s - loss: 51794.1719 - NMAE_metric: 0.1796 - MARE: 0.1796
+Epoch 12/50
+12/12 - 1s - loss: 48673.2422 - NMAE_metric: 0.1750 - MARE: 0.1750
+Epoch 13/50
+12/12 - 1s - loss: 49890.6758 - NMAE_metric: 0.1748 - MARE: 0.1748
+Epoch 14/50
+12/12 - 1s - loss: 44435.9102 - NMAE_metric: 0.1692 - MARE: 0.1692
+Epoch 15/50
+12/12 - 1s - loss: 41940.2969 - NMAE_metric: 0.1639 - MARE: 0.1639
+Epoch 16/50
+12/12 - 1s - loss: 43586.4297 - NMAE_metric: 0.1667 - MARE: 0.1667
+Epoch 17/50
+12/12 - 1s - loss: 40962.9727 - NMAE_metric: 0.1596 - MARE: 0.1596
+Epoch 18/50
+12/12 - 1s - loss: 38277.3906 - NMAE_metric: 0.1559 - MARE: 0.1559
+Epoch 19/50
+12/12 - 1s - loss: 40415.4180 - NMAE_metric: 0.1622 - MARE: 0.1622
+Epoch 20/50
+12/12 - 1s - loss: 38349.2383 - NMAE_metric: 0.1563 - MARE: 0.1563
+Epoch 21/50
+12/12 - 1s - loss: 37705.2031 - NMAE_metric: 0.1546 - MARE: 0.1546
+Epoch 22/50
+12/12 - 1s - loss: 37940.7852 - NMAE_metric: 0.1546 - MARE: 0.1546
+Epoch 23/50
+12/12 - 1s - loss: 35476.4805 - NMAE_metric: 0.1488 - MARE: 0.1488
+Epoch 24/50
+12/12 - 1s - loss: 34770.8828 - NMAE_metric: 0.1498 - MARE: 0.1498
+Epoch 25/50
+12/12 - 1s - loss: 33677.1914 - NMAE_metric: 0.1460 - MARE: 0.1460
+Epoch 26/50
+12/12 - 1s - loss: 34966.0820 - NMAE_metric: 0.1477 - MARE: 0.1477
+Epoch 27/50
+12/12 - 1s - loss: 31575.3789 - NMAE_metric: 0.1432 - MARE: 0.1432
+Epoch 28/50
+12/12 - 1s - loss: 32253.4043 - NMAE_metric: 0.1450 - MARE: 0.1450
+Epoch 29/50
+12/12 - 1s - loss: 31120.0566 - NMAE_metric: 0.1413 - MARE: 0.1413
+Epoch 30/50
+12/12 - 1s - loss: 30647.0859 - NMAE_metric: 0.1388 - MARE: 0.1388
+Epoch 31/50
+12/12 - 1s - loss: 31676.1621 - NMAE_metric: 0.1422 - MARE: 0.1422
+Epoch 32/50
+12/12 - 1s - loss: 29978.4512 - NMAE_metric: 0.1415 - MARE: 0.1415
+Epoch 33/50
+12/12 - 1s - loss: 31458.9219 - NMAE_metric: 0.1412 - MARE: 0.1412
+Epoch 34/50
+12/12 - 1s - loss: 30300.0645 - NMAE_metric: 0.1388 - MARE: 0.1388
+Epoch 35/50
+12/12 - 1s - loss: 29034.3066 - NMAE_metric: 0.1360 - MARE: 0.1360
+Epoch 36/50
+12/12 - 1s - loss: 28201.7402 - NMAE_metric: 0.1336 - MARE: 0.1336
+Epoch 37/50
+12/12 - 1s - loss: 28496.7031 - NMAE_metric: 0.1367 - MARE: 0.1367
+Epoch 38/50
+12/12 - 1s - loss: 28236.0938 - NMAE_metric: 0.1350 - MARE: 0.1350
+Epoch 39/50
+12/12 - 1s - loss: 28253.5957 - NMAE_metric: 0.1355 - MARE: 0.1355
+Epoch 40/50
+12/12 - 1s - loss: 27499.8613 - NMAE_metric: 0.1326 - MARE: 0.1326
+Epoch 41/50
+12/12 - 1s - loss: 27818.9551 - NMAE_metric: 0.1343 - MARE: 0.1343
+Epoch 42/50
+12/12 - 1s - loss: 26371.9531 - NMAE_metric: 0.1291 - MARE: 0.1291
+Epoch 43/50
+12/12 - 1s - loss: 28864.3926 - NMAE_metric: 0.1385 - MARE: 0.1385
+Epoch 44/50
+12/12 - 1s - loss: 27381.0918 - NMAE_metric: 0.1325 - MARE: 0.1325
+Epoch 45/50
+12/12 - 1s - loss: 25966.6328 - NMAE_metric: 0.1295 - MARE: 0.1295
+Epoch 46/50
+12/12 - 1s - loss: 25509.8125 - NMAE_metric: 0.1294 - MARE: 0.1294
+Epoch 47/50
+12/12 - 1s - loss: 23996.6465 - NMAE_metric: 0.1255 - MARE: 0.1255
+Epoch 48/50
+12/12 - 1s - loss: 24502.5215 - NMAE_metric: 0.1248 - MARE: 0.1248
+Epoch 49/50
+12/12 - 1s - loss: 25138.0039 - NMAE_metric: 0.1289 - MARE: 0.1289
+Epoch 50/50
+12/12 - 1s - loss: 24385.6680 - NMAE_metric: 0.1255 - MARE: 0.1255
+
+END OF CELL 3763, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 1263 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 8958.2432 - NMAE_metric: 0.9547 - MARE: 0.9547
+Epoch 2/50
+12/12 - 1s - loss: 5882.6553 - NMAE_metric: 0.6609 - MARE: 0.6609
+Epoch 3/50
+12/12 - 1s - loss: 4021.7749 - NMAE_metric: 0.5404 - MARE: 0.5404
+Epoch 4/50
+12/12 - 1s - loss: 1977.6057 - NMAE_metric: 0.3684 - MARE: 0.3684
+Epoch 5/50
+12/12 - 1s - loss: 1268.7341 - NMAE_metric: 0.2811 - MARE: 0.2811
+Epoch 6/50
+12/12 - 1s - loss: 988.4149 - NMAE_metric: 0.2570 - MARE: 0.2570
+Epoch 7/50
+12/12 - 1s - loss: 884.1892 - NMAE_metric: 0.2410 - MARE: 0.2410
+Epoch 8/50
+12/12 - 1s - loss: 855.7989 - NMAE_metric: 0.2364 - MARE: 0.2364
+Epoch 9/50
+12/12 - 1s - loss: 801.3049 - NMAE_metric: 0.2235 - MARE: 0.2235
+Epoch 10/50
+12/12 - 1s - loss: 726.5668 - NMAE_metric: 0.2135 - MARE: 0.2135
+Epoch 11/50
+12/12 - 1s - loss: 721.7949 - NMAE_metric: 0.2119 - MARE: 0.2119
+Epoch 12/50
+12/12 - 1s - loss: 685.5379 - NMAE_metric: 0.2124 - MARE: 0.2124
+Epoch 13/50
+12/12 - 1s - loss: 690.8964 - NMAE_metric: 0.2064 - MARE: 0.2064
+Epoch 14/50
+12/12 - 1s - loss: 675.2473 - NMAE_metric: 0.2048 - MARE: 0.2048
+Epoch 15/50
+12/12 - 1s - loss: 649.6439 - NMAE_metric: 0.1992 - MARE: 0.1992
+Epoch 16/50
+12/12 - 1s - loss: 642.2943 - NMAE_metric: 0.1991 - MARE: 0.1991
+Epoch 17/50
+12/12 - 1s - loss: 636.0994 - NMAE_metric: 0.2009 - MARE: 0.2009
+Epoch 18/50
+12/12 - 1s - loss: 620.1719 - NMAE_metric: 0.1936 - MARE: 0.1936
+Epoch 19/50
+12/12 - 1s - loss: 605.1031 - NMAE_metric: 0.1964 - MARE: 0.1964
+Epoch 20/50
+12/12 - 1s - loss: 616.0497 - NMAE_metric: 0.2012 - MARE: 0.2012
+Epoch 21/50
+12/12 - 1s - loss: 571.4294 - NMAE_metric: 0.1894 - MARE: 0.1894
+Epoch 22/50
+12/12 - 1s - loss: 566.2091 - NMAE_metric: 0.1894 - MARE: 0.1894
+Epoch 23/50
+12/12 - 1s - loss: 534.7037 - NMAE_metric: 0.1895 - MARE: 0.1895
+Epoch 24/50
+12/12 - 1s - loss: 519.7076 - NMAE_metric: 0.1852 - MARE: 0.1852
+Epoch 25/50
+12/12 - 1s - loss: 553.6301 - NMAE_metric: 0.1909 - MARE: 0.1909
+Epoch 26/50
+12/12 - 1s - loss: 541.4296 - NMAE_metric: 0.1861 - MARE: 0.1861
+Epoch 27/50
+12/12 - 1s - loss: 537.7634 - NMAE_metric: 0.1824 - MARE: 0.1824
+Epoch 28/50
+12/12 - 1s - loss: 564.2839 - NMAE_metric: 0.1890 - MARE: 0.1890
+Epoch 29/50
+12/12 - 1s - loss: 528.2422 - NMAE_metric: 0.1855 - MARE: 0.1855
+Epoch 30/50
+12/12 - 1s - loss: 525.2304 - NMAE_metric: 0.1831 - MARE: 0.1831
+Epoch 31/50
+12/12 - 1s - loss: 473.4860 - NMAE_metric: 0.1776 - MARE: 0.1776
+Epoch 32/50
+12/12 - 1s - loss: 494.3379 - NMAE_metric: 0.1805 - MARE: 0.1805
+Epoch 33/50
+12/12 - 1s - loss: 478.6140 - NMAE_metric: 0.1760 - MARE: 0.1760
+Epoch 34/50
+12/12 - 1s - loss: 481.4075 - NMAE_metric: 0.1796 - MARE: 0.1796
+Epoch 35/50
+12/12 - 1s - loss: 434.9739 - NMAE_metric: 0.1709 - MARE: 0.1709
+Epoch 36/50
+12/12 - 1s - loss: 430.2916 - NMAE_metric: 0.1722 - MARE: 0.1722
+Epoch 37/50
+12/12 - 1s - loss: 433.1200 - NMAE_metric: 0.1719 - MARE: 0.1719
+Epoch 38/50
+12/12 - 1s - loss: 422.8733 - NMAE_metric: 0.1686 - MARE: 0.1686
+Epoch 39/50
+12/12 - 1s - loss: 429.1089 - NMAE_metric: 0.1720 - MARE: 0.1720
+Epoch 40/50
+12/12 - 1s - loss: 411.4470 - NMAE_metric: 0.1699 - MARE: 0.1699
+Epoch 41/50
+12/12 - 1s - loss: 401.3558 - NMAE_metric: 0.1667 - MARE: 0.1667
+Epoch 42/50
+12/12 - 1s - loss: 418.4285 - NMAE_metric: 0.1715 - MARE: 0.1715
+Epoch 43/50
+12/12 - 1s - loss: 398.3872 - NMAE_metric: 0.1657 - MARE: 0.1657
+Epoch 44/50
+12/12 - 1s - loss: 401.1937 - NMAE_metric: 0.1668 - MARE: 0.1668
+Epoch 45/50
+12/12 - 1s - loss: 388.2231 - NMAE_metric: 0.1612 - MARE: 0.1612
+Epoch 46/50
+12/12 - 1s - loss: 399.8755 - NMAE_metric: 0.1651 - MARE: 0.1651
+Epoch 47/50
+12/12 - 1s - loss: 370.6465 - NMAE_metric: 0.1600 - MARE: 0.1600
+Epoch 48/50
+12/12 - 1s - loss: 395.1063 - NMAE_metric: 0.1614 - MARE: 0.1614
+Epoch 49/50
+12/12 - 1s - loss: 357.1345 - NMAE_metric: 0.1598 - MARE: 0.1598
+Epoch 50/50
+12/12 - 1s - loss: 349.5215 - NMAE_metric: 0.1578 - MARE: 0.1578
+
+END OF CELL 1263, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 3788 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 57258.8555 - NMAE_metric: 0.9708 - MARE: 0.9708
+Epoch 2/50
+12/12 - 1s - loss: 32497.4160 - NMAE_metric: 0.6797 - MARE: 0.6797
+Epoch 3/50
+12/12 - 1s - loss: 21713.4766 - NMAE_metric: 0.5442 - MARE: 0.5442
+Epoch 4/50
+12/12 - 1s - loss: 14119.3291 - NMAE_metric: 0.4502 - MARE: 0.4502
+Epoch 5/50
+12/12 - 1s - loss: 9548.0537 - NMAE_metric: 0.3692 - MARE: 0.3692
+Epoch 6/50
+12/12 - 1s - loss: 7228.7041 - NMAE_metric: 0.3169 - MARE: 0.3169
+Epoch 7/50
+12/12 - 1s - loss: 5921.0659 - NMAE_metric: 0.2862 - MARE: 0.2862
+Epoch 8/50
+12/12 - 1s - loss: 5234.9487 - NMAE_metric: 0.2706 - MARE: 0.2706
+Epoch 9/50
+12/12 - 1s - loss: 4410.8433 - NMAE_metric: 0.2524 - MARE: 0.2524
+Epoch 10/50
+12/12 - 1s - loss: 3970.6875 - NMAE_metric: 0.2383 - MARE: 0.2383
+Epoch 11/50
+12/12 - 1s - loss: 3643.3450 - NMAE_metric: 0.2308 - MARE: 0.2308
+Epoch 12/50
+12/12 - 1s - loss: 3531.1243 - NMAE_metric: 0.2217 - MARE: 0.2217
+Epoch 13/50
+12/12 - 1s - loss: 3142.0957 - NMAE_metric: 0.2126 - MARE: 0.2126
+Epoch 14/50
+12/12 - 1s - loss: 3094.5278 - NMAE_metric: 0.2111 - MARE: 0.2111
+Epoch 15/50
+12/12 - 1s - loss: 3150.9658 - NMAE_metric: 0.2122 - MARE: 0.2122
+Epoch 16/50
+12/12 - 1s - loss: 3411.0935 - NMAE_metric: 0.2202 - MARE: 0.2202
+Epoch 17/50
+12/12 - 1s - loss: 2933.6335 - NMAE_metric: 0.2049 - MARE: 0.2049
+Epoch 18/50
+12/12 - 1s - loss: 2626.7292 - NMAE_metric: 0.1968 - MARE: 0.1968
+Epoch 19/50
+12/12 - 1s - loss: 2590.8079 - NMAE_metric: 0.1938 - MARE: 0.1938
+Epoch 20/50
+12/12 - 1s - loss: 2570.9316 - NMAE_metric: 0.1956 - MARE: 0.1956
+Epoch 21/50
+12/12 - 1s - loss: 2487.3579 - NMAE_metric: 0.1912 - MARE: 0.1912
+Epoch 22/50
+12/12 - 1s - loss: 2729.4983 - NMAE_metric: 0.1990 - MARE: 0.1990
+Epoch 23/50
+12/12 - 1s - loss: 2532.9155 - NMAE_metric: 0.1955 - MARE: 0.1955
+Epoch 24/50
+12/12 - 1s - loss: 2507.3560 - NMAE_metric: 0.1898 - MARE: 0.1898
+Epoch 25/50
+12/12 - 1s - loss: 2378.4194 - NMAE_metric: 0.1844 - MARE: 0.1844
+Epoch 26/50
+12/12 - 1s - loss: 2332.7742 - NMAE_metric: 0.1848 - MARE: 0.1848
+Epoch 27/50
+12/12 - 1s - loss: 2442.6523 - NMAE_metric: 0.1850 - MARE: 0.1850
+Epoch 28/50
+12/12 - 1s - loss: 2350.4675 - NMAE_metric: 0.1836 - MARE: 0.1836
+Epoch 29/50
+12/12 - 1s - loss: 2307.5054 - NMAE_metric: 0.1860 - MARE: 0.1860
+Epoch 30/50
+12/12 - 1s - loss: 2487.0798 - NMAE_metric: 0.1890 - MARE: 0.1890
+Epoch 31/50
+12/12 - 1s - loss: 2411.8040 - NMAE_metric: 0.1872 - MARE: 0.1872
+Epoch 32/50
+12/12 - 1s - loss: 2167.6152 - NMAE_metric: 0.1803 - MARE: 0.1803
+Epoch 33/50
+12/12 - 1s - loss: 2010.2374 - NMAE_metric: 0.1721 - MARE: 0.1721
+Epoch 34/50
+12/12 - 1s - loss: 2192.7815 - NMAE_metric: 0.1753 - MARE: 0.1753
+Epoch 35/50
+12/12 - 1s - loss: 2287.5664 - NMAE_metric: 0.1803 - MARE: 0.1803
+Epoch 36/50
+12/12 - 1s - loss: 2139.7173 - NMAE_metric: 0.1782 - MARE: 0.1782
+Epoch 37/50
+12/12 - 1s - loss: 2113.1917 - NMAE_metric: 0.1754 - MARE: 0.1754
+Epoch 38/50
+12/12 - 1s - loss: 2037.6313 - NMAE_metric: 0.1724 - MARE: 0.1724
+Epoch 39/50
+12/12 - 1s - loss: 1980.3445 - NMAE_metric: 0.1727 - MARE: 0.1727
+Epoch 40/50
+12/12 - 1s - loss: 2033.6958 - NMAE_metric: 0.1735 - MARE: 0.1735
+Epoch 41/50
+12/12 - 1s - loss: 1987.4832 - NMAE_metric: 0.1742 - MARE: 0.1742
+Epoch 42/50
+12/12 - 1s - loss: 2237.0237 - NMAE_metric: 0.1798 - MARE: 0.1798
+Epoch 43/50
+12/12 - 1s - loss: 2048.9155 - NMAE_metric: 0.1709 - MARE: 0.1709
+Epoch 44/50
+12/12 - 1s - loss: 1908.2859 - NMAE_metric: 0.1667 - MARE: 0.1667
+Epoch 45/50
+12/12 - 1s - loss: 2042.6458 - NMAE_metric: 0.1729 - MARE: 0.1729
+Epoch 46/50
+12/12 - 1s - loss: 1946.6947 - NMAE_metric: 0.1698 - MARE: 0.1698
+Epoch 47/50
+12/12 - 1s - loss: 1854.8132 - NMAE_metric: 0.1637 - MARE: 0.1637
+Epoch 48/50
+12/12 - 1s - loss: 1872.9662 - NMAE_metric: 0.1661 - MARE: 0.1661
+Epoch 49/50
+12/12 - 1s - loss: 1815.3223 - NMAE_metric: 0.1644 - MARE: 0.1644
+Epoch 50/50
+12/12 - 1s - loss: 1844.3777 - NMAE_metric: 0.1634 - MARE: 0.1634
+
+END OF CELL 3788, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+
+
+GET CELL 1288 DATA TO 5 NEIGHBORS
+
+Epoch 1/50
+12/12 - 0s - loss: 1043.0344 - NMAE_metric: 0.8798 - MARE: 0.8798
+Epoch 2/50
+12/12 - 1s - loss: 685.0178 - NMAE_metric: 0.6145 - MARE: 0.6145
+Epoch 3/50
+12/12 - 1s - loss: 399.6943 - NMAE_metric: 0.4984 - MARE: 0.4984
+Epoch 4/50
+12/12 - 1s - loss: 229.6354 - NMAE_metric: 0.3759 - MARE: 0.3759
+Epoch 5/50
+12/12 - 1s - loss: 139.3908 - NMAE_metric: 0.2877 - MARE: 0.2877
+Epoch 6/50
+12/12 - 1s - loss: 107.4906 - NMAE_metric: 0.2401 - MARE: 0.2401
+Epoch 7/50
+12/12 - 1s - loss: 94.8827 - NMAE_metric: 0.2316 - MARE: 0.2316
+Epoch 8/50
+12/12 - 1s - loss: 88.8333 - NMAE_metric: 0.2184 - MARE: 0.2184
+Epoch 9/50
+12/12 - 1s - loss: 84.4642 - NMAE_metric: 0.2098 - MARE: 0.2098
+Epoch 10/50
+12/12 - 1s - loss: 80.3468 - NMAE_metric: 0.2082 - MARE: 0.2082
+Epoch 11/50
+12/12 - 1s - loss: 72.6967 - NMAE_metric: 0.1990 - MARE: 0.1990
+Epoch 12/50
+12/12 - 1s - loss: 74.5810 - NMAE_metric: 0.1969 - MARE: 0.1969
+Epoch 13/50
+12/12 - 1s - loss: 71.8057 - NMAE_metric: 0.1952 - MARE: 0.1952
+Epoch 14/50
+12/12 - 1s - loss: 73.5208 - NMAE_metric: 0.1948 - MARE: 0.1948
+Epoch 15/50
+12/12 - 1s - loss: 68.6194 - NMAE_metric: 0.1888 - MARE: 0.1888
+Epoch 16/50
+12/12 - 1s - loss: 64.0329 - NMAE_metric: 0.1822 - MARE: 0.1822
+Epoch 17/50
+12/12 - 1s - loss: 62.4727 - NMAE_metric: 0.1803 - MARE: 0.1803
+Epoch 18/50
+12/12 - 1s - loss: 64.5155 - NMAE_metric: 0.1836 - MARE: 0.1836
+Epoch 19/50
+12/12 - 1s - loss: 62.9715 - NMAE_metric: 0.1816 - MARE: 0.1816
+Epoch 20/50
+12/12 - 1s - loss: 60.5208 - NMAE_metric: 0.1794 - MARE: 0.1794
+Epoch 21/50
+12/12 - 1s - loss: 62.5885 - NMAE_metric: 0.1766 - MARE: 0.1766
+Epoch 22/50
+12/12 - 1s - loss: 61.5358 - NMAE_metric: 0.1777 - MARE: 0.1777
+Epoch 23/50
+12/12 - 1s - loss: 58.9726 - NMAE_metric: 0.1772 - MARE: 0.1772
+Epoch 24/50
+12/12 - 1s - loss: 53.4582 - NMAE_metric: 0.1662 - MARE: 0.1662
+Epoch 25/50
+12/12 - 1s - loss: 56.7988 - NMAE_metric: 0.1701 - MARE: 0.1701
+Epoch 26/50
+12/12 - 1s - loss: 57.4247 - NMAE_metric: 0.1725 - MARE: 0.1725
+Epoch 27/50
+12/12 - 1s - loss: 56.5605 - NMAE_metric: 0.1680 - MARE: 0.1680
+Epoch 28/50
+12/12 - 1s - loss: 54.7338 - NMAE_metric: 0.1656 - MARE: 0.1656
+Epoch 29/50
+12/12 - 1s - loss: 49.2175 - NMAE_metric: 0.1617 - MARE: 0.1617
+Epoch 30/50
+12/12 - 1s - loss: 53.6431 - NMAE_metric: 0.1672 - MARE: 0.1672
+Epoch 31/50
+12/12 - 1s - loss: 49.6411 - NMAE_metric: 0.1627 - MARE: 0.1627
+Epoch 32/50
+12/12 - 1s - loss: 48.2673 - NMAE_metric: 0.1603 - MARE: 0.1603
+Epoch 33/50
+12/12 - 1s - loss: 51.7400 - NMAE_metric: 0.1663 - MARE: 0.1663
+Epoch 34/50
+12/12 - 1s - loss: 51.3304 - NMAE_metric: 0.1634 - MARE: 0.1634
+Epoch 35/50
+12/12 - 1s - loss: 51.1642 - NMAE_metric: 0.1622 - MARE: 0.1622
+Epoch 36/50
+12/12 - 1s - loss: 50.2056 - NMAE_metric: 0.1624 - MARE: 0.1624
+Epoch 37/50
+12/12 - 1s - loss: 48.8714 - NMAE_metric: 0.1625 - MARE: 0.1625
+Epoch 38/50
+12/12 - 1s - loss: 50.6997 - NMAE_metric: 0.1623 - MARE: 0.1623
+Epoch 39/50
+12/12 - 1s - loss: 50.1770 - NMAE_metric: 0.1609 - MARE: 0.1609
+Epoch 40/50
+12/12 - 1s - loss: 49.3108 - NMAE_metric: 0.1612 - MARE: 0.1612
+Epoch 41/50
+12/12 - 1s - loss: 45.5529 - NMAE_metric: 0.1557 - MARE: 0.1557
+Epoch 42/50
+12/12 - 1s - loss: 47.3270 - NMAE_metric: 0.1571 - MARE: 0.1571
+Epoch 43/50
+12/12 - 1s - loss: 49.2859 - NMAE_metric: 0.1571 - MARE: 0.1571
+Epoch 44/50
+12/12 - 1s - loss: 46.4347 - NMAE_metric: 0.1548 - MARE: 0.1548
+Epoch 45/50
+12/12 - 1s - loss: 44.1929 - NMAE_metric: 0.1524 - MARE: 0.1524
+Epoch 46/50
+12/12 - 1s - loss: 44.6576 - NMAE_metric: 0.1536 - MARE: 0.1536
+Epoch 47/50
+12/12 - 1s - loss: 44.3322 - NMAE_metric: 0.1513 - MARE: 0.1513
+Epoch 48/50
+12/12 - 1s - loss: 44.7511 - NMAE_metric: 0.1511 - MARE: 0.1511
+Epoch 49/50
+12/12 - 1s - loss: 44.5139 - NMAE_metric: 0.1554 - MARE: 0.1554
+Epoch 50/50
+12/12 - 1s - loss: 42.4176 - NMAE_metric: 0.1507 - MARE: 0.1507
+
+END OF CELL 1288, NEIGHBORHOOD 5, HUBS False
+
+**********
+
+
+

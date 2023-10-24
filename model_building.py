@@ -34,7 +34,7 @@ import pickle
 tf.config.threading.set_inter_op_parallelism_threads(4)
 
 
-comms_path = 'Dataset/telecom-sms,call,internet - per_cell'
+comms_path = 'Dataset/telecom-sms,call,internet - per_cell HOURLY'
 transport_path = 'transport_modelling/public_transport_locations.csv'
 
 # %%
@@ -142,7 +142,7 @@ def transport_hubs_select(y, n_features, cell_id, used_ids):
 # %%
 # CHOOSING IDS TO WORK WITH
 # As the dataset have 10000 regions, some poins are choosen with a regular distance
-desired_numbers = 18
+desired_numbers = 16
 
 matrix_logs = [square_id] # Original regions matrix
 aux_matrix = []
@@ -201,7 +201,7 @@ The models will be constructed with the following variations:
 
 data_frame_results = np.NaN 
 
-for transport_hubs in [False]: # Transport hubs processing
+for transport_hubs in [True, False]: # Transport hubs processing
     for neighorrs in range(5,6): # Number of neighborhoods considered
         tot = []
 
