@@ -101,7 +101,7 @@ Special thanks to the following contributors:
   <a href="https://www.facom.ufu.br/~pasquini/">
     <img src="https://www.facom.ufu.br/~pasquini/rafael.jpg" width="75" alt="Rafael Pasquini">
   </a>
-  <a href=" http://lattes.cnpq.br/8158868389973535">
+  <a href="http://lattes.cnpq.br/8158868389973535">
     <img src="https://github.com/contributor3.png" width="100" alt="Contributor 3">
   </a>
 </div>
