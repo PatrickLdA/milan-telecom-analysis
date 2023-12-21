@@ -12,7 +12,14 @@ These code are a technical analisys of [A multi-source dataset of urban life in 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Technical Overview](#technical-overview)
+  - [Database Preprocessing](#database-preprocessing)
+  - [Libs](#libs)
+  - [MTP-NT Compilling](#mtp-nt-compilling)
+  - [Competitors Compilling](#competitors-compilling)
+  - [Hourly Compilling](#hourly-compilling)
+  - [Post-processing of Results](#post-processing-of-results)
 - [License](#license)
+  - [MIT License](#mit-license)
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
@@ -32,63 +39,74 @@ Before execute any of the files, please install the environment listed in ```req
 
 ## Technical Overview
 
-### Preprocessing of database
+### Database preprocessing
 
-```database_adapt.py```: this code is used to take the original dataframe, that is in a format "one file per day" to a format "one region per day".
+Before all model development, some pre work were done in the original database and in the collected data of public transport hubs.
 
-*transport_modelling*: contains the code to map the transport hubs in Milan. The sources used was [ATM website](https://www.atm.it/en/ViaggiaConNoi/Pages/SchemaReteMetro.aspx), [Wikipedia list of Milan Metro stations](https://en.wikipedia.org/wiki/List_of_Milan_Metro_stations) and [Google Maps Platform](https://developers.google.com/maps?hl=pt-br).
-- transport_locations.py: takes a list of metro, tram and bus stations and, from the Google Maps API, saves the coordinates of the stations.
-- transport_locations_mapping.py: take the coordinates of every station and find the equivalent region on Milano Grid.
+[misc/database_adapt.py](misc/database_adapt.py): this code is used to take the original dataframe, that is in a format "one file per day" to a format "one region per day".
 
-### Misc
+[transport_modelling](transport_modelling/): contains the code to map the transport hubs in Milan. The sources used was [ATM website](https://www.atm.it/en/ViaggiaConNoi/Pages/SchemaReteMetro.aspx), [Wikipedia list of Milan Metro stations](https://en.wikipedia.org/wiki/List_of_Milan_Metro_stations) and [Google Maps Platform](https://developers.google.com/maps?hl=pt-br). All data was compilled in [transport_modelling/public_transport_locations.csv](transport_modelling/public_transport_locations.csv)
 
-*libs/*
- - get_milano.py: a library build to get the requested data from the dataset.
- - functions.py: NMAE (Normalized Mean Absolute Error) and MARE (Mean absolute Relative error) implementations.
+- [transport_modelling/transport_locations.py](mtransport_modellingisc/transport_locations.py): takes a list of metro, tram and bus stations and, from the Google Maps API, saves the coordinates of the stations.
+- [transport_modelling/transport_locations_mapping.py](transport_modelling/transport_locations_mapping.py): take the coordinates of every station and find the equivalent region on Milano Grid.
 
-```compile_results.py```: compile the results from constructed models.
+### Libs
+
+Some code were developed to support the models training (both MTP-NT and its competitors) in different stages. They are:
+
+Code used in model development:
+ - [libs/get_milano.py](libs/get_milano.py): a library build to get the requested data from the dataset.
+ - [libs/functions.py](libs/functions.py): NMAE (Normalized Mean Absolute Error) and MARE (Mean absolute Relative error) implementations.
 
 
 ### MTP-NT compilling
 
- ```model_building.py```: constructs the purposed model framework for a selected number of regions.
+The MTP-NT is the purposed model, compilled by [model_building.py](model_building.py) script.
+
+Some variables need to be attended to guarantee the work of the script:
+
+- [comms_path](model_building.py#L37) needs to point to repository of the data after preprocessing by [misc/database_adapt.py](misc/database_adapt.py).
+- [transport_path](model_building.py#L38) needs to point to the transport hubs data crrated by [transport_modelling/transport_locations.py](mtransport_modellingisc/transport_locations.py) and [transport_modelling/transport_locations_mapping.py](transport_modelling/transport_locations_mapping.py)
+
+In [lines 142--178](model_building.py#L142) the region ids were the model are going to be evaluated are selected. In the end, the list of ids is stored in [ids_to_use](model_building.py#L170).
+
+A print of the selected ids is saved in [check_selected_ids.jpg](check_selected_ids.jpg) in [line 191](model_building.py#L191).
+
+[transport_hubs](model_building.py#L204) is a list that can control the activation of transport hubs data as well as [neighorrs](model_building.py#L205) controls wich degrees will be compilled.
+
+After model construction and compilling, the results are saved:
+- models are saved in h5 format from [lines 367--371](model_building.py#L367)
+- real values and predictions are saved in csv model from [lines 381--384](model_building.py#L381)
+- A plot of $y$ and $\hat{y}$ is saved in [lines 389--400](model_building.py#L389)
+- The error csv is saved in [lines 403--415](model_building.py#L403)
 
 ### Competitors compilling
 
-```model_building_ARIMA.py```: constructs ARIMA models for a selected number of regions.
+[model_building_ARIMA.py](model_building_ARIMA.py): constructs ARIMA models for a selected number of regions.
 
-```model_building_HW.py```: constructs Holt-Winters models for a selected number of regions.
+[model_building_HW.py](model_building_HW.py): constructs Holt-Winters models for a selected number of regions.
+
+[model_building_LSTM.py](model_building_LSTM.py): constructs LSTM models for a selected number of regions.
+
+[model_building_ARIMA.py](model_building_ARIMA.py): constructs ARIMA models for a selected number of regions.
+
+[model_building_SARIMAX.py](model_building_SARIMAX.py): constructs SARIMAX models for a selected number of regions.
 
 ### Hourly compilling
+
+The original database, after compilling as described in [Database Preprocessing](#database-preprocessing) can be recompilled again in hourly samples with the script in [misc/database_adapt_hourly.py](misc/database_adapt_hourly.py).
+
+After all preprocessing, the resulting data also can be processed by procedures explained in [MTP-NT Compilling](#mtp-nt-compilling) and [Competidors compilling](#competidors-compilling).
+
+### Post-processing of results
+
+Code use to validation and compilling of results:
+- [misc/compile_results.py](misc/compile_results.py): compile the results from constructed models.
 
 
 ## License
 
-This project is licensed under the MIT License.
-
-### MIT License
-
-MIT License
-
-Copyright (c) [2023] [Patrick Luiz de Araújo]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This project is licensed under the [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
 ## Acknowledgments
 
